@@ -1,0 +1,93 @@
+{
+    "primary-color": {
+        "idle": "rgb(67,176,42)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(67,176,42)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(64,160,47)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(67,176,42)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(64,160,47)"
+    },
+    "btns_default_style": "rounded",
+    "btns_shop_style": "rounded",
+    "btns_accent_style": "rounded",
+    "form_fields_style": "rounded",
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Montserrat",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Montserrat",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Montserrat",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "blog_style": "flat",
+    "default_header": "header_662032",
+    "popup_html_block": "3543",
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/electronics-2-popup.jpg",
+        "id": "3628",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "title-background": {
+        "color": "rgb(67,176,42)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/electronics-2-newslatter-bg.jpg",
+        "id": "3629",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "promo_popup_content_type": "html_block",
+    "prefooter_content_type": "html_block",
+    "prefooter_html_block": "728",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "726"
+}

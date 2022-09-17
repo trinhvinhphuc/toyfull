@@ -1,0 +1,275 @@
+{
+    "default_header": "header_813661",
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-regular.woff",
+                "id": "3416"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-regular.woff2",
+                "id": "3417"
+            }
+        },
+        "1": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-semibold.woff",
+                "id": "3418"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-semibold.woff2",
+                "id": "3419"
+            }
+        },
+        "2": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "700",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-bold.woff",
+                "id": "3420"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-bold.woff2",
+                "id": "3421"
+            }
+        },
+        "3": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "500",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-medium.woff",
+                "id": "3422"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-medium.woff2",
+                "id": "3423"
+            }
+        },
+        "{{index}}": {
+            "font-name": "",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": ""
+            },
+            "font-woff2": {
+                "url": "",
+                "id": ""
+            }
+        }
+    },
+    "primary-color": {
+        "idle": "rgb(170,208,235)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(170,208,235)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(155,190,214)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(170,208,235)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(155,190,214)"
+    },
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "text-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "1": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "products_hover": "icons",
+    "blog_excerpt_length": "120",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "btns_default_style": "flat",
+    "form_border_width": "1",
+    "title-background": {
+        "color": "rgb(170,208,235)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/glasses-page-title.jpg",
+        "id": "3424",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "blog_excerpt": "excerpt",
+    "quick_view_layout": "vertical",
+    "photoswipe_icon": "0",
+    "popup-background": {
+        "color": "rgb(255,255,255)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/glasses-popup.jpg",
+        "id": "3425",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "popup_html_block": "3092",
+    "image_action": "none",
+    "quick_view": "1",
+    "swatches_use_variation_images": "",
+    "quickview_width": "920",
+    "promo_popup_content_type": "html_block",
+    "prefooter_content_type": "html_block",
+    "prefooter_html_block": "258",
+    "footer_content_type": "widgets",
+    "products_columns": "2",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "242"
+}

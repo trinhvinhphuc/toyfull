@@ -1,0 +1,74 @@
+// ------------------------------------------
+// XTS UPLOAD
+// ------------------------------------------
+
+.xts-upload-preview {
+	display: flex;
+	flex-wrap: wrap;
+
+	img {
+		display: inline-block;
+		margin-bottom: $xts-option-space;
+		padding: 5px;
+		max-width: 160px;
+		max-height: 160px;
+		border: 1px solid $xts-option-border-color;
+		border-radius: $xts-option-border-radius;
+
+		object-fit: contain;
+		// background-color: #FFF;
+		background-color: #FBFBFB;
+	}
+
+	> div {
+		position: relative;
+		margin-right: 5px;
+
+		&:hover {
+
+			.xts-remove {
+				opacity: 1;
+			}
+		}
+	}
+
+	.xts-remove {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		color: $xts-button-color-remove;
+		text-decoration: none;
+		opacity: 0;
+	}
+}
+
+.xts-upload-btns {
+	display: flex;
+	margin-top: 0 !important;
+
+	.xts-btn {
+
+		&:first-child {
+			margin-right: $xts-option-space / 2;
+		}
+	}
+
+	.rtl & {
+
+		.xts-btn {
+
+			&:first-child {
+				margin-right: 0;
+				margin-left: $xts-option-space / 2;
+			}
+		}
+	}
+}
+
+.xts-remove-upload-btn {
+	display: none;
+
+	&.xts-active {
+		display: inline-flex;
+	}
+}

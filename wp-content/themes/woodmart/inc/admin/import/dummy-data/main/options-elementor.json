@@ -1,0 +1,85 @@
+{
+    "compare_page": "45",
+    "wishlist_page": "60",
+    "promo_popup": "1",
+    "prefooter_content_type": "html_block",
+    "additional_tab_content_type": "html_block",
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "selector": [
+                "product_title_single_page"
+            ],
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "blog_excerpt": "excerpt",
+    "promo_popup_content_type": "html_block",
+    "popup_html_block": "724",
+    "prefooter_html_block": "728",
+    "additional_tab_html_block": "726",
+    "default_header": "header_153799",
+    "footer_content_type": "widgets",
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/08\/promo-popup.jpg",
+        "id": "711",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/08\/page-title-shop.jpg",
+        "id": "569",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    }
+}

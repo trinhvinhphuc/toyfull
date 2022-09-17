@@ -1,0 +1,1 @@
+.wd-sidebar-opener:not(.wd-on-toolbar){position:fixed;top:30%;left:0;z-index:350;display:none;background-color:rgba(var(--bgcolor-white-rgb), 0.9);box-shadow:0 0 5px rgba(0,0,0,0.17);border-top-right-radius:35px;border-bottom-right-radius:35px}.wd-sidebar-opener.wd-not-on-shop>a:before{font-size:20px;content:"\f109";font-family:"woodmart-font"}

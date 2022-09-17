@@ -1,0 +1,157 @@
+{
+    "default_header": "header_955114",
+    "primary-color": {
+        "idle": "rgb(219,51,64)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(217,49,67)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(196,45,60)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(217,49,67)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(196,45,60)"
+    },
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Ubuntu",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Ubuntu",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Ubuntu",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "label_shape": "rectangular",
+    "header_banner": "1",
+    "header_banner_link": "#",
+    "header_banner_bg": {
+        "color": "",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/marketplace-top-banner.jpg",
+        "id": "2663",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "header_banner_height": "40",
+    "header_banner_mobile_height": "50",
+    "header_banner_shortcode": "<p style=\"text-align: center; text-transform: uppercase; color: white;\"><strong>Choose a product worth over <span class=\"color-primary\">$ 200<\/span> and save 20%.<\/strong><\/p>",
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/marketplace-promo-popup.jpg",
+        "id": "2664",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "advanced_typography": {
+        "0": {
+            "custom": "true",
+            "selector": [
+                "custom"
+            ],
+            "custom-selector": ".wd-load-additional-fonts",
+            "google": "1",
+            "font-family": "Ubuntu",
+            "font-weight": "300",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "popup_html_block": "2944",
+    "pinterest_link": "",
+    "sticky_social": "1",
+    "sticky_social_type": "follow",
+    "sticky_social_position": "right",
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/09\/marketplace-page-title.jpg",
+        "id": "6368",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "242"
+}

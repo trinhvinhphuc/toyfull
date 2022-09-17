@@ -1,0 +1,179 @@
+{
+    "default_header": "header_602849",
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "Metropolis",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/Metropolis-Regular.woff",
+                "id": "6315"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/Metropolis-Regular.woff2",
+                "id": "6316"
+            }
+        },
+        "1": {
+            "font-name": "Metropolis",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/Metropolis-Bold.woff",
+                "id": "6313"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/Metropolis-Bold.woff2",
+                "id": "6314"
+            }
+        },
+        "{{index}}": {
+            "font-name": "",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": ""
+            },
+            "font-woff2": {
+                "url": "",
+                "id": ""
+            }
+        }
+    },
+    "text-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "Metropolis",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "Metropolis",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "Metropolis",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "Metropolis",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "Metropolis",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(85,128,99)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(85,128,99)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(72,109,84)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(85,128,99)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(72,109,84)"
+    },
+    "btns_shop_style": "flat",
+    "footer-bar-bg": {
+        "color": "rgb(247,247,247)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "prefooter_content_type": "text",
+    "prefooter_area": "",
+    "site_width": "custom",
+    "site_custom_width": "1350",
+    "footer_content_type": "html_block",
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/retail-2-page-title.jpg",
+        "id": "7995",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "form_border_width": "1",
+    "blog_excerpt_length": "100",
+    "popup_html_block": "5849",
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/retail-2-popup.jpg",
+        "id": "6312",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "blog_excerpt": "excerpt",
+    "footer_html_block": "6307",
+    "promo_popup_content_type": "html_block",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "726"
+}

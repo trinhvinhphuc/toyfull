@@ -1,0 +1,175 @@
+// ------------------------------------------------------------------------------------------------
+// XTS BUTTONS SET
+// ------------------------------------------------------------------------------------------------
+
+.xts-btns-set {
+	display: flex;
+
+	.xts-active {
+
+		&:not(.xts-set-btn-img) {
+			cursor: default;
+			user-select: none;
+
+			@extend %xts-button-alternative;
+		}
+	}
+}
+
+.xts-set-btn {
+	@extend %xts-button;
+	@extend %xts-buttons-side-rounded;
+}
+
+// ------------------------------------------
+// XTS HTML BLOCK SELECT CONTROL
+// ------------------------------------------
+
+.xts-html-block-switch {
+	margin-bottom: 0;
+
+	> div {
+		border-bottom: 0;
+	}
+
+	+ div,
+	+ div + div {
+
+		.xts-option-title {
+			flex-basis: 0;
+			padding: 0;
+			border: 0;
+
+			label {
+
+				span {
+					display: none;
+				}
+
+				&,
+				.xts-inherit-checkbox-wrapper {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+.xts-edit-block-link {
+	display: block;
+
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// MEDIA 1025 AND UP
+// ------------------------------------------
+
+@mixin R-MD-UP__elements__buttons-set {
+
+	.xts-html-block-switch {
+
+		+ div,
+		+ div + div {
+			flex-direction: column;
+
+			.xts-field-description {
+				margin-top: 0;
+				margin-bottom: 15px;
+				margin-left: 30%;
+			}
+
+			.xts-option-control {
+
+				> .xts-btns-set {
+					margin-left: calc(30% - 6px);
+				}
+
+				> .xts-edit-block-link,
+				> .wp-editor-wrap,
+				> .select2,
+				> textarea {
+					margin-left: 30%;
+				}
+
+				> textarea {
+					width: 70%;
+				}
+			}
+		}
+
+		.rtl & {
+
+			+ div,
+			+ div + div {
+	
+				.xts-field-description {
+					margin-left: 0;
+					margin-right: 30%;
+				}
+	
+				.xts-option-control {
+	
+					> .xts-btns-set {
+						margin-left: 0;
+						margin-right: calc(30% - 6px);
+					}
+	
+					> .xts-edit-block-link,
+					> .wp-editor-wrap,
+					> .select2,
+					> textarea {
+						margin-left: 0;
+						margin-right: 30%;
+					}
+				}
+			}
+		}
+	}
+}
+
+// ------------------------------------------
+// MEDIA 1024 AND DOWN
+// ------------------------------------------
+
+// @mixin R-MD-DOWN__elements__buttons-set {
+
+	// .xts-html-block-switch {
+
+	// 	+ div,
+	// 	+ div + div {
+
+	// 		.xts-option-control {
+
+	// 			> * {
+	// 				margin-left: 0;
+	// 			}
+
+	// 			textarea {
+	// 				width: 100%;
+	// 			}
+	// 		}
+	// 	}
+
+	// 	.rtl & {
+
+	// 		+ div,
+	// 		+ div + div {
+
+	// 			.xts-option-control {
+
+	// 				> * {
+	// 					margin-right: 0;
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
+// }

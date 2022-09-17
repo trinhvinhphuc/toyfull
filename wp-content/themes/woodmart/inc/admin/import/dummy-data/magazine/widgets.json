@@ -1,0 +1,105 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "woodmart-author-information-2": {
+                "image": "6370",
+                "img_size": "120x120",
+                "title": "",
+                "author_name": "Hello! My name Sofia",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page...",
+                "alignment": "center",
+                "woodmart_color_scheme": "",
+                "link": "",
+                "link_text": "",
+                "el_class": ""
+            },
+            "categories-9": {
+                "title": "",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-14": {
+                "title": "Recent Posts",
+                "limit": 4,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 60,
+                "thumb_width": 70
+            },
+            "woodmart-banner-2": {
+                "image_type": "image",
+                "image": "6373",
+                "img_size": "full",
+                "height": "300",
+                "image_bg_position": "center",
+                "link": "#",
+                "style": "default",
+                "hover": "zoom",
+                "woodmart_color_scheme": "light",
+                "el_class": "",
+                "title": "Accessories for kitchen",
+                "title_font": "",
+                "title_tag": "h1",
+                "title_size": "default",
+                "font_weight": "",
+                "subtitle": "INSPIRATION DESIGN",
+                "subtitle_font": "",
+                "subtitle_font_weight": "",
+                "subtitle_style": "background",
+                "content": "",
+                "content_text_size": "default",
+                "btn_text": "VIEW MORE",
+                "btn_position": "static",
+                "btn_size": "default",
+                "btn_style": "link",
+                "btn_shape": "rectangle",
+                "hide_btn_tablet": "no",
+                "hide_btn_mobile": "no",
+                "horizontal_alignment": "center",
+                "vertical_alignment": "middle",
+                "text_alignment": "center",
+                "content_width": "100",
+                "custom_content_width": "desktop",
+                "increase_spaces": "no",
+                "title_desktop_text_size": "24",
+                "title_tablet_text_size": "20",
+                "title_mobile_text_size": "18",
+                "subtitle_desktop_text_size": "12",
+                "subtitle_tablet_text_size": "12",
+                "subtitle_mobile_text_size": "12",
+                "title_decoration_style": "colored",
+                "subtitle_color": "primary",
+                "btn_color": "white"
+            },
+            "woodmart-instagram-11": {
+                "data_source": "images",
+                "images": "4998,4999,5000,5001,5002,5003,5004,5005,5006",
+                "images_size": "medium",
+                "images_link": "https:\/\/www.instagram.com\/p\/CSsJlL_Mem5\/",
+                "images_likes": "1000-10000",
+                "images_comments": "0-1000",
+                "title": "",
+                "username": "",
+                "number": "9",
+                "size": "medium",
+                "target": "_self",
+                "link": ""
+            },
+            "recent-comments-4": {
+                "title": "",
+                "number": 2
+            },
+            "tag_cloud-2": {
+                "title": "Tags",
+                "count": 0,
+                "taxonomy": "post_tag"
+            }
+        }
+    }
+}

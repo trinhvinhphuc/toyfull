@@ -1,0 +1,231 @@
+[
+	{
+		"id": "6c70401",
+		"elType": "section",
+		"settings": {
+			"gap": "no",
+			"wd_section_stretch": "stretch-content",
+			"margin": {
+				"unit": "px",
+				"top": "-40",
+				"right": "0",
+				"bottom": "30",
+				"left": "0",
+				"isLinked": false
+			},
+			"background_background": "classic"
+		},
+		"elements": [
+			{
+				"id": "ba8ed97",
+				"elType": "column",
+				"settings": {
+					"_column_size": 100,
+					"_inline_size": null,
+					"column_sticky_offset": 50,
+					"scroll_y": -80
+				},
+				"elements": [
+					{
+						"id": "b09e779",
+						"elType": "widget",
+						"settings": {
+							"full_width": "yes",
+							"scroll_y": -80,
+							"_background_background": "classic"
+						},
+						"elements": [],
+						"widgetType": "wd_page_title"
+					}
+				],
+				"isInner": false
+			}
+		],
+		"isInner": false
+	},
+	{
+		"id": "73e0cc7",
+		"elType": "section",
+		"settings": {
+			"margin": {
+				"unit": "px",
+				"top": "0",
+				"right": "0",
+				"bottom": "30",
+				"left": "0",
+				"isLinked": false
+			}
+		},
+		"elements": [
+			{
+				"id": "a7707ff",
+				"elType": "column",
+				"settings": {
+					"_column_size": 100,
+					"_inline_size": null,
+					"column_sticky_offset": 50,
+					"scroll_y": -80
+				},
+				"elements": [
+					{
+						"id": "3d98515",
+						"elType": "widget",
+						"settings": {
+							"scroll_y": -80
+						},
+						"elements": [],
+						"widgetType": "wd_wc_notices"
+					},
+					{
+						"id": "39d8026",
+						"elType": "widget",
+						"settings": {
+							"scroll_y": -80
+						},
+						"elements": [],
+						"widgetType": "wd_cart_table"
+					}
+				],
+				"isInner": false
+			}
+		],
+		"isInner": false
+	},
+	{
+		"id": "d59f2d5",
+		"elType": "section",
+		"settings": {
+			"structure": "20",
+			"reverse_order_mobile": "reverse-mobile",
+			"reverse_order_tablet": "reverse-tablet"
+		},
+		"elements": [
+			{
+				"id": "5c79b11",
+				"elType": "column",
+				"settings": {
+					"_column_size": 50,
+					"_inline_size": null,
+					"column_sticky_offset": 50,
+					"scroll_y": -80,
+					"_inline_size_tablet": 100,
+					"padding": {
+						"unit": "px",
+						"top": "10",
+						"right": "30",
+						"bottom": "10",
+						"left": "10",
+						"isLinked": false
+					},
+					"padding_tablet": {
+						"unit": "px",
+						"top": "10",
+						"right": "10",
+						"bottom": "10",
+						"left": "10",
+						"isLinked": true
+					}
+				},
+				"elements": [
+					{
+						"id": "c0604e5",
+						"elType": "widget",
+						"settings": {
+							"subtitle": "",
+							"title": "They buy with these goods",
+							"after_title": "",
+							"align": "left",
+							"scroll_y": -80
+						},
+						"elements": [],
+						"widgetType": "wd_title"
+					},
+					{
+						"id": "9d6ad77",
+						"elType": "widget",
+						"settings": {
+							"layout": "carousel",
+							"columns": {
+								"unit": "px",
+								"size": 3,
+								"sizes": []
+							},
+							"items_per_page": 4,
+							"hide_pagination_control": "yes",
+							"scroll_y": -80,
+							"post_type": "cross-sells",
+							"img_size": "medium_large"
+						},
+						"elements": [],
+						"widgetType": "wd_products"
+					}
+				],
+				"isInner": false
+			},
+			{
+				"id": "66b3c12",
+				"elType": "column",
+				"settings": {
+					"_column_size": 50,
+					"_inline_size": null,
+					"column_sticky_offset": 50,
+					"scroll_y": -80,
+					"margin_mobile": {
+						"unit": "px",
+						"top": "0",
+						"right": "0",
+						"bottom": "20",
+						"left": "0",
+						"isLinked": false
+					},
+					"_inline_size_tablet": 100,
+					"padding": {
+						"unit": "px",
+						"top": "10",
+						"right": "10",
+						"bottom": "10",
+						"left": "30",
+						"isLinked": false
+					},
+					"padding_tablet": {
+						"unit": "px",
+						"top": "10",
+						"right": "10",
+						"bottom": "10",
+						"left": "10",
+						"isLinked": true
+					}
+				},
+				"elements": [
+					{
+						"id": "fd4d6be",
+						"elType": "widget",
+						"settings": {
+							"subtitle": "",
+							"title": "Cart totals",
+							"after_title": "",
+							"align": "left",
+							"scroll_y": -80,
+							"color": "primary"
+						},
+						"elements": [],
+						"widgetType": "wd_title"
+					},
+					{
+						"id": "2db60fd",
+						"elType": "widget",
+						"settings": {
+							"scroll_y": -80,
+							"button_alignment": "right",
+							"title": ""
+						},
+						"elements": [],
+						"widgetType": "wd_cart_totals"
+					}
+				],
+				"isInner": false
+			}
+		],
+		"isInner": false
+	}
+]

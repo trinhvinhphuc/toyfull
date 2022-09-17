@@ -1,0 +1,1 @@
+!function(o){woodmartThemeModule.stickySocialButtons=function(){o(".wd-sticky-social").addClass("buttons-loaded")},o(document).ready(function(){woodmartThemeModule.stickySocialButtons()})}(jQuery);

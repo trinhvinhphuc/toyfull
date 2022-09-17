@@ -1,0 +1,164 @@
+// ------------------------------------------------------------------------------------------------
+// LAYOUTS
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// LAYOUTS PAGE
+// ------------------------------------------
+
+.wd-layout {
+
+	~ #posts-filter {
+
+		.search-box {
+			margin-top: 10px;
+		}
+	}
+}
+
+#menu-posts-woodmart_layout .wp-submenu,
+#wp-admin-bar-new-woodmart_layout,
+.post-php.post-type-woodmart_layout .page-title-action {
+	display: none;
+}
+
+.edit-php.post-type-woodmart_layout {
+
+	#menu-posts-woodmart_layout .wp-submenu {
+		display: block;
+	}
+}
+
+// ------------------------------------------
+// LAYOUT PAGE
+// ------------------------------------------
+
+#wd-layout-conditions {
+
+	.xts-layout-conditions-edit {
+		margin-top: 5px;
+	}
+}
+
+// ------------------------------------------
+// LAYOUT POPUP
+// ------------------------------------------
+
+.wd-layout,
+.wd_layout_conditions {
+
+	select,
+	input {
+		max-width: 100% !important;
+	}
+
+	.xts-popup-inner {
+		max-width: 950px;
+	}
+
+	.xts-popup-content {
+		max-height: 70vh;
+	}
+
+	.xts-set-btn-img {
+		flex-basis: 33.333333%;
+	}
+}
+
+.xts-popup {
+
+	[class*="xts-layout-"] {
+		transition: opacity .3s ease;
+	}
+
+	&.xts-loading {
+
+		[class*="xts-layout-"] {
+			opacity: .7;
+		}
+
+		.xts-layout-submit-wrap {
+			opacity: 1;
+			pointer-events: none;
+		}
+	}
+}
+
+.xts-layout-fields:not(.xts-layout-type-checkout):not(.xts-layout-type-all) .xts-layout-type-select {
+	display: none;
+}
+
+.xts-layout-predefined-layouts {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	border-top: 1px solid #E9E9E9;
+}
+
+.xts-popup-content {
+
+	.xts-layout-submit-wrap {
+		position: sticky;
+		bottom: -20px;
+		margin-top: 10px;
+		margin-right: -20px;
+		margin-bottom: -20px;
+		margin-left: -20px;
+	}
+}
+
+.xts-layout-fields {
+	display: flex;
+	margin-right: -6px;
+	margin-left: -6px;
+}
+
+.xts-layout-field {
+	flex: 1 1 50%;
+	margin-bottom: 15px;
+	padding-right: 6px;
+	padding-left: 6px;
+
+	> div {
+		margin-bottom: 10px;
+		font-weight: 700;
+	}
+
+	+ .xts-layout-conditions {
+		margin-top: 20px;
+	}
+}
+
+.xts-layout-predefined-layouts,
+.xts-layout-conditions {
+
+	h4 {
+		margin-top: 5px;
+		margin-bottom: 10px;
+		color: #3C434A;
+		font-weight: 700;
+	}
+}
+
+.xts-layout-condition {
+	position: relative;
+	display: flex;
+	padding-right: 15px;
+
+	> * {
+		margin-right: 12px !important;
+		margin-bottom: 12px !important;
+	}
+
+	.xts-cross-btn {
+		position: absolute;
+		top: 7px;
+		right: -2px;
+		margin: 0 !important;
+	}
+}
+
+.xts-layout-condition-add,
+.xts-layout-conditions-edit-add {
+	margin-bottom: 10px;
+}

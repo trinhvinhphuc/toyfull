@@ -1,0 +1,436 @@
+// ------------------------------------------------------------------------------------------------
+// ELEMENT ICONS
+// ------------------------------------------------------------------------------------------------
+
+.elementor-panel [class*="wd-icon-"],
+.elementor-widget-empty-icon[class*="wd-icon-"] {
+
+	&:before {
+		content: "";
+		line-height: 1;
+		display: block;
+		height: 32px;
+		width: 32px;
+		margin-top: -2px;
+		margin-bottom: -2px;
+		margin-left: auto;
+		margin-right: auto;
+		background-position: 0;
+		background-size: cover;
+	}
+}
+
+.elementor-element.elementor-widget-empty { // NOTE ADD SIDE PADDINGS (https://prnt.sc/26p3lsi)
+
+	.elementor-widget-empty-icon {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+.elementor-widget-empty-icon[class*="wd-icon-"] {
+
+	&:before {
+		height: 24px;
+		width: 24px;
+		opacity: .5;
+	}
+}
+
+.wd-icon-title:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/section-title.svg);
+}
+
+.wd-icon-product-categories:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/product-categories.svg);
+}
+
+.wd-icon-product-brands:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/brands.svg);
+}
+
+.wd-icon-images-gallery:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/images-gallery.svg);
+}
+
+.wd-icon-slider:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/slider.svg);
+}
+
+.wd-icon-extra-menu-list:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/extra-menu-list.svg);
+}
+
+.wd-icon-3d-view:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/360-degree.svg);
+}
+
+.wd-icon-search:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ajax-search.svg);
+}
+
+.wd-icon-counter:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/animated-counter.svg);
+}
+
+.wd-icon-author-area:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/author-area.svg);
+}
+
+.wd-icon-countdown:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/countdown-timer.svg);
+}
+
+.wd-icon-wishlist:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/wishlist.svg);
+}
+
+.wd-icon-compare:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/compare.svg);
+}
+
+.wd-icon-widget-products:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/wc-product-widget.svg);
+}
+
+.wd-icon-list:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/list.svg);
+}
+
+.wd-icon-twitter:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/twitter.svg);
+}
+
+.wd-icon-social:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/social-buttons.svg);
+}
+
+.wd-icon-team-member:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/team-member.svg);
+}
+
+.wd-icon-testimonials:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/testimonials.svg);
+}
+
+.wd-icon-mega-menu:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/mega-menu-widget.svg);
+}
+
+.wd-icon-menu-price:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/menu-price.svg);
+}
+
+.wd-icon-popup:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/popup.svg);
+}
+
+.wd-icon-pricing-tables:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/pricing-tables.svg);
+}
+
+.wd-icon-timeline:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/timeline.svg);
+}
+
+.wd-icon-google-map:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/google-maps.svg);
+}
+
+.wd-icon-product-filters:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/product-filter.svg);
+}
+
+.wd-icon-hotspot:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/image-map.svg);
+}
+
+.wd-icon-contact-form-7:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/360-degree.svg);
+}
+
+.wd-icon-button:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/button.svg);
+}
+
+.wd-icon-products:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/products-grid-or-carousel.svg);
+}
+
+.wd-icon-product-tabs:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ajax-products-tabs.svg);
+}
+
+.wd-icon-blog:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/blog.svg);
+}
+
+.wd-icon-banner:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/promo-banner.svg);
+}
+
+.wd-icon-banner-carousel:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/banners-carousel.svg);
+}
+
+.wd-icon-infobox:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/information-box.svg);
+}
+
+.wd-icon-infobox-carousel:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/infobox-slider.svg);
+}
+
+.wd-icon-instagram:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/instagram.svg);
+}
+
+.wd-icon-portfolio:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/portfolio.svg);
+}
+
+.wd-icon-contact-form-7:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/contact-form7.svg);
+}
+
+.wd-icon-mailchimp:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/mailchimp.svg);
+}
+
+.wd-icon-size-guide:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/size-guide.svg);
+}
+
+.wd-icon-menu-anchor:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/menu-anchor.svg);
+}
+
+.wd-icon-accordion:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/accordion.svg);
+}
+
+.wd-icon-accordion-item:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/accordion-item.svg);
+}
+
+.wd-icon-html-block:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/html-block.svg);
+}
+
+.wd-icon-image-or-svg:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/image-or-svg.svg);
+}
+
+.wd-icon-tabs:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/tabs.svg);
+}
+
+.wd-icon-tab:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/tab.svg);
+}
+
+.wd-icon-text-bock:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/text-block.svg);
+}
+
+.wd-icon-off-canvas-column-button:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/off-canvas-column-button.svg);
+}
+
+// Single product.
+
+.wd-icon-sp-title:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-title.svg);
+}
+
+.wd-icon-sp-content:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-content.svg);
+}
+
+.wd-icon-sp-hook:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-hook.svg);
+}
+
+.wd-icon-sp-meta:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-meta.svg);
+}
+
+.wd-icon-sp-navigation:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-navigation.svg);
+}
+
+.wd-icon-sp-notices:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-notices.svg);
+}
+
+.wd-icon-sp-price:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-price.svg);
+}
+
+.wd-icon-sp-rating:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-rating.svg);
+}
+
+.wd-icon-sp-reviews:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-reviews.svg);
+}
+
+.wd-icon-sp-short-description:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-short-description.svg);
+}
+
+.wd-icon-sp-stock-progress-bar:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-stock-progress-bar.svg);
+}
+
+.wd-icon-sp-tabs:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-tabs.svg);
+}
+
+.wd-icon-sp-action-buttons:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-action-buttons.svg);
+}
+
+.wd-icon-sp-additional-information-table:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-additional-information-table.svg);
+}
+
+.wd-icon-sp-add-to-cart:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-add-to-cart.svg);
+}
+
+.wd-icon-sp-brands:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-brands.svg);
+}
+
+.wd-icon-sp-breadcrumb:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-breadcrumb.svg);
+}
+
+.wd-icon-sp-countdown:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-countdown.svg);
+}
+
+.wd-icon-sp-gallery:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-gallery.svg);
+}
+
+.wd-icon-sp-add-to-wishlist-button:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-add-to-wishlist-button.svg);
+}
+
+.wd-icon-sp-add-to-compare-button:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-add-to-compare-button.svg);
+}
+
+.wd-icon-sp-size-guide-button:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-size-guide-button.svg);
+}
+
+.wd-icon-sp-brand-information:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-brand-information.svg);
+}
+
+.wd-icon-sp-extra-content:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-extra-content.svg);
+}
+
+.wd-icon-sp-meta-value:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sp-icons/sp-meta-value.svg);
+}
+
+// Shop archive.
+
+.wd-icon-sa-active-filters:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-active-filters.svg);
+}
+
+.wd-icon-sa-archive-description:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-archive-description.svg);
+}
+
+.wd-icon-sa-archive-products:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-archive-products.svg);
+}
+
+.wd-icon-sa-filter-area:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-filter-area.svg);
+}
+
+.wd-icon-sa-filter-area-button:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-filter-area-button.svg);
+}
+
+.wd-icon-sa-order-by:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-order-by.svg);
+}
+
+.wd-icon-sa-products-per-page:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-products-per-page.svg);
+}
+
+.wd-icon-sa-result-count:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-result-count.svg);
+}
+
+.wd-icon-sa-sidebar:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-sidebar.svg);
+}
+
+.wd-icon-sa-product-view:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-product-view.svg);
+}
+
+.wd-icon-sa-woocommerce-title:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-woocommerce-title.svg);
+}
+
+// Cart.
+
+.wd-icon-ct-cart-table:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ct-icons/ct-cart-table.svg);
+}
+
+.wd-icon-ct-cart-totals:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ct-icons/ct-cart-totals.svg);
+}
+
+// Checkout.
+
+.wd-icon-ch-billing-details:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ch-icons/ch-billing-details.svg);
+}
+
+.wd-icon-ch-coupon-form:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ch-icons/ch-coupon-form.svg);
+}
+
+.wd-icon-ch-login-form:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ch-icons/ch-login-form.svg);
+}
+
+.wd-icon-ch-order-review:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ch-icons/ch-order-review.svg);
+}
+
+.wd-icon-ch-payment-methods:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ch-icons/ch-payment-methods.svg);
+}
+
+.wd-icon-ch-shipping-details:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/ch-icons/ch-shipping-details.svg);
+}
+
+// WooCommerce.
+
+.wd-icon-wc-page-title:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/wc-icons/wc-page-title.svg);
+}
+
+.wd-icon-wc-checkout-steps:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/wc-icons/wc-checkout-steps.svg);
+}
+
+.wd-icon-wc-shipping-progress-bar:before {
+	background-image: url(../../../../admin/assets/images/vc-icon/wc-icons/wc-shopping-progress-bar.svg);
+}

@@ -1,0 +1,140 @@
+{
+    "default_header": "header_531714",
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Inter",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Yantramanav",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Yantramanav",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Yantramanav",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Inter",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "none",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(209,44,44)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(209,44,44)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(191,40,40)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(209,44,44)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(191,40,40)"
+    },
+    "footer-bar-bg": {
+        "color": "rgb(55,56,57)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "footer-style": "light",
+    "title-background": {
+        "color": "rgb(30,115,190)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/grocery-page-title.jpg",
+        "id": "4624",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "attr_after_short_desc": "1",
+    "after_add_to_cart_content_type": "html_block",
+    "after_add_to_cart_html_block": "4625",
+    "product_tabs_layout": "accordion",
+    "product_tabs_location": "summary",
+    "product_sticky": "1",
+    "reviews_location": "separate",
+    "popup-background": {
+        "color": "rgb(30,115,190)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/grocery-popup.jpg",
+        "id": "4627",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "mini_cart_quantity": "1",
+    "products_hover": "quick",
+    "product_quantity": "1",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "242"
+}

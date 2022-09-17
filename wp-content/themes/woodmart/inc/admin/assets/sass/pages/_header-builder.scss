@@ -1,0 +1,85 @@
+// ------------------------------------------------------------------------------------------------
+// HEADER BUILDER
+// ------------------------------------------------------------------------------------------------
+
+#whb-header-builder {
+
+	> .xts-notice {
+		animation: wd-fadeIn .6s ease both;
+		animation-delay: 3.5s;
+	}
+}
+
+.whb-header-builder {
+
+	textarea {
+		min-height: 100px;
+		width: 100%;
+	}
+
+	.wp-switch-editor {
+		height: auto;
+	}
+}
+
+.wd-box {
+
+	.whb-header-builder {
+		min-height: 400px;
+
+		* {
+			box-sizing: content-box;
+		}
+	}
+
+	.whb-popup {
+
+		* {
+			box-sizing: border-box;
+		}
+	}
+
+	.whb-editor-field {
+
+		label {
+			margin-top: 0;
+		}
+	}
+
+	.whb-header-name {
+
+		input {
+			padding-top: 0 !important;
+			padding-bottom: 0 !important;
+			border-radius: 0 !important;
+			color: #3C434A;
+			font-weight: 600;
+			font-size: 16px;
+		}
+	}
+}
+
+// ------------------------------------------
+// WHB POPUP
+// ------------------------------------------
+
+.whb-popup {
+
+	.whb-elements-add {
+
+		> input,
+		.xts-notice {
+			max-width: calc(100% - 10px) !important;
+		}
+
+		> input {
+			display: block;
+			margin: 0 auto 10px auto !important;
+		}
+
+		.xts-notice {
+			margin: 0 auto;
+			width: 100%;
+		}
+	}
+}

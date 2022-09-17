@@ -1,0 +1,19 @@
+{
+	"assets": [
+		{
+			"id": "image1",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/04/payment-icons.svg"
+		},
+		{
+			"id": "image2",
+			"type": "external-image-url",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/04/chair-banner.jpg"
+		},
+		{
+			"id": "image3",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/04/wd-chevron-14.svg"
+		}
+	]
+}

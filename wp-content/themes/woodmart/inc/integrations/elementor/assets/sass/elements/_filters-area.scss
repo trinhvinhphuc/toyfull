@@ -1,0 +1,44 @@
+.elementor-editor-active {
+
+	.wd-shop-filters-area {
+
+		&.elementor-widget-empty {
+			background-color: transparent;
+		}
+	}
+
+	.filters-area {
+		display: block !important;
+		height: auto !important;
+
+		&:not(.filters-opened) {
+			padding: 0 !important;
+			min-height: 40px !important;
+			max-height: 40px !important;
+			border: 0 !important;
+			border-radius: 0 !important;
+			background-color: $elem-placeholder-bg-color;
+
+			.filters-inner-area {
+				display: none !important;
+			}
+
+			&:before {
+				content: "";
+				position: absolute;
+				background-image: url(../../../../admin/assets/images/vc-icon/sa-icons/sa-filter-area.svg);
+				top: calc(50% - 12px);
+				right: 0;
+				bottom: 0;
+				left: calc(50% - 12px);
+				display: block;
+				width: 24px;
+				height: 24px;
+				// background-color: #000;
+				background-size: cover;
+				// line-height: 1;
+				opacity: .5;
+			}
+		}
+	}
+}

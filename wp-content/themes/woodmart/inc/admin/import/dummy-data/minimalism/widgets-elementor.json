@@ -1,0 +1,30 @@
+{
+    "filters-area": {
+        "widgets": {
+            "woodmart-woocommerce-layered-nav-5": {
+                "title": "FILTER BY COLOR",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off"
+            },
+            "woodmart-woocommerce-layered-nav-6": {
+                "title": "Filter by brand",
+                "attribute": "brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off"
+            }
+        }
+    }
+}

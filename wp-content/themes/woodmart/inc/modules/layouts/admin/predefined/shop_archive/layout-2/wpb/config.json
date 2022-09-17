@@ -1,0 +1,14 @@
+{
+	"assets": [
+		{
+			"id": "image1",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/04/w-b-p2-category-1.jpg"
+		},
+		{
+			"id": "image2",
+			"type": "external-image",
+			"src": "http://dummy.xtemos.com/woodmart2/wp-content/uploads/2022/04/w-b-p2-category-2.jpg"
+		}
+	]
+}

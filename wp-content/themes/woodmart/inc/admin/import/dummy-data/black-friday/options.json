@@ -1,0 +1,222 @@
+{
+    "default_header": "header_113335",
+    "site_width": "custom",
+    "site_custom_width": "1400",
+    "primary-color": {
+        "idle": "rgb(67,150,101)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(67,150,101)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(61,136,92)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(67,150,101)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(61,136,92)"
+    },
+    "btns_shop_style": "flat",
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Hind",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Hind",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Hind",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "secondary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Raleway",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Hind",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Hind",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "form_border_width": "1",
+    "title-background": {
+        "color": "rgb(198,198,198)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/black-friday-page-title.jpg",
+        "id": "3702",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "header_banner": "1",
+    "header_banner_bg": {
+        "color": "",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/black-friday-top-banner.jpg",
+        "id": "3703",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center bottom"
+    },
+    "header_close_btn": "1",
+    "header_banner_link": "#",
+    "header_banner_height": "100",
+    "header_banner_mobile_height": "60",
+    "label_shape": "rectangular",
+    "header_banner_color": "dark",
+    "single_stock_progress_bar": "1",
+    "disable_copyrights": "1",
+    "copyrights-layout": "centered",
+    "copyrights": "<small><a href=\"https:\/\/woodmart.xtemos.com\"><strong>WOODMART<\/strong><\/a> <i class=\"fa fa-copyright\"><\/i>  2021 CREATED BY <a href=\"http:\/\/xtemos.com\"><strong>XTEMOS STUDIO<\/strong><\/a>. PREMIUM E-COMMERCE SOLUTIONS.<\/small>",
+    "copyrights2": "",
+    "popup_html_block": "3092",
+    "popup-background": {
+        "color": "rgb(255,255,255)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/black-friday-popup.jpg",
+        "id": "3704",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "footer-bar-bg": {
+        "color": "#f7f7f7",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "footer_content_type": "html_block",
+    "footer_html_block": "3705",
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "selector": [
+                "product_category_title"
+            ],
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "prefooter_content_type": "text",
+    "prefooter_area": "",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "242"
+}

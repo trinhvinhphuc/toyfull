@@ -1,0 +1,191 @@
+{
+    "default_header": "header_272650",
+    "promo_popup_content_type": "html_block",
+    "popup_html_block": "212",
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/11\/scool-popup-opt.jpg",
+        "id": "7337",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "800",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "rgba(25,64,122,0.9)"
+        }
+    ],
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Open Sans",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(132,154,170)"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "800",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "rgba(25,64,122,0.9)",
+            "hover": {
+                "color": "rgb(25, 64, 122)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "800",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgba(25,64,122,0.9)"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "800",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(0,153,255)"
+    },
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_shop_bg": {
+        "idle": "rgb(0,153,255)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(0,139,232)"
+    },
+    "btns_accent_style": "semi-rounded",
+    "btns_accent_bg": {
+        "idle": "rgb(0,153,255)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(0,139,232)"
+    },
+    "form_fields_style": "semi-rounded",
+    "disable_copyrights": "0",
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "color": "rgb(0,153,255)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "sticky_toolbar": "",
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/11\/scool-page-title.jpg",
+        "id": "7338",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "900",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "add_to_cart_action": "popup",
+    "footer_content_type": "html_block",
+    "footer_html_block": "7368",
+    "prefooter_content_type": "text",
+    "prefooter_area": ""
+}

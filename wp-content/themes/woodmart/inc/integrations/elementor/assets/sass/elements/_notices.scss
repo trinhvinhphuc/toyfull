@@ -1,0 +1,14 @@
+.elementor-editor-active {
+
+	.wd-wc-notices {
+
+		&.elementor-widget-empty {
+			background-color: transparent;
+		}
+
+		.elementor-widget-empty-icon {
+			background-color: $elem-placeholder-bg-color;
+			margin-bottom: 20px;
+		}
+	}
+}

@@ -1,0 +1,186 @@
+{
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Inter",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Roboto",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Roboto",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "rgb(51,51,51)",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Roboto",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Roboto",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(26,61,151)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(26,61,151)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(24,56,137)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(26,61,151)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(24,56,137)"
+    },
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "color": "rgb(16,16,16)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "secondary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Roboto",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "pages-background": {
+        "color": "rgb(244,243,242)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "disable_copyrights": "0",
+    "default_header": "header_713597",
+    "footer_content_type": "html_block",
+    "footer_html_block": "7463",
+    "prefooter_content_type": "text",
+    "prefooter_html_block": "",
+    "form_border_width": "2",
+    "prefooter_area": "",
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "1",
+            "font-family": "Roboto",
+            "font-weight": "900",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    }
+}

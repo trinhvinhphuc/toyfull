@@ -1,0 +1,142 @@
+{
+    "default_header": "header_203215",
+    "single_product_header": "header_202423",
+    "primary-color": {
+        "idle": "rgb(255,153,51)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(255,153,51)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(233,140,47)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(255,153,51)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(233,140,47)"
+    },
+    "footer-bar-bg": {
+        "color": "rgb(51,51,51)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/motorcycle-footer-bg.jpg",
+        "id": "4239",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "footer-style": "light",
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Hind",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Hind",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Hind",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Karla",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_accent_style": "semi-rounded",
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Hind",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "products_hover": "quick",
+    "blog_excerpt_length": "110",
+    "popup_html_block": "3543",
+    "popup-background": {
+        "color": "rgb(255,255,255)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/motorcycle-popup.jpg",
+        "id": "4238",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "blog_excerpt": "excerpt",
+    "page-title-size": "large",
+    "form_fields_style": "semi-rounded",
+    "promo_popup_content_type": "html_block",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "726",
+    "page-title-color": "light",
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/motorcycle-shop-background.jpg",
+        "id": "7948",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    }
+}

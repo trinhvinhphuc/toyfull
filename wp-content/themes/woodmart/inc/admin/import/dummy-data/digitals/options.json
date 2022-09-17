@@ -1,0 +1,163 @@
+{
+    "default_header": "header_251579",
+    "primary-color": {
+        "idle": "rgb(72,118,202)"
+    },
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "color": "rgb(23,23,47)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(72,118,202)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(52,108,210)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(72,118,202)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(52,108,210)"
+    },
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Open Sans",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "product_summary_shadow": "1",
+    "product-background": {
+        "color": "rgb(249,249,249)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "label_shape": "rectangular",
+    "products_hover": "tiled",
+    "popup-background": {
+        "color": "rgb(72,118,202)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/digitals-promo-popup.jpg",
+        "id": "2329",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "title-background": {
+        "color": "rgb(72,118,202)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/digitals-promo-popup.jpg",
+        "id": "2329",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "products_spacing": "20",
+    "blog_spacing": "20",
+    "attr_after_short_desc": "",
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "1",
+            "font-family": "Open Sans",
+            "font-weight": "300",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "promo_popup_content_type": "html_block",
+    "popup_html_block": "212",
+    "prefooter_content_type": "html_block",
+    "prefooter_html_block": "258",
+    "footer_content_type": "widgets",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "242"
+}

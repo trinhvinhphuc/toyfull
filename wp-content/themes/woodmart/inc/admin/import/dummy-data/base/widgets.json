@@ -1,0 +1,206 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-8": {
+                "title": "Categories",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-9": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "thumb_height": 65,
+                "thumb_width": 75,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true
+            },
+            "woodmart-instagram-10": {
+                "title": "Our Instagram",
+                "username": "ozdesignfurniture",
+                "number": "9",
+                "size": "thumbnail",
+                "target": "_blank",
+                "data_divider": "",
+                "data_source": "images",
+                "images_divider": "",
+                "images": "930,945,954,960,948,831,825,806,,813",
+                "images_size": "100x100",
+                "images_link": "https:\/\/www.instagram.com\/ozdesignfurniture\/",
+                "images_likes": "1000-10000",
+                "images_comments": "0-1000",
+                "content_divider": "",
+                "content": "",
+                "link_divider": "",
+                "link": "",
+                "layout_divider": "",
+                "design": "",
+                "per_row": "",
+                "spacing": "",
+                "spacing_custom": "",
+                "rounded": "",
+                "hide_mask": "",
+                "hide_pagination_control": "",
+                "hide_prev_next_buttons": "",
+                "extra_divider": "",
+                "el_class": ""
+            },
+            "recent-comments-3": {
+                "title": "Recent Comments",
+                "number": 3
+            }
+        }
+    },
+    "sidebar-shop": {
+        "widgets": {
+            "woocommerce_price_filter-2": {
+                "title": "Filter by price"
+            },
+            "woodmart-woocommerce-layered-nav-3": {
+                "title": "Filter by color",
+                "attribute": "color",
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on"
+            },
+            "woodmart-woocommerce-layered-nav-5": {
+                "title": "Filter by size",
+                "attribute": "size",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off"
+            },
+            "woodmart-woocommerce-layered-nav-4": {
+                "title": "Filter by Brand",
+                "attribute": "brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "double",
+                "size": "normal",
+                "labels": "off",
+                "tooltips": "off"
+            },
+            "wd-widget-stock-status-2": {
+                "title": "Stock status",
+                "instock": "1",
+                "onsale": "1"
+            },
+            "woocommerce_top_rated_products-2": {
+                "title": "Top rated products",
+                "number": 3
+            }
+        }
+    },
+    "filters-area": {
+        "widgets": {
+            "woodmart-woocommerce-layered-nav-6": {
+                "title": "FILTER BY COLOR",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "labels": "on",
+                "tooltips": "off"
+            },
+            "woodmart-woocommerce-layered-nav-7": {
+                "title": "Filter by brand",
+                "attribute": "brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "double",
+                "size": "normal",
+                "labels": "off",
+                "tooltips": "on"
+            }
+        }
+    },
+    "sidebar-product-single": {
+        "widgets": {
+            "woocommerce_products-5": {
+                "title": "YOU MAY ALSO LIKE\u2026",
+                "number": 4,
+                "show": "",
+                "orderby": "date",
+                "order": "desc",
+                "hide_free": 0,
+                "show_hidden": 0
+            }
+        }
+    },
+    "footer-1": {
+        "widgets": {
+            "woodmart-html-block-2": {
+                "id": "702"
+            }
+        }
+    },
+    "footer-2": {
+        "widgets": {
+            "woodmart-recent-posts-12": {
+                "title": "Recent Posts",
+                "limit": 2,
+                "thumb_height": 60,
+                "thumb_width": 75
+            }
+        }
+    },
+    "footer-3": {
+        "widgets": {
+            "nav_menu-2": {
+                "title": "Our stores",
+                "nav_menu": 51
+            }
+        }
+    },
+    "footer-4": {
+        "widgets": {
+            "nav_menu-3": {
+                "title": "USEFUL LINKS",
+                "nav_menu": 52
+            }
+        }
+    },
+    "footer-5": {
+        "widgets": {
+            "nav_menu-4": {
+                "title": "Footer Menu",
+                "nav_menu": 53
+            }
+        }
+    },
+    "sidebar-6916": {
+        "widgets": {
+            "woodmart-recent-posts-15": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 65,
+                "thumb_width": 75
+            }
+        }
+    }
+}

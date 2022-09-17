@@ -1,0 +1,188 @@
+{
+    "default_header": "header_430860",
+    "primary-color": {
+        "idle": "rgb(181,131,82)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(181,131,82)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(198,160,125)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(181,131,82)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(198,160,125)"
+    },
+    "btns_accent_style": "rounded",
+    "btns_shop_style": "rounded",
+    "btns_default_style": "rounded",
+    "form_fields_style": "rounded",
+    "form_border_width": "1",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "726",
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Playfair Display",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Roboto",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "secondary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Italianno",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Lora",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Lora",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Roboto",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "products_hover": "quick",
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/books-page-title.jpg",
+        "id": "3706",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/books-popup.jpg",
+        "id": "3699",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "popup_html_block": "3700",
+    "promo_popup_content_type": "html_block",
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "1",
+            "font-family": "Playfair Display",
+            "font-weight": "500",
+            "font-style": "italic",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    }
+}

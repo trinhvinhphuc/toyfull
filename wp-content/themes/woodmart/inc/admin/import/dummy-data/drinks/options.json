@@ -1,0 +1,256 @@
+{
+    "default_header": "header_755391",
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "Jost",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/Jost-Book.woff",
+                "id": "4376"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/Jost-400-Book.woff2",
+                "id": "4375"
+            }
+        },
+        "1": {
+            "font-name": "Jost",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/jost-600-semi.woff",
+                "id": "4374"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/jost-600-semi.woff2",
+                "id": "4377"
+            }
+        },
+        "{{index}}": {
+            "font-name": "",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": ""
+            },
+            "font-woff2": {
+                "url": "",
+                "id": ""
+            }
+        }
+    },
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Jost",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Playfair Display",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Playfair Display",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Playfair Display",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Jost",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(242,173,68)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(242,173,68)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(242,150,12)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(242,173,68)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(242,150,12)"
+    },
+    "form_border_width": "1",
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/drinks-page-title.jpg",
+        "id": "4378",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "age_verify": "1",
+    "age_verify_color_scheme": "light",
+    "age_verify_background": {
+        "color": "",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/drinks-18.jpg",
+        "id": "4379",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "secondary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Great Vibes",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "btns_shop_style": "flat",
+    "pages-background": {
+        "color": "",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/vertical-bg-line.png",
+        "id": "4380",
+        "repeat": "repeat-y",
+        "size": "",
+        "attachment": "",
+        "position": "center top"
+    },
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "color": "rgb(51,51,51)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/drinks-footer-bg.jpg",
+        "id": "4381",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "single_product_header": "header_556608",
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/drinks-18.jpg",
+        "id": "4379",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "products_hover": "icons",
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "1",
+            "font-family": "Great Vibes",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "promo_popup_content_type": "html_block",
+    "popup_html_block": "212",
+    "prefooter_content_type": "html_block",
+    "prefooter_html_block": "258",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "242"
+}

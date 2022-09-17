@@ -1,0 +1,24 @@
+{
+    "products": {
+        "henectus-tincidunt": "6611",
+        "ornare-auctor": "6610",
+        "eames-plastic-side-chair": "6609",
+        "augue-adipiscing-euismod": "6608",
+        "iphone-dock": "6612",
+        "wine-bottle-lantern": "6607",
+        "decoration-wooden-present": "6601",
+        "panton-tunior-chair": "6606",
+        "smart-watches-wood-edition": "6605",
+        "wooden-single-drawer": "6604",
+        "classic-wooden-chair": "6603",
+        "eames-lounge-chair": "6602"
+    },
+    "categories": {
+        "accessories": "6618",
+        "clocks": "6613",
+        "cooking": "6616",
+        "furniture": "6614",
+        "lighting": "6615",
+        "toys": "6617"
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "default_header": "header_633149",
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "Manrope3",
+            "font-weight": "100",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/Manrope3-Thin.woff",
+                "id": "4305"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/Manrope3-Thin.woff2",
+                "id": "4306"
+            }
+        },
+        "1": {
+            "font-name": "Manrope3",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/Manrope3-Bold.woff",
+                "id": "4307"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/Manrope3-Bold.woff2",
+                "id": "4308"
+            }
+        },
+        "2": {
+            "font-name": "Manrope3",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/Manrope3-Regular.woff",
+                "id": "4340"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/Manrope3-Regular.woff2",
+                "id": "4341"
+            }
+        },
+        "{{index}}": {
+            "font-name": "",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": ""
+            },
+            "font-woff2": {
+                "url": "",
+                "id": ""
+            }
+        }
+    },
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "Manrope3",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "Manrope3",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "secondary-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "Manrope3",
+            "font-weight": "100",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "Manrope3",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Ubuntu",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Ubuntu",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "15",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(142,203,222)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(142,203,222)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(115,190,214)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(142,203,222)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(115,190,214)"
+    },
+    "btns_shop_style": "rounded",
+    "btns_default_style": "rounded",
+    "btns_accent_style": "rounded",
+    "form_fields_style": "rounded",
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/alternative-energy-page-title.jpg",
+        "id": "4309",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "form_border_width": "1",
+    "blog_excerpt_length": "100",
+    "popup_html_block": "3829",
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/alternative-energy-popup.jpg",
+        "id": "4310",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "blog_excerpt": "excerpt",
+    "single_product_header": "header_254347",
+    "products_spacing": "30",
+    "products_hover": "quick",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "242"
+}

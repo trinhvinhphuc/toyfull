@@ -1,0 +1,130 @@
+// ------------------------------------------------------------------------------------
+// XTS TOOLTIPS
+// ------------------------------------------------------------------------------------
+
+.woodmart-hint {
+
+	// text-align: center;
+	// opacity: 0;
+
+	&:hover {
+
+		.woodmart-hint-content {
+			visibility: visible;
+			opacity: 1;
+			-webkit-animation: wd-fadeInTooltip .3s ease;
+			animation: wd-fadeInTooltip .3s ease;
+		}
+	}
+}
+
+.woodmart-with-hint {
+
+	.woodmart-hint {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 10px;
+		width: 14px;
+		height: 14px;
+		outline: none;
+		border: 1px solid #D4D4D4;
+		border-radius: 50%;
+		color: #0473AA;
+		font-weight: 700;
+		font-size: 10px;
+		cursor: help;
+	}
+}
+
+// .vc_column {
+
+// 	&:hover {
+
+// 		.woodmart-hint {
+// 			opacity: 1;
+// 		}
+// 	}
+// }
+
+.woodmart-hint-content {
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	display: inline-block;
+	visibility: hidden;
+	margin-top: -23px;
+	padding: 15px;
+	width: 250px;
+	background-color: #000;
+	color: #FFF;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.5em;
+	opacity: 0;
+
+	.woodmart-hint-left & {
+		left: 100%;
+		margin-left: 6px;
+
+		&:before {
+			left: -3px;
+		}
+
+		&:after {
+			left: -25px;
+		}
+	}
+
+	.woodmart-hint-right & {
+		right: 100%;
+		margin-right: 6px;
+
+		&:before {
+			right: -3px;
+		}
+
+		&:after {
+			right: -25px;
+		}
+	}
+
+	.woodmart-hint-top & {
+		top: auto;
+		bottom: 100%;
+		margin-bottom: 6px;
+
+		&:before {
+			top: calc(100% - 6px);
+			left: calc(50% - 5px);
+		}
+
+		&:after {
+			top: auto;
+			bottom: -6px;
+			width: 100%;
+			height: 25px;
+		}
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 19px;
+		display: block;
+		width: 10px;
+		height: 10px;
+		background-color: #000;
+		transform: rotate(-45deg);
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		display: block;
+		width: 25px;
+		height: 100%;
+	}
+}

@@ -1,0 +1,35 @@
+{
+    "products": {
+        "henectus-tincidunt": "5592",
+        "ornare-auctor": "5593",
+        "eames-plastic-side-chair": "5594",
+        "augue-adipiscing-euismod": "5595",
+        "iphone-dock": "5591",
+        "wine-bottle-lantern": "5596",
+        "decoration-wooden-present": "5602",
+        "panton-tunior-chair": "5597",
+        "smart-watches-wood-edition": "5598",
+        "wooden-single-drawer": "5599",
+        "classic-wooden-chair": "5601",
+        "eames-lounge-chair": "5600"
+    },
+    "blog": {
+        "exploring-atlantas-modern-homes": "5684",
+        "green-interior-design-inspiration": "5685",
+        "collar-brings-back-coffee-brewing-ritual": "5686",
+        "reinterprets-the-classic-bookshelf": "5687",
+        "creative-water-features-and-exterior": "5688",
+        "minimalist-japanese-inspired-furniture": "5692",
+        "new-home-decor-from-john-doerson": "5689",
+        "the-big-design-wall-likes-pictures": "5691",
+        "sweet-seat-functional-seat-for-it-folks": "5690"
+    },
+    "categories": {
+        "accessories": "5693",
+        "clocks": "5589",
+        "cooking": "5586",
+        "furniture": "5590",
+        "lighting": "5588",
+        "toys": "5587"
+    }
+}

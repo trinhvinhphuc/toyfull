@@ -1,0 +1,35 @@
+// ------------------------------------------------------------------------------------------------
+// ATTRIBUTES
+// ------------------------------------------------------------------------------------------------
+
+// .post-type-product {
+
+// 	#addtag {
+
+// 		.xts-fields-tabs {
+// 			margin-top: 30px;
+// 			margin-bottom: 30px;
+// 		}
+
+// 		.xts-sections {
+// 			padding-top: 30px;
+// 		}
+// 	}
+// }
+
+.product_page_product_attributes {
+
+	.wrap.woocommerce form {
+		display: flex;
+		flex-direction: column;
+		max-width: 800px; // NOTE MAKE ATTRIBUTE EDIT PAGE LOOKS LIKE SINGLE ATTRIBUTE EDIT PAGE
+
+		.form-table {
+			order: -1;
+		}
+
+		.submit {
+			margin-top: 0;
+		}
+	}
+}

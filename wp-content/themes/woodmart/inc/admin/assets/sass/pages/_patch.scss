@@ -1,0 +1,94 @@
+// ------------------------------------------------------------------------------------------------
+// PATCH
+// ------------------------------------------------------------------------------------------------
+
+.xts-patches-notice {
+
+	.xts-success {
+		margin-bottom: 15px;
+	}
+}
+
+.xts-patches-wrapper {
+	overflow-x: auto;
+}
+
+.xts-patch-title-wrapper {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.xts-patch-item {
+	display: flex;
+	align-items: center;
+	padding: 10px 15px;
+	min-width: 700px;
+
+	> div {
+		width: 100%;
+
+		&:not(:last-child) {
+			margin-right: 15px;
+		}
+	}
+
+	&:nth-child(even) {
+		background-color: #F5F5F5;
+	}
+
+	&.xts-applied {
+
+		.xts-patch-apply {
+			display: none;
+		}
+
+		.xts-patch-label-applied {
+			display: inline-flex;
+		}
+	}
+}
+
+.xts-patch-label-applied {
+	display: none;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+
+	&:before {
+		content: "\f15e";
+		color: $xts-color-alternative;
+		font-size: 20px;
+		font-family: dashicons;
+
+		margin-inline-end: 2px;
+	}
+}
+
+.xts-patch-description {
+	flex-grow: 1;
+
+	p {
+		margin-top: 0;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.xts-patch-date {
+	max-width: 120px;
+
+	flex-shrink: 0;
+}
+
+.xts-patch-id {
+	max-width: 90px;
+	font-weight: 700;
+}
+
+.xts-patch-button-wrapper {
+	max-width: 100px;
+	text-align: right;
+}

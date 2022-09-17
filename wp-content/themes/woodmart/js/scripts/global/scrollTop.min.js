@@ -1,0 +1,1 @@
+!function(l){woodmartThemeModule.scrollTop=function(){var o=l(".scrollToTop");woodmartThemeModule.$window.on("scroll",function(){100<l(this).scrollTop()?o.addClass("button-show"):o.removeClass("button-show")}),o.on("click",function(){return l("html, body").animate({scrollTop:0},800),!1})},l(document).ready(function(){woodmartThemeModule.scrollTop()})}(jQuery);

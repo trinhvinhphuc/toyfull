@@ -1,0 +1,2781 @@
+// ------------------------------------------------------------------------------------------------
+// VISUAL COMPOSER
+// ------------------------------------------------------------------------------------------------
+
+//**** GENERAL ****//
+
+.xts-wpb-tab-title {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 24px;
+
+	&:before {
+		position: absolute;
+		left: 0;
+		top: calc(50% - 9px);
+		content: "";
+		width: 18px;
+		height: 18px;
+		background-image: url(../images/theme-admin-icon-2.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+.vc_edit-form-tab-control {
+
+	&.vc_active {
+
+		.xts-wpb-tab-title {
+
+			&:before {
+				background-image: url(../images/theme-admin-icon-3.svg);
+			}
+		}
+	}
+}
+
+.vc_ui-panel-content {
+	margin-top: 0 !important; // NOTE REMOVE VC WINDOW ALIGN BOTTOM
+
+	.wpb_element_label {
+		margin-bottom: 10px;
+	}
+
+	.vc_column {
+		margin-bottom: 15px;
+		padding-top: 0 !important;
+	}
+
+	//**** COLOR PICKER ****//
+
+	span.wp-picker-input-wrap {
+
+		label {
+			display: inline-block; // NOTE FIX COLOR PICKER PALLETE
+		}
+	}
+
+	.vc_checkbox-label {
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.vc_checkbox,
+	.vc_checkbox-label {
+		user-select: none;
+	}
+
+	.vc_edit-form-tab {
+		@extend %xts-checkbox;
+	}
+}
+
+//**** WOODMART SHORTCODE STYLES ****//
+
+.wpb_edit_form_elements {
+
+	input,
+	select,
+	textarea {
+		@extend %woodmart-input-style;
+
+		&:focus {
+			box-shadow: none;
+		}
+	}
+
+	.vc_column {
+		-webkit-animation: wd-fadeInTooltip .5s ease;
+		animation: wd-fadeInTooltip .5s ease;
+	}
+
+	.vc_autocomplete-field {
+
+		.vc_autocomplete {
+			padding-right: 6px;
+			padding-left: 6px;
+			border-radius: $woodmart-vc-options-border;
+
+			&:hover {
+				border-color: #BDBDBD;
+			}
+		}
+	}
+
+	.ui-autocomplete-input {
+		box-shadow: none;
+	}
+}
+
+.wpb_el_type_woodmart_empty_space {
+	padding: 0 !important;
+}
+
+.wpb_el_type_woodmart_css_id {
+	 display: none;
+
+	& + .vc_col-xs-12 {
+		padding-top: 0 !important;
+	}
+}
+
+[data-vc-shortcode="woodmart_responsive_text_block"] {
+
+	[data-tab-index="2"] {
+		display: none;
+	}
+}
+
+//**** OPTIONS ORDER ****//
+
+.vc_ui-panel-content {
+
+	.vc_column-order-first {
+		order: -1;
+	}
+}
+
+//**** WOODMART AUTOCOMPLETE DROPDOWN ****//
+
+ul.ui-autocomplete {
+	background-color: #FFF;
+	color: #444;
+	font-size: 13px;
+
+	&.ui-widget {
+		border: 1px solid #5B9DD9;
+	}
+}
+
+// ------------------------------------------
+// WOODMART SELECT
+// ------------------------------------------
+
+.wd-option-placeholder {
+	display: none;
+}
+
+.wd-select-placeholder {
+	color: rgba(0,0,0,.3) !important;
+
+	option {
+		color: #2c3338;
+	}
+}
+
+// ------------------------------------------
+// WOODMART IMAGE SELECT
+// ------------------------------------------
+
+.wd-select-fields {
+
+	.wd-select-wrapper {
+		display: none;
+		animation: wd-fadeInTooltip .5s ease;
+
+		&.xts-active {
+			display: block;
+		}
+	}
+
+	&.wd-style-images {
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 0;
+			margin-right: -5px;
+			margin-bottom: 0;
+			margin-left: -5px;
+
+			li {
+				position: relative;
+				flex-basis: calc(25% - 24px);
+				margin-right: 5px;
+				margin-bottom: 10px;
+				margin-left: 5px;
+				padding: 5px;
+				min-width: 90px;
+				max-width: 140px;
+				border: 2px solid;
+				border-color: #D9D9D9;
+				border-radius: $woodmart-vc-options-border;
+				cursor: pointer;
+				transition: all .2s ease-in-out;
+
+				.vc_col-xs-12[data-vc-shortcode-param-name*="alignment"] &,
+				.vc_col-sm-6 & {
+					flex-basis: calc(33.3333333% - 24px);
+					min-width: 40px;
+					max-width: 80px;
+				}
+
+				&.with-title {
+
+					img {
+						margin-bottom: 5px;
+					}
+				}
+
+				// &.selected,
+				&.xts-active {
+					border-color: $woodmart-button-color;
+
+					&:before {
+						@extend %woodmart-image-checkmark;
+					}
+				}
+
+				// &:not(.selected),
+				&:not(.xts-active) {
+
+					&:hover {
+						border-color: #B9B9B9;
+					}
+				}
+			}
+
+			img {
+				width: 100%;
+			}
+
+			h4 {
+				margin: 0;
+				color: #333;
+				font-size: 12px;
+				line-height: 1.4;
+			}
+		}
+
+		.wd-select {
+			display: none;
+		}
+	}
+
+	&.wd-style-buttons {
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 0;
+			margin-bottom: 0;
+
+			li {
+				display: inline-block;
+				margin-bottom: 0;
+				padding: 0 10px;
+				background-color: #EFEFF0;
+				color: #444;
+				font-weight: 600;
+				cursor: pointer;
+				transition: all .2s ease-in-out;
+
+				span {
+					display: block;
+					line-height: 36px;
+				}
+
+				&:hover {
+					background-color: #DDDDDF;
+					// background-color: #7A7A7A;
+					// color: #FFF;
+				}
+
+				&.xts-active {
+					background-color: $woodmart-button-alt-color;
+					color: #FFF;
+				}
+
+				&:first-child {
+					// border-top-left-radius: $woodmart-vc-options-border;
+					// border-bottom-left-radius: $woodmart-vc-options-border;
+					border-start-start-radius: $woodmart-vc-options-border;
+					border-end-start-radius: $woodmart-vc-options-border;
+				}
+
+				&:last-child {
+					// border-top-right-radius: $woodmart-vc-options-border;
+					// border-bottom-right-radius: $woodmart-vc-options-border;
+					border-start-end-radius: $woodmart-vc-options-border;
+					border-end-end-radius: $woodmart-vc-options-border;
+				}
+			}
+		}
+
+		.wd-select {
+			display: none;
+		}
+	}
+}
+
+.woodmart-vc-image-select {
+
+	div[data-vc-shortcode="woodmart_portfolio"] & {
+
+		 [data-value="inherit"] {
+			display: flex;
+			flex-direction: column;
+
+			&:after {
+				content: "";
+				display: block;
+				order: -1;
+				padding-top: 100%;
+			}
+
+			h4 {
+				z-index: 1;
+			}
+
+			img {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0px;
+				left: 0;
+				display: inline-block;
+				width: 100%;
+				height: 90%;
+				vertical-align: middle;
+
+				object-position: 50% 35%;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+// ------------------------------------------
+// TYPOGRAPHY
+// ------------------------------------------
+
+// .wd-typography-wrapper {
+
+// 	&:before {
+// 		content: "";
+// 		position: absolute;
+// 		top: 0;
+// 		right: 0;
+// 		bottom: 0;
+// 		left: 0;
+// 		z-index: 20;
+// 		width: 100%;
+// 		height: 100%;
+// 		background: rgba(0,0,0,.5);
+// 	}
+// }
+
+// .wd-typography-btn {
+// 	position: relative;
+// 	z-index: 50;
+// }
+
+.wd-typography-btn {
+	overflow: hidden;
+	border: 1px solid #DDD;
+	background-color: #F6F7F7;
+	color: #50575E;
+	text-transform: unset;
+	font-weight: 400;
+	transition: none !important;
+
+	&.xts-changed {
+
+		&:before {
+			background-image: url(../images/typography-icon-active.svg);
+			opacity: 1;
+		}
+	}
+
+	&:before {
+		content: "";
+		display: block;
+		width: 34px;
+		height: 34px;
+		// background-color: #DDD;
+		background-image: url(../images/typography-icon.svg);
+		background-position: center;
+		background-size: 20px;
+		background-repeat: no-repeat;
+		opacity: .7;
+
+		margin-inline-end: 12px;
+		margin-inline-start: -15px;
+		border-inline-end: 1px solid #C3C4C7;
+		// transition: .2s all ease-in-out;
+	}
+
+	&:hover {
+		border-color: #C3C4C7;
+		background-color: #F6F7F7;
+
+		&:before {
+			border-color: #C3C4C7;
+			background-color: #F0F0F1;
+			opacity: 1;
+			// background-color: #EFEFF0;
+		}
+	}
+}
+
+.wd-typography-btn-reset {
+	position: absolute;
+	top: -48px;
+	left: 90px;
+	// visibility: hidden;
+	padding: 10px;
+	color: rgba(94,94,94,1);
+	font-size: 0;
+	line-height: 1;
+	// opacity: 0;
+	cursor: pointer;
+	transition: .2s all ease;
+
+	> div {
+		max-width: 95px;
+	}
+
+	&:hover {
+		color: rgba(94,94,94,.7);
+	}
+
+	&:before {
+		content: "\f531";
+		font-size: 18px;
+		font-family: "dashicons";
+	}
+
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: -10px;
+		left: 0;
+		// min-width: 160px;
+		// max-width: 210px;
+		width: 100%;
+		height: 10px;
+	}
+}
+
+// .wd-typography-content {
+
+// 	&:hover {
+
+// 		.wd-typography-btn-reset {
+// 			visibility: visible;
+// 			opacity: 1;
+// 		}
+// 	}
+// }
+
+// ------------------------------------------
+// CONTENT
+// ------------------------------------------
+
+.wd-typography-content {
+	position: relative;
+	// position: absolute;
+	// right: 0;
+	// left: 0px;
+	z-index: 50;
+	display: flex;
+	flex-direction: column;
+	margin-top: 8px;
+	// margin-left: 15px;
+	padding-top: 20px;
+	min-width: 250px;
+	max-width: 300px;
+	// width: calc(100% - 30px);
+	// border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	background: #FFF;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 15%);
+
+	.wd-select-fields .wd-select-wrapper,
+	.wd-sliders .wd-slider,
+	.vc_column {
+		animation: none;
+	}
+
+	.vc_column {
+		animation: none;
+
+		select {
+			height: 30px !important;
+		}
+
+		&:not(.wpb_el_type_wd_slider) {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.wpb_element_label {
+				margin-bottom: 0;
+
+				margin-inline-end: 5px;
+			}
+
+			.edit_form_line {
+				flex-grow: 1;
+				max-width: 175px;
+			}
+		}
+
+		&.vc_wrapper-param-type-wd_slider {
+
+			.wpb_element_label {
+				position: absolute;
+				top: 0;
+				left: 15px;
+
+				.rtl & {
+					right: 15px;
+					left: auto;
+				}
+			}
+
+			.wd-field-devices {
+				margin-inline-start: 35px;
+			}
+		}
+
+		&[data-vc-shortcode-param-name*="_line_height"] {
+
+			.wd-field-devices {
+				margin-inline-start: 82px;
+			}
+		}
+	}
+
+	.wd-select-wrapper {
+		margin-top: 0 !important;
+	}
+
+	.wd-field-devices {
+
+		.wd-device {
+
+			> span {
+				display: none;
+			}
+		}
+	}
+}
+
+// ------------------------------------------
+// DIMENTIONS
+// ------------------------------------------
+
+// .wd-dimensions {
+// 	position: relative;
+// }
+
+// .wd-dimension {
+// 	display: none;
+// 	animation: wd-fadeInTooltip .5s ease;
+
+// 	label {
+// 		font-size: 12px;
+// 	}
+
+// 	&.xts-active {
+// 		display: flex;
+// 	}
+// }
+
+// .wd-dimension-field-value {
+
+// 	&:not(:first-child) {
+// 		margin-inline-start: 10px;
+// 	}
+// }
+
+// ------------------------------------------
+// NUMBERS
+// ------------------------------------------
+
+.wd-number {
+	display: none;
+	max-width: calc(#{$xts-input-width} / 2) !important;
+	// max-width: 112px;
+	animation: wd-fadeInTooltip .5s ease;
+
+	&.xts-active {
+		display: block;
+	}
+}
+
+// ------------------------------------------
+// OPTION TOOLTIPS
+// ------------------------------------------
+
+.woodmart-css-tooltip {
+
+	img {
+		vertical-align: middle;
+	}
+}
+
+.woodmart-tltp {
+	position: relative;
+
+	&:hover {
+
+		.woodmart-tooltip-label {
+			visibility: visible;
+			opacity: 1;
+			-webkit-animation: wd-fadeInTooltip .3s ease;
+			animation: wd-fadeInTooltip .3s ease;
+		}
+	}
+}
+
+.woodmart-tooltip-label {
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	z-index: 2;
+	visibility: hidden;
+	margin-bottom: 8px;
+	padding: 0 15px;
+	height: 34px;
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+	text-transform: capitalize;
+	white-space: nowrap;
+	// letter-spacing: .3px;
+	font-size: 12px;
+	line-height: 34px;
+	opacity: 0;
+	pointer-events: none;
+
+	 &:before {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px 5px 0;
+		border-style: solid;
+		border-color: transparent;
+		border-color: transparent;
+		border-top-color: #000;
+	}
+}
+
+// ------------------------------------------
+// FONT-WEIGHT
+// ------------------------------------------
+
+.wpb-select,
+select[name$="[font-weight]"] {
+
+	&[class$="100"],
+	option[value="100"] {
+		font-weight: 100;
+	}
+
+	&[class$="200"],
+	option[value="200"] {
+		font-weight: 200;
+	}
+
+	&[class$="300"],
+	option[value="300"] {
+		font-weight: 300;
+	}
+
+	&[class$="400"],
+	option[value="400"] {
+		font-weight: 400;
+	}
+
+	&[class$="500"],
+	option[value="500"] {
+		font-weight: 500;
+	}
+
+	&[class$="600"],
+	option[value="600"] {
+		font-weight: 600;
+	}
+
+	&[class$="700"],
+	option[value="700"] {
+		font-weight: 700;
+	}
+
+	&[class$="800"],
+	option[value="800"] {
+		font-weight: 800;
+	}
+
+	&[class$="900"],
+	option[value="900"] {
+		font-weight: 900;
+	}
+}
+
+// ------------------------------------------
+// GROUP OPTIONS
+// ------------------------------------------
+
+.woodmart-td-wrapper {
+	margin-bottom: 30px;
+	width: 100%;
+
+	&:last-child {
+		margin-bottom: 20px;
+	}
+}
+
+.woodmart-td-title {
+	color: $woodmart-vc-element-title;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.woodmart-td-content {
+	display: flex;
+	clear: both;
+	flex-wrap: wrap;
+	margin-top: 0;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding: 5px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	background: #F9F9F9;
+
+	.vc_column {
+
+		select {
+			padding: 6px 6px;
+			height: 36px;
+		}
+
+		&.wpb_el_type_woodmart_image_select {
+			margin-bottom: 5px;
+		}
+	}
+
+	.wpb_el_type_vc_link {
+
+		.button {
+			height: 36px;
+			border-radius: $woodmart-vc-options-border;
+			box-shadow: none;
+			line-height: 34px;
+		}
+
+		.vc_link_label {
+			line-height: 36px;
+		}
+	}
+
+	.wpb_el_type_attach_image {
+
+		.added,
+		.gallery_widget_add_images {
+			border-radius: $woodmart-vc-options-border;
+		}
+	}
+
+	.wp-media-buttons {
+
+		button {
+			border-radius: $woodmart-vc-options-border;
+			box-shadow: none;
+		}
+	}
+
+	.woodmart-vc-slider {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+}
+
+.wd-slider-field-value-display {
+	// position: absolute;
+	// right: 0;
+	// bottom: 22px;
+	// display: flex;
+	// align-items: center;
+	// font-weight: 600;
+	// font-size: 16px;
+	// margin-top: 15px;
+	margin-inline-start: 10px;
+
+	.wd-slider-value-preview {
+		display: flex;
+		align-items: center;
+		// width: 40px;
+		min-width: 30px;
+		height: 30px !important;
+		text-align: right;
+		line-height: 1;
+		direction: rtl;
+	}
+
+	input.wd-slider-value-preview {
+		padding: 3px !important;
+		max-width: 60px !important;
+		width: auto !important;
+	}
+
+	span.wd-slider-value-preview {
+		font-weight: 600;
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// OPTIONS
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// GRADIENT EDITOR
+// ------------------------------------------
+
+.woodmart-grad-line {
+
+	.gradx {
+		padding: 10px 10px 6px 10px;
+		border: none;
+		// border: 1px solid #E8E8E8;
+		// border-radius: 5px;
+		// background: rgba(0, 0, 0, .02);
+		border-radius: 5px;
+		background: #FFF;
+		box-shadow: 0 0 3px rgba(0, 0, 0, 15%);
+		// padding: 15px 15px 13px 15px;
+	}
+
+		.gradx_btn {
+			padding: 8px 15px;
+			border-color: #E6E6E6;
+			border-radius: $woodmart-vc-options-border;
+			background-image: none;
+
+			@extend %woodmart-admin-btn;
+		}
+
+		.gradx_slider {
+
+			&:after {
+				border-width: 60px 1px 0 0;
+			}
+		}
+
+		.cp-default {
+			border-radius: 0 !important;
+		}
+
+	.gradx_start_sliders {
+		margin-right: -6px;
+		margin-left: -6px;
+	}
+
+		.sp-container {
+			border: none;
+		}
+
+		.sp-picker-container {
+		 border-left: none;
+		}
+
+		.sp-picker-container {
+			padding-top: 5px;
+		}
+
+		#gradx_slider_controls {
+			margin-left: 10px;
+			padding-top: 5px;
+		}
+
+	.gradx_slectboxes {
+		display: flexbox;
+		display: flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		-ms-flex-align: stretch;
+		align-items: stretch;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-right: -5px;
+		margin-left: -5px;
+
+		-webkit-align-items: stretch;
+		-webkit-justify-content: flex-start;
+		-ms-justify-content: flex-start;
+
+		select {
+			flex-basis: 100%;
+			margin-right: 5px;
+			margin-left: 5px;
+			padding: 0 8px;
+			max-width: 100%;
+			width: 100%;
+			height: 28px;
+			line-height: 28px;
+
+			-webkit-flex-basis: 100%;
+			-ms-flex-basis: 100%;
+		}
+	}
+}
+
+.woodmart-grad-preview {
+	display: none;
+}
+
+// ------------------------------------------
+// DATE PICKER
+// ------------------------------------------
+
+div.ui-datepicker {
+	margin-top: 12px;
+
+	.ui-datepicker-header {
+	border: none;
+	border-radius: 0;
+	background-color: #F3F3F3;
+	background-image: none;
+
+	.ui-corner-all {
+		border-radius: 0;
+		cursor: pointer;
+	}
+
+	.ui-state-hover {
+		border: none;
+		background-image: none;
+	}
+
+	.ui-icon {
+		background-image: none;
+	}
+
+	.ui-datepicker-next,
+	.ui-datepicker-prev {
+
+		.ui-icon {
+			display: none !important;
+		}
+
+		&:before {
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			display: block;
+			width: 20px;
+			height: 20px;
+			font-weight: 400;
+			font-size: 16px;
+			font-family: dashicons;
+		}
+	}
+
+	.ui-datepicker-next {
+
+			&:before {
+				content: "\f345";
+			}
+		}
+
+		.ui-datepicker-prev {
+
+			&:before {
+				content: "\f341";
+			}
+		}
+	}
+
+	.ui-state-default {
+		border: none;
+		background-color: #F3F3F3;
+		background-image: none;
+
+		&.ui-state-hover,
+		&.ui-state-active {
+			background-color: #E0E0E0;
+			color: #000;
+		}
+	}
+
+	.ui-state-highlight {
+		background-color: $woodmart-button-color;
+		color: #FFF;
+	}
+}
+
+// ------------------------------------------
+// COLOR PICKER
+// ------------------------------------------
+
+.vc_ui-panel-content {
+
+	.wp-picker-container {
+		@extend %woodmart-colorpicker-style;
+
+		.wp-color-picker[type=text] {
+			padding: 8px 6px;
+			height: var(--xts-input-height);
+		}
+
+		.woodmart-opacity-container,
+		.vc_alpha-container {
+			border: none !important;
+			border-radius: 4px !important;
+			box-shadow: 0 0 3px rgba(0, 0, 0, 15%);
+
+			label {
+				margin-top: 0;
+			}
+		}
+
+		.color-alpha {
+			width: 35px !important;
+			// height: 35px !important;
+			// border: 1px solid rgb(238, 238, 238);
+			// border-top-left-radius: $xts-option-border-radius !important;
+			// border-bottom-left-radius: $xts-option-border-radius !important;
+		}
+
+		// .iris-picker {
+		// 	border: none;
+		// 	box-shadow: 0 0 3px rgba(0, 0, 0, 15%);
+		// }
+	}
+}
+
+.woodmart-vc-colorpicker {
+
+	.wp-picker-container {
+		position: relative;
+
+		.wp-color-result {
+
+			&.wp-picker-open {
+
+				 &:after {
+					display: none;
+				}
+			}
+		}
+
+		.iris-picker {
+			margin-bottom: 74px;
+			// border-bottom-right-radius: 0;
+			// border-bottom-left-radius: 0;
+		}
+	}
+
+	.wp-picker-holder {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		padding-bottom: 10px;
+	}
+}
+
+ .woodmart-opacity-container {
+	position: absolute;
+	bottom: -73px;
+	left: -1px;
+	z-index: 1000;
+	padding: 6px;
+	width: 243px;
+	border: 1px solid #DFDFDF;
+	border-radius: 0;
+	border-bottom-right-radius: $woodmart-vc-options-border;
+	border-bottom-left-radius: $woodmart-vc-options-border;
+	background-color: #FFF;
+
+	.woodmart-opacity-field {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+// ------------------------------------------
+// WOODMART ANIMATIONS SELECTOR
+// ------------------------------------------
+
+.vc_param-animation-style-preview {
+
+	.vc_btn {
+		height: 36px;
+	}
+}
+
+.wd-slide-from-bottom,
+.wd-slide-from-top,
+.wd-slide-from-left,
+.wd-slide-from-right,
+.wd-left-flip-y,
+.wd-right-flip-y,
+.wd-top-flip-x,
+.wd-bottom-flip-x,
+.wd-zoom-in,
+.wd-rotate-z {
+	-webkit-transition: opacity .7s cubic-bezier(0, .87, .58, 1);
+	transition: opacity .7s cubic-bezier(0, .87, .58, 1);
+
+	&.animated {
+		-webkit-animation-duration: .7s;
+		animation-duration: .7s;
+		-webkit-animation-timing-function: cubic-bezier(0, .87, .58, 1);
+		animation-timing-function: cubic-bezier(0, .87, .58, 1); 
+	}
+}
+
+.wd-slide-from-top {
+	-webkit-animation-name: wd-SlideFromTop;
+	animation-name: wd-SlideFromTop;
+}
+
+.wd-slide-from-bottom {
+	-webkit-animation-name: wd-SlideFromBottom;
+	animation-name: wd-SlideFromBottom;
+}
+
+.wd-slide-from-left {
+	-webkit-animation-name: wd-SlideFromLeft;
+	animation-name: wd-SlideFromLeft;
+}
+
+.wd-slide-from-right {
+	-webkit-animation-name: wd-SlideFromRight;
+	animation-name: wd-SlideFromRight;
+}
+
+.wd-right-flip-y {
+	-webkit-animation-name: wd-RightFlipY;
+	animation-name: wd-RightFlipY;
+}
+
+.wd-left-flip-y {
+	-webkit-animation-name: wd-LeftFlipY;
+	animation-name: wd-LeftFlipY;
+}
+
+.wd-top-flip-x {
+	-webkit-animation-name: wd-TopFlipX;
+	animation-name: wd-TopFlipX;
+}
+
+.wd-bottom-flip-x {
+	-webkit-animation-name: wd-BottomFlipX;
+	animation-name: wd-BottomFlipX;
+}
+
+.wd-zoom-in {
+	-webkit-animation-name: wd-ZoomIn;
+	animation-name: wd-ZoomIn;
+}
+
+.wd-rotate-z {
+	-webkit-animation-name: wd-RotateZ;
+	animation-name: wd-RotateZ;
+
+	will-change: animation;
+}
+
+// ------------------------------------------
+// WOODMART BUTTON SWITCH
+// ------------------------------------------
+
+.woodmart-vc-switch {
+	font-size: 0;
+
+	.switch-controls {
+		display: inline-block;
+		min-width: 50px;
+		height: 36px;
+		background-color: #EFEFF0;
+		color: #444;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 12px;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+
+		span {
+			display: block;
+			line-height: 36px;
+		}
+
+		&:hover {
+			background-color: #DDDDDF;
+		}
+
+		&:first-child {
+			border-top-left-radius: $woodmart-vc-options-border;
+			border-bottom-left-radius: $woodmart-vc-options-border;
+		}
+
+		&:last-child {
+			border-top-right-radius: $woodmart-vc-options-border;
+			border-bottom-right-radius: $woodmart-vc-options-border;
+		}
+	}
+
+	.switch-inactive {
+
+		&.xts-active {
+			background-color: #B1B1B0;
+			color: #FFF;
+			pointer-events: none;
+			user-select: none;
+		}
+	}
+
+	.switch-active {
+
+		&.xts-active {
+			background: $woodmart-button-alt-color;
+			color: #FFF;
+		}
+	}
+}
+
+// ------------------------------------------
+// RANGE SLIDER
+// ------------------------------------------
+
+// .wd-slider-field-value-display {
+// 	padding-top: .5em;
+// 	color: #5E5E5E;
+// 	font-weight: 400;
+// 	font-size: 12px;
+// }
+
+.wpb_el_type_woodmart_slider {
+	margin-bottom: 5px;
+}
+
+.wd-slider-field {
+	// margin-top: 15px;
+
+	.ui-widget-header {
+		border-radius: 4px;
+		background: $woodmart-button-color;
+	}
+
+	&.ui-widget {
+
+		&.ui-widget-content {
+			border: none;
+			border-radius: 4px;
+			// background-color: #F1F1F1;
+			background-color: #EFEFF0;
+		}
+	}
+
+	&.ui-slider-horizontal {
+		width: 100%;
+		height: 6px;
+		cursor: pointer;
+
+		.ui-slider-handle {
+			top: -5px;
+			width: 12px;
+			height: 12px;
+			border-width: 2px;
+			border-color: $xts-color-primary;
+			border-radius: 50%;
+			background: #FFF;
+			cursor: pointer;
+			transition: box-shadow .2s ease;
+
+			// &:hover {
+			// 	box-shadow: 0 0 0 2px #89BCE8;
+			// }
+
+			// &:focus {
+			// 	box-shadow: 0 0 0 3px #89BCE8;
+			// }
+		}
+	}
+
+	.ui-slider-handle {
+
+		&.ui-state-hover,
+		&.ui-state-focus {
+			box-shadow: 0 0 0 2px transparentize($xts-color-primary,.7);
+		}
+	}
+
+	&:empty {
+		height: 6px;
+	}
+}
+
+//**** CUSTOM CONTENT WIDTH OPTIONS SET ****//
+
+.vc_column.wd-custom-width {
+
+	.vc-button-set-item {
+		padding: 0;
+		background-color: transparent !important;
+
+		@extend %xts-devices-tabs;
+
+		span {
+			line-height: 1;
+		}
+	}
+
+	.vc_column {
+		animation: wd-fadeInTooltip .5s ease;
+	}
+
+	// ~ .wpb_el_type_wd_slider,
+	// ~ .wpb_el_type_woodmart_slider {
+
+		// .wpb_element_label {
+		// 	display: none;
+		// }
+
+		// .wd-slider-units {
+		// 	top: -20px;
+		// }
+	// }
+}
+
+.woodmart-td-content {
+
+	.wd-custom-width {
+		margin-bottom: 0 !important;
+	}
+}
+
+.vc_edit-form-tab {
+
+	> .wd-custom-width {
+
+		~ .wpb_el_type_woodmart_slider {
+			margin-top: -15px;
+			padding-top: 0 !important;
+		}
+	}
+}
+
+.wd-res-control {
+
+	~ .wd-res-item {
+		margin-top: 15px !important;
+	}
+}
+
+// ------------------------------------------
+// WIDTH
+// ------------------------------------------
+
+.wpb_el_type_woodmart_slider {
+
+	.wd-slider-units {
+		top: -15px;
+	}
+}
+
+// ------------------------------------------
+// BOX SHADOW
+// ------------------------------------------
+
+.wd-box-shadow {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 5px 15px 15px 15px;
+	// border: 1px solid #E8E8E8;
+	// border-radius: 5px;
+	// background-color: rgba(0,0,0,.02);
+	border-radius: 5px;
+	background: #FFF;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 15%);
+	// border: none;
+
+	--xts-input-height: 30px;
+
+	.wd-box-shadow-item {
+		display: flex;
+		flex-grow: 1;
+		flex-basis: 0%;
+		flex-direction: column;
+
+		.wp-picker-container {
+
+			&:not(.wp-picker-active) {
+
+				.wp-color-result {
+					margin-right: 0;
+				}
+			}
+		}
+
+		.xts-input-append {
+			min-width: 70px;
+		}
+
+		.add-on {
+			height: 28px;
+			line-height: 26px;
+		}
+
+		label {
+			white-space: nowrap;
+			font-size: 12px;
+			line-height: var(--xts-input-height);
+		}
+
+		&:not(.wd-color) {
+			margin-right: 7px;
+
+			input {
+				padding: 3px 6px;
+				min-height: var(--xts-input-height);
+				height: var(--xts-input-height);
+				line-height: 1;
+
+				// border-start-end-radius: 0;
+				// border-end-end-radius: 0;
+			}
+		}
+	}
+
+	.wp-picker-input-wrap {
+		// margin-top: 10px;
+		width: 100%;
+
+		.wd-color-input[type=text] {
+			width: 120px !important;
+
+			margin-inline-start: 0 !important;
+		}
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// TABS
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// DESIGN OPTIONS
+// ------------------------------------------
+
+.vc_edit-form-tab {
+
+	.vc_layout-onion {
+		position: absolute;
+		top: 30px;
+		left: 0;
+		margin-top: 0;
+
+		input {
+			padding: 2px !important;
+			width: 34px !important;
+			height: 24px !important;
+		}
+
+		&.wd-responsive-spacing {
+			top: 53px;
+			left: 3px;
+		}
+
+		&:not(.xts-active) {
+
+			+ .vc_settings {
+
+				// > label:nth-last-child(2),
+				> .vc_checkbox {
+					visibility: hidden;
+					opacity: 0;
+				}
+			}
+		}
+	}
+}
+
+.vc_wrapper-param-type-css_editor {
+
+	.vc_css-editor {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: nowrap !important;
+	}
+
+	div.vc_settings {
+		position: static;
+		display: flex;
+		flex-grow: 1;
+		flex-basis: 0%;
+		flex-wrap: wrap;
+		margin-top: 5px;
+		margin-right: 15px;
+		margin-left: 15px;
+		padding-right: 0;
+		padding-left: 0;
+		width: auto;
+
+		flex-shrink: 0;
+
+		> * {
+			order: 1;
+			margin-top: 0;
+			margin-bottom: 12px;
+		}
+
+		> label {
+			margin-top: 0;
+			margin-bottom: 10px;
+			padding-right: 5px;
+			width: 100%;
+			white-space: nowrap;
+			font-weight: 600;
+			font-size: 13px;
+		}
+
+		> label,
+		> div {
+			margin-left: 345px;
+		}
+
+		> .vc_border-radius + label,
+		> .vc_border-radius + label + .color-group,
+		> .vc_background-image,
+		> .vc_background-style {
+			order: 3;
+			margin-bottom: 0;
+			margin-left: 0;
+		}
+
+		> .vc_border-radius + label {
+			margin-top: 120px;
+			margin-bottom: 10px;
+		}
+
+		select {
+			padding-top: 0;
+			padding-bottom: 0;
+			min-width: 130px;
+		}
+
+		.color-group {
+			margin-top: 0;
+			margin-right: 5px;
+			margin-bottom: 12px;
+
+			.wp-color-result {
+				margin-bottom: 0;
+			}
+
+			.wp-picker-open + .wp-picker-input-wrap {
+				display: flex;
+			}
+
+			.wp-picker-input-wrap {
+				position: absolute;
+				top: 40px;
+				left: 0;
+				z-index: 10;
+				align-items: flex-start;
+				height: 60px;
+				background-color: #FFF;
+			}
+
+			.vc_color-control {
+				margin-left: 0 !important;
+				width: 112px !important;
+			}
+
+			.wp-picker-holder {
+				top: 74px;
+				left: 0 !important;
+			}
+
+			&:nth-child(2) {
+
+				.wp-picker-holder {
+					right: -47px;
+					left: auto !important;
+				}
+			}
+		}
+
+		.vc_background-image {
+
+			.vc_image {
+				margin: 0;
+
+				.added {
+
+					> div {
+						max-width: inherit;
+						max-height: inherit;
+						width: auto !important;
+						height: auto !important;
+
+						img {
+							position: absolute;
+							top: 0;
+							right: 0;
+							bottom: 0;
+							left: 0;
+							display: block;
+							max-height: 100%;
+							width: 100%;
+							height: 100%;
+
+							object-fit: cover;
+						}
+					}
+				}
+
+				&:not(:empty) {
+
+					+ .vc_add-image{
+						display: none;
+					}
+				}
+			}
+
+			.vc_image .added,
+			.vc_add-image {
+				margin-right: 6px;
+				margin-bottom: 0;
+				min-width: 90px;
+				max-width: 90px;
+				max-height: 33px;
+				border: 1px solid #E7E7E7;
+				border-radius: $xts-option-border-radius;
+			}
+
+			.vc_add-image {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #333 !important;
+				text-decoration: none;
+				font-size: 12px;
+
+				i {
+					position: static !important;
+					transform: none !important;
+
+					margin-inline-end: 6px;
+				}
+			}
+		}
+
+		> label {
+
+			&:nth-last-child(2) {
+				display: none;
+			}
+
+			&.vc_checkbox {
+				position: absolute;
+				top: 321px;
+				left: 27px;
+				margin: 0 !important;
+				max-width: 110px;
+				font-size: 11px;
+				transition: all .12s ease;
+			}
+
+		}
+	}
+}
+
+// -------------------------------
+// RESPONSIVE CONTROLS
+// -------------------------------
+
+.wpb_el_type_woodmart_responsive_spacing {
+	margin-bottom: 0 !important;
+
+	&.vc_col-xs-12 {
+		position: static;
+	}
+}
+
+//**** SHOW/HIDE CONTROLS ****//
+
+.vc_layout-onion {
+	margin-top: 15px;
+
+	&:not(.xts-active) {
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	&.xts-active {
+		transition: all .6s ease;
+	}
+
+}
+
+//**** CONTROLS POSITION ****//
+
+.wd-responsive-spacing {
+
+	&[data-device] {
+
+		.vc_content {
+
+			i {
+				background: none !important;
+				line-height: 32px;
+
+				&:before {
+					content: "\f470";
+					color: #C9C9C9;
+					font-style: normal;
+					font-size: 26px;
+					font-family: "dashicons";
+				}
+			}
+		}
+	}
+
+	&[data-device="tablet"] {
+
+		.vc_content {
+
+			i {
+
+				&:before {
+					content: "\f471";
+				}
+			}
+		}
+	}
+
+	&[data-device="mobile"] {
+
+		.vc_content {
+
+			i {
+
+				&:before {
+					content: "\f470";
+				}
+			}
+		}
+	}
+}
+
+.wd-spacing-devices {
+	position: absolute;
+	top: 21px;
+	left: 80px;
+	background-color: #FFF; // NOTE REMOVE CONFLICT WITH ABSOLUTE SIMPLIFY CONTROLS
+
+	> span {
+		@extend %xts-devices-tabs;
+
+		.vc-composer-icon {
+			margin-right: 5px;
+			font-weight: 400;
+		}
+	}
+
+	span {
+
+		span {
+			font-size: 13px;
+		}
+	}
+}
+
+// ------------------------------------------
+// RESPONSIVE FONT SIZE CONTROL
+// ------------------------------------------
+
+.wpb_el_type_woodmart_responsive_size {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	width: auto !important; //overwright theme styles
+
+	-webkit-box-flex: 1;
+}
+
+.woodmart-rs-wrapper {
+
+	> div {
+		display: inline-block;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+
+	.woodmart-rs-item {
+
+		.woodmart-rs-input {
+			padding: 8px 6px;
+			width: 60px;
+			height: 36px;
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+			vertical-align: middle;
+		}
+	}
+
+	.woodmart-rs-item {
+		display: inline-flex;
+
+		&.hide {
+			display: none;
+		}
+	}
+
+	.woodmart-rs-unit {
+		margin-right: 0;
+	}
+}
+
+.woodmart-rs-icon {
+	display: inline-block;
+	padding: 8px;
+	border-top-left-radius: $woodmart-vc-options-border;
+	border-bottom-left-radius: $woodmart-vc-options-border;
+	background-color: #F0F0F0;
+}
+
+.woodmart-rs-trigger {
+	cursor: pointer;
+}
+
+// ------------------------------------------
+// RESPONSIVE OPTIONS
+// ------------------------------------------
+
+// .vc_screen-size {
+
+// 	.vc-composer-icon {
+// 		transform: scale(1.1);
+
+// 		&:before {
+// 			font-family: "dashicons";
+// 		}
+// 	}
+
+// 	.vc-c-icon-layout_default {
+
+// 		&:before {
+// 			content: "\f472";
+// 		}
+// 	}
+
+// 	.vc-c-icon-layout_landscape-tablets {
+// 		transform: rotate(90deg) translateX(1px) scale(1.1, -1.1);
+
+// 		&:before {
+// 			content: "\f471";
+// 		}
+// 	}
+
+// 	.vc-c-icon-layout_portrait-tablets {
+
+// 		&:before {
+// 			content: "\f471";
+// 		}
+// 	}
+
+// 	.vc-c-icon-layout_portrait-smartphones {
+
+// 		&:before {
+// 			content: "\f470";
+// 		}
+// 	}
+// }
+
+// ------------------------------------------------------------------------------------------------
+// ELEMENTS
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// SECTION
+// ------------------------------------------
+
+// [data-vc-shortcode="vc_section"] {
+
+// 	[data-vc-shortcode-param-name="el_id"] {
+
+// 		&,
+// 		~ * {
+// 			order: 2;
+// 		}
+// 	}
+
+// 	[data-vc-shortcode-param-name="woodmart_parallax"] {
+// 		order: 1;
+// 	}
+// }
+
+// ------------------------------------------
+// ROW
+// ------------------------------------------
+
+// [data-vc-shortcode="vc_row"] {
+
+// 	[data-vc-shortcode-param-name="el_id"] {
+
+// 		&,
+// 		~ * {
+// 			order: 2;
+// 		}
+// 	}
+
+// 	[data-vc-shortcode-param-name="woodmart_parallax"] {
+// 		order: 1;
+// 	}
+
+// }
+
+// [data-vc-shortcode="vc_row_inner"] {
+
+// 	[data-vc-shortcode-param-name="disable_element"] {
+
+// 		&,
+// 		~ * {
+// 			order: 2;
+// 		}
+// 	}
+
+// 	[data-vc-shortcode-param-name="woodmart_parallax"] {
+// 		order: 1;
+// 	}
+// }
+
+// ------------------------------------------
+// COLUMN
+// ------------------------------------------
+
+[data-vc-shortcode="vc_column"],
+[data-vc-shortcode="vc_column_inner"] {
+
+	[data-vc-shortcode-param-name="el_id"] {
+
+		&,
+		~ * {
+			order: 2;
+		}
+	}
+
+	[data-vc-shortcode-param-name="woodmart_color_scheme"] {
+		order: -2;
+	}
+
+	[data-vc-shortcode-param-name="woodmart_text_align"],
+	[data-vc-shortcode-param-name="vertical_alignment"],
+	[data-vc-shortcode-param-name="horizontal_alignment"] {
+		order: -1;
+	}
+
+	// [data-vc-shortcode-param-name="woodmart_parallax"],
+	[data-vc-shortcode-param-name="parallax_scroll"],
+	[data-vc-shortcode-param-name*="scroll_"],
+	[data-vc-shortcode-param-name*="woodmart_sticky_column"],
+	[data-vc-shortcode-param-name*="wd_collapsible_"],
+	[data-vc-shortcode-param-name*="wd_column_role"],
+	[data-vc-shortcode-param-name="wd_off_canvas_alignment"] {
+		order: 1;
+	}
+
+	[data-vc-shortcode-param-name*="wd_column_role"] {
+
+		.wpb_element_label {
+			display: flex;
+			align-items: center;
+
+			&:before {
+				color: #BFBFBF;
+				font-weight: 400;
+				font-size: 15px;
+				font-family: "dashicons";
+
+				margin-inline-end: 4px;
+			}
+		}
+	}
+
+	[data-vc-shortcode-param-name*="wd_column_role_offcanvas_desktop"],
+	[data-vc-shortcode-param-name*="wd_column_role_content_desktop"] {
+
+		.wpb_element_label {
+
+			&:before {
+				content: "\f472";
+			}
+		}
+	}
+
+	[data-vc-shortcode-param-name*="wd_column_role_offcanvas_tablet"],
+	[data-vc-shortcode-param-name*="wd_column_role_content_tablet"] {
+
+		.wpb_element_label {
+
+			&:before {
+				content: "\f471";
+			}
+		}
+	}
+
+	[data-vc-shortcode-param-name*="wd_column_role_offcanvas_mobile"],
+	[data-vc-shortcode-param-name*="wd_column_role_content_mobile"] {
+
+		.wpb_element_label {
+
+			&:before {
+				content: "\f470";
+			}
+		}
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// RTL
+// ------------------------------------------------------------------------------------------------
+
+.rtl {
+
+	// ------------------------------------------------------------------------------------
+	// VISUAL COMPOSER
+	// ------------------------------------------------------------------------------------
+
+	.vc_shortcode-param[data-param_type=dropdown] select.wpb_vc_param_value,
+	.vc_shortcode-param[data-param_type=dropdown] select.wpb_vc_param_value option {
+		text-align: right;
+	}
+
+	.vc_general.vc_ui-tabs-line> li,
+	.vc_css-editor .vc_settings .vc_background-image .vc_image .added,
+	.gallery_widget_attached_images_list li,
+	.gallery_widget_img_select li,
+	.vc_media-sm [class*="vc_col-sm-"],
+	.vc_css-editor .vc_settings .vc_background-image .vc_add-image,
+	.wpb_el_type_attach_image .gallery_widget_add_images,
+	.wpb_el_type_attach_images .gallery_widget_add_images {
+		float: right;
+	}
+
+	//**** OPTION SECTION STYLE ****//
+
+	// .wd-slider-field-value-display {
+		// right: auto;
+		// left: 15px;
+	// }
+
+	// .woodmart-td-content {
+
+		// .wd-slider-field-value-display {
+			// right: auto;
+			// left: 0;
+	// 	}
+	// }
+
+	//**** WOODMART BUTTON SET ****//
+
+	.woodmart-vc-button-set-list {
+
+		li {
+
+			&:first-child {
+				border-top-left-radius: 0;
+				border-top-right-radius: $woodmart-vc-options-border;
+				border-bottom-right-radius: $woodmart-vc-options-border;
+				border-bottom-left-radius: 0;
+			}
+
+			&:last-child {
+				border-top-left-radius: $woodmart-vc-options-border;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+				border-bottom-left-radius: $woodmart-vc-options-border;
+			}
+		}
+	}
+
+	//**** WOODMART BUTTON SWITCH ****//
+
+	.woodmart-vc-switch {
+
+		.switch-controls {
+
+			&:first-child {
+				// margin-right: 0;
+				// margin-left: 2px;
+				border-top-left-radius: 0;
+				border-top-right-radius: $woodmart-vc-options-border;
+				border-bottom-right-radius: $woodmart-vc-options-border;
+				border-bottom-left-radius: 0;
+			}
+
+			&:last-child {
+				border-top-left-radius: $woodmart-vc-options-border;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+				border-bottom-left-radius: $woodmart-vc-options-border;
+			}
+		}
+	}
+
+	//**** CUSTOM CONTENT WIDTH OPTIONS SET ****//
+
+	.wd-custom-width {
+
+		.vc-button-set-item {
+
+			&:not(:first-child) {
+				margin-right: 10px;
+				margin-left: 0;
+			}
+
+			&:before {
+				margin-right: 0;
+				margin-left: 5px;
+			}
+		}
+	}
+
+	//**** RESPONSIVE FONT SIZE ****//
+
+	.woodmart-rs-wrapper {
+
+		> div {
+			margin-right: 0;
+			margin-left: 10px;
+		}
+
+		.woodmart-rs-item {
+
+			.woodmart-rs-input {
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+
+			.woodmart-rs-unit {
+				margin-right: 0;
+			}
+		}
+	}
+
+	.woodmart-rs-icon {
+		border-top-right-radius: $woodmart-vc-options-border;
+		border-bottom-right-radius: $woodmart-vc-options-border;
+	}
+
+	//**** SHORTCODE OPTIONS HINT ****//
+
+	// .woodmart-hint {
+	// 	margin-right: 10px;
+	// 	margin-left: 0;
+	// }
+
+	// .woodmart-hint-content {
+
+	// 	.woodmart-hint-left & {
+	// 		right: 100%;
+	// 		left: auto;
+	// 		margin-right: 6px;
+	// 		margin-left: 0;
+
+	// 		&:before {
+	// 			right: -3px;
+	// 			left: auto;;
+	// 		}
+
+	// 		&:after {
+	// 			right: -25px;
+	// 			left: auto;
+	// 		}
+	// 	}
+
+	// 	.woodmart-hint-right & {
+	// 		right: auto;
+	// 		left: 100;
+	// 		margin-right: 0;
+	// 		margin-left: 6px;;
+
+	// 		&:before {
+	// 			right: auto;
+	// 			left: -3px;
+	// 		}
+
+	// 		&:after {
+	// 			right: auto;
+	// 			left: -25px;
+	// 		}
+	// 	}
+	// }
+
+	.woodmart-tooltip-label {
+		right: 50%;
+		left: auto;
+
+		&:before {
+			right: 50%;
+			left: auto;
+			margin-right: -5px;
+			margin-left: 0;
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// OPTIONS
+	// ------------------------------------------------------------------------------------------------
+
+	// ------------------------------------------
+	// BOX SHADOW
+	// ------------------------------------------
+
+	.wd-box-shadow {
+
+		.wd-box-shadow-item {
+
+			.wp-picker-container {
+
+				&:not(.wp-picker-active) {
+
+					.wp-color-result {
+						margin-left: 0;
+					}
+				}
+			}
+
+			&:not(.wd-color) {
+				margin-left: 5px;
+			}
+		}
+	}
+
+	// ------------------------------------------------------------------------------------------------
+	// TABS
+	// ------------------------------------------------------------------------------------------------
+
+	// ------------------------------------------
+	// DESIGN OPTIONS
+	// ------------------------------------------
+
+	.vc_edit-form-tab {
+
+		.vc_layout-onion {
+			// position: absolute;
+			// top: 30px;
+			// left: 0;
+			// margin-top: 0;
+
+			&.wd-responsive-spacing {
+				right: 3px;
+				left: auto;;
+			}
+		}
+	}
+
+	.vc_wrapper-param-type-css_editor {
+
+		div.vc_settings {
+
+			> label {
+				padding-right: 0;
+				padding-left: 5px;
+			}
+
+			.vc_background-image {
+
+				.vc_image .added,
+				.vc_add-image {
+					margin-right: 0;
+					margin-left: 6px;
+				}
+			}
+
+			> label,
+			> div {
+				margin-right: 345px;
+				margin-left: 0;
+			}
+
+			> .vc_border-radius + label,
+			> .vc_border-radius + label + .color-group,
+			> .vc_background-image,
+			> .vc_background-style {
+				margin-right: 0;
+			}
+
+			> .vc_border-radius + label + .color-group {
+				margin-right: 0;
+				margin-left: 5px;
+			}
+
+			.color-group {
+
+				.wp-picker-input-wrap {
+					right: 0;
+					left: auto;
+				}
+
+				.wp-picker-holder {
+					right: 0 !important;
+					left: auto !important;
+				}
+
+				&:nth-child(2) {
+
+					.wp-picker-holder {
+						right: auto !important;
+						left: -47px !important;
+					}
+				}
+			}
+
+			> label {
+
+				&.vc_checkbox {
+					right: 27px;
+					left: auto;
+				}
+			}
+		}
+	}
+
+	// -------------------------
+	// RESPONSIVE CONTROLS
+	// -------------------------
+
+	.vc_layout-onion {
+		right: 0;
+		left: auto;
+	}
+
+	//**** CONTROLS POSITION ****//
+
+	.wd-responsive-spacing {
+		right: 3px;
+		left: auto;
+	}
+
+	.wd-spacing-devices {
+		right: 80px;
+		left: auto;
+
+		> span {
+
+			&,
+			.vc-composer-icon,
+			&:before {
+				margin-right: 0;
+				margin-left: 5px;
+			}
+		}
+	}
+}
+
+
+// ------------------------------------------
+// BACKUP CSS FROM 6.2 BRUNCH
+// ------------------------------------------
+
+// .woodmart-opacity-container {
+// 	position: absolute;
+// 	bottom: -73px;
+// 	left: -1px;
+// 	z-index: 1000;
+// 	padding: 6px;
+// 	width: 243px;
+// 	border: 1px solid #DFDFDF;
+// 	border-radius: 0;
+// 	border-bottom-right-radius: $woodmart-vc-options-border;
+// 	border-bottom-left-radius: $woodmart-vc-options-border;
+// 	background-color: #FFF;
+
+// 	.woodmart-opacity-field {
+// 		padding-right: 0;
+// 		padding-left: 0;
+// 	}
+// }
+
+// //**** WOODMART BUTTON SET ****//
+
+// .woodmart-vc-button-set-list {
+// 	margin-top: 0;
+// 	margin-bottom: 0;
+
+// 	li {
+// 		display: inline-block;
+// 		margin-bottom: 0;
+// 		padding: 0 10px;
+// 		background-color: #E3E3E3;
+// 		color: #444;
+// 		font-weight: 600;
+// 		cursor: pointer;
+// 		transition: all .2s ease-in-out;
+
+// 		span {
+// 			display: block;
+// 			line-height: 36px;
+// 		}
+
+// 		&:hover {
+// 			background-color: #7A7A7A;
+// 			color: #FFF;
+// 		}
+
+// 		&.checked {
+// 			background-color: $woodmart-button-alt-color;
+// 			color: #FFF;
+// 		}
+
+// 		&:not(:last-child) {
+// 			margin-right: 2px;
+// 		}
+
+// 		&:first-child {
+// 			border-top-left-radius: $woodmart-vc-options-border;
+// 			border-bottom-left-radius: $woodmart-vc-options-border;
+// 		}
+
+// 		&:last-child {
+// 			border-top-right-radius: $woodmart-vc-options-border;
+// 			border-bottom-right-radius: $woodmart-vc-options-border;
+// 		}
+// 	}
+// }
+
+// //**** WOODMART BUTTON SWITCH ****//
+
+// .woodmart-vc-switch {
+
+// 	.switch-controls {
+// 		display: inline-block;
+// 		min-width: 50px;
+// 		height: 36px;
+// 		background-color: #E3E3E3;
+// 		color: #444;
+// 		text-align: center;
+// 		font-weight: 600;
+// 		cursor: pointer;
+// 		transition: all .2s ease-in-out;
+
+// 		span {
+// 			display: block;
+// 			line-height: 36px;
+// 		}
+
+// 		&:hover {
+// 			background-color: #7A7A7A;
+// 			color: #FFF;
+// 		}
+
+// 		&:first-child {
+// 			margin-right: 2px;
+// 			border-top-left-radius: $woodmart-vc-options-border;
+// 			border-bottom-left-radius: $woodmart-vc-options-border;
+// 		}
+
+// 		&:last-child {
+// 			border-top-right-radius: $woodmart-vc-options-border;
+// 			border-bottom-right-radius: $woodmart-vc-options-border;
+// 		}
+// 	}
+
+// 	.switch-inactive {
+
+// 		&.checked {
+// 			background-color: #B1B1B0;
+// 			color: #FFFF;
+// 		}
+// 	}
+
+// 	.switch-active {
+
+// 		&.checked {
+// 			background: $woodmart-button-alt-color;
+// 			color: #FFFF;
+// 		}
+// 	}
+// }
+
+// //**** RESPONSIVE FONT SIZE ****//
+
+// .wpb_el_type_woodmart_responsive_size {
+// 	-ms-flex: 1 1 auto;
+// 	flex: 1 1 auto;
+// 	width: auto !important; //overwright theme styles
+
+// 	-webkit-box-flex: 1;
+// }
+
+// .woodmart-rs-wrapper {
+
+// 	> div {
+// 		display: inline-block;
+// 		margin-right: 10px;
+// 		vertical-align: middle;
+// 	}
+
+// 	.woodmart-rs-input {
+// 		width: 60px;
+// 		height: 36px;
+// 		border-top-left-radius: 0;
+// 		border-bottom-left-radius: 0;
+// 		vertical-align: middle;
+// 		padding: 8px 6px;
+// 	}
+
+// 	.woodmart-rs-item {
+// 		display: -webkit-inline-box;
+// 		display: -ms-inline-flexbox;
+// 		display: inline-flex;
+
+// 		&.hide {
+// 			display: none;
+// 		}
+// 	}
+
+// 	.woodmart-rs-unit {
+// 		margin-right: 0;
+// 	}
+// }
+
+// .woodmart-rs-icon {
+// 	display: inline-block;
+// 	padding: 8px;
+// 	border-top-left-radius: $woodmart-vc-options-border;
+// 	border-bottom-left-radius: $woodmart-vc-options-border;
+// 	background-color: #F0F0F0;
+// }
+
+// .woodmart-rs-trigger {
+// 	cursor: pointer;
+// }
+
+// //**** SHORTCODE OPTIONS HINT ****//
+
+// .woodmart-hint {
+// 	position: relative;
+// 	display: inline-block;
+// 	margin-left: 10px;
+// 	width: 16px;
+// 	height: 16px;
+// 	outline: none;
+// 	border: 1px solid #0473AA;
+// 	border-radius: 50%;
+// 	color: #0473AA;
+// 	text-align: center;
+// 	font-weight: 700;
+// 	font-size: 12px;
+// 	line-height: 17px;
+// 	cursor: pointer;
+
+// 	&:hover {
+
+// 		.woodmart-hint-content {
+// 			visibility: visible;
+// 			opacity: 1;
+// 			animation: wd-fadeInTooltip .3s ease;
+// 		}
+// 	}
+// }
+
+// .woodmart-hint-content {
+// 	position: absolute;
+// 	top: 50%;
+// 	z-index: 10;
+// 	display: inline-block;
+// 	visibility: hidden;
+// 	margin-top: -23px;
+// 	padding: 15px;
+// 	width: 250px;
+// 	background-color: #000;
+// 	color: #FFF;
+// 	font-weight: 400;
+// 	font-size: .9em;
+// 	line-height: 1.5em;
+// 	opacity: 0;
+
+// 	.woodmart-hint-left & {
+// 		left: 100%;
+// 		margin-left: 6px;
+
+// 		&:before {
+// 			left: -3px;
+// 		}
+
+// 		&:after {
+// 			left: -25px;
+// 		}
+// 	}
+
+// 	.woodmart-hint-right & {
+// 		right: 100%;
+// 		margin-right: 6px;
+
+// 		&:before {
+// 			right: -3px;
+// 		}
+
+// 		&:after {
+// 			right: -25px;
+// 		}
+// 	}
+
+// 	&:before {
+// 		content: '';
+// 		position: absolute;
+// 		top: 19px;
+// 		display: block;
+// 		width: 10px;
+// 		height: 10px;
+// 		background-color: #000;
+// 		-webkit-transform: rotate(-45deg);
+// 		transform: rotate(-45deg);
+// 	}
+
+// 	&:after {
+// 		content: '';
+// 		position: absolute;
+// 		top: 0;
+// 		display: block;
+// 		width: 25px;
+// 		height: 100%;
+// 	}
+// }
+
+// //**** SHORTCODE OPTIONS TOOLTIPS ****//
+
+// .woodmart-css-tooltip {
+
+// 	img {
+// 		vertical-align: middle;
+// 	}
+// }
+
+// .woodmart-tltp {
+// 	position: relative;
+
+// 	&:hover {
+
+// 		.woodmart-tooltip-label {
+// 			visibility: visible;
+// 			opacity: 1;
+// 			animation: wd-fadeInTooltip .3s ease;
+// 		}
+// 	}
+// }
+
+// .woodmart-tooltip-label {
+// 	position: absolute;
+// 	bottom: 100%;
+// 	left: 50%;
+// 	z-index: 2;
+// 	visibility: hidden;
+// 	margin-bottom: 8px;
+// 	padding: 0 15px;
+// 	height: 34px;
+// 	background-color: #000;
+// 	color: #FFF;
+// 	text-align: center;
+// 	text-transform: capitalize;
+// 	white-space: nowrap;
+// 	letter-spacing: .3px;
+// 	font-size: 12px;
+// 	line-height: 34px;
+// 	opacity: 0;
+// 	pointer-events: none;
+
+// 	&:before {
+// 		content: "";
+// 		position: absolute;
+// 		top: 100%;
+// 		left: 50%;
+// 		margin-left: -5px;
+// 		border-width: 5px 5px 0;
+// 		border-style: solid;
+// 		border-color: transparent;
+// 		border-color: transparent;
+// 		border-top-color: #000;
+// 	}
+// }
+
+// //**** WOODMART ANIMATIONS SELECTOR ****//
+
+// .vc_param-animation-style-preview {
+
+// 	.vc_btn {
+// 		height: 36px;
+// 	}
+// }
+
+// .wd-slide-from-bottom,
+// .wd-slide-from-top,
+// .wd-slide-from-left,
+// .wd-slide-from-right,
+// .wd-left-flip-y,
+// .wd-right-flip-y,
+// .wd-top-flip-x,
+// .wd-bottom-flip-x,
+// .wd-zoom-in,
+// .wd-rotate-z {
+// 	-webkit-transition: opacity .7s cubic-bezier(0, .87, .58, 1);
+// 	transition: opacity .7s cubic-bezier(0, .87, .58, 1);
+
+// 	&.animated {
+// 		animation-duration: .7s;
+// 		animation-timing-function: cubic-bezier(0, .87, .58, 1); 
+// 	}
+// }
+
+// .wd-slide-from-top {
+// 	animation-name: wd-SlideFromTop;
+// }
+
+// .wd-slide-from-bottom {
+// 	animation-name: wd-SlideFromBottom;
+// }
+
+// .wd-slide-from-left {
+// 	animation-name: wd-SlideFromLeft;
+// }
+
+// .wd-slide-from-right {
+// 	animation-name: wd-SlideFromRight;
+// }
+
+// .wd-right-flip-y {
+// 	animation-name: wd-RightFlipY;
+// }
+
+// .wd-left-flip-y {
+// 	animation-name: wd-LeftFlipY;
+// }
+
+// .wd-top-flip-x {
+// 	animation-name: wd-TopFlipX;
+// }
+
+// .wd-bottom-flip-x {
+// 	animation-name: wd-BottomFlipX;
+// }
+
+// .wd-zoom-in {
+// 	animation-name: wd-ZoomIn;
+// }
+
+// .wd-rotate-z {
+// 	animation-name: wd-RotateZ;
+
+// 	will-change: animation;
+// }

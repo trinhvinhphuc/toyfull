@@ -1,0 +1,241 @@
+[
+	{
+		"id": "b2603a8",
+		"elType": "section",
+		"settings": {
+			"gap": "no",
+			"wd_section_stretch": "stretch-content",
+			"margin": {
+				"unit": "px",
+				"top": "-40",
+				"right": "0",
+				"bottom": "30",
+				"left": "0",
+				"isLinked": false
+			},
+			"background_background": "classic",
+			"margin_tablet": {
+				"unit": "px",
+				"top": "-40",
+				"right": "0",
+				"bottom": "10",
+				"left": "0",
+				"isLinked": false
+			}
+		},
+		"elements": [
+			{
+				"id": "bc9f355",
+				"elType": "column",
+				"settings": {
+					"_column_size": 100,
+					"_inline_size": null,
+					"column_sticky_offset": 50,
+					"scroll_y": -80
+				},
+				"elements": [
+					{
+						"id": "ede6bfc",
+						"elType": "widget",
+						"settings": {
+							"full_width": "yes",
+							"scroll_y": -80,
+							"_background_background": "classic"
+						},
+						"elements": [],
+						"widgetType": "wd_page_title"
+					}
+				],
+				"isInner": false
+			}
+		],
+		"isInner": false
+	},
+	{
+		"id": "1bc156a",
+		"elType": "section",
+		"settings": {
+			"margin": {
+				"unit": "px",
+				"top": "0",
+				"right": "0",
+				"bottom": "40",
+				"left": "0",
+				"isLinked": false
+			},
+			"gap": "extended",
+			"structure": "22",
+			"margin_tablet": {
+				"unit": "px",
+				"top": "0",
+				"right": "0",
+				"bottom": "20",
+				"left": "0",
+				"isLinked": false
+			}
+		},
+		"elements": [
+			{
+				"id": "97829a5",
+				"elType": "column",
+				"settings": {
+					"_column_size": 66,
+					"_inline_size": null,
+					"column_sticky_offset": 50,
+					"scroll_y": -80,
+					"_inline_size_tablet": 100
+				},
+				"elements": [
+					{
+						"id": "1d1a7b2",
+						"elType": "widget",
+						"settings": {
+							"scroll_y": -80
+						},
+						"elements": [],
+						"widgetType": "wd_wc_notices"
+					},
+					{
+						"id": "9523223",
+						"elType": "widget",
+						"settings": {
+							"scroll_y": -80
+						},
+						"elements": [],
+						"widgetType": "wd_cart_table"
+					}
+				],
+				"isInner": false
+			},
+			{
+				"id": "5f77920",
+				"elType": "column",
+				"settings": {
+					"_column_size": 33,
+					"_inline_size": null,
+					"column_sticky_offset": 50,
+					"scroll_y": -80,
+					"_inline_size_tablet": 100
+				},
+				"elements": [
+					{
+						"id": "c20cf89",
+						"elType": "section",
+						"settings": {
+							"border_border": "solid",
+							"border_width": {
+								"unit": "px",
+								"top": "3",
+								"right": "3",
+								"bottom": "3",
+								"left": "3",
+								"isLinked": true
+							},
+							"border_color": "#EFEFEF",
+							"padding": {
+								"unit": "px",
+								"top": "25",
+								"right": "25",
+								"bottom": "25",
+								"left": "25",
+								"isLinked": true
+							}
+						},
+						"elements": [
+							{
+								"id": "341cc03",
+								"elType": "column",
+								"settings": {
+									"_column_size": 100,
+									"_inline_size": null,
+									"column_sticky_offset": 50,
+									"scroll_y": -80
+								},
+								"elements": [
+									{
+										"id": "774d20d",
+										"elType": "widget",
+										"settings": {
+											"button_alignment": "full-width",
+											"scroll_y": -80
+										},
+										"elements": [],
+										"widgetType": "wd_cart_totals"
+									}
+								],
+								"isInner": true
+							}
+						],
+						"isInner": true
+					}
+				],
+				"isInner": false
+			}
+		],
+		"isInner": false
+	},
+	{
+		"id": "1790a3a",
+		"elType": "section",
+		"settings": {
+			"reverse_order_mobile": "reverse-mobile",
+			"reverse_order_tablet": "reverse-tablet"
+		},
+		"elements": [
+			{
+				"id": "923a71a",
+				"elType": "column",
+				"settings": {
+					"_column_size": 100,
+					"_inline_size": null,
+					"column_sticky_offset": 50,
+					"scroll_y": -80,
+					"_inline_size_tablet": 100
+				},
+				"elements": [
+					{
+						"id": "773eb3e",
+						"elType": "widget",
+						"settings": {
+							"subtitle": "",
+							"title": "YOU MAY BE INTERESTED IN\u2026",
+							"after_title": "",
+							"align": "left",
+							"scroll_y": -80,
+							"style": "simple",
+							"color": "primary"
+						},
+						"elements": [],
+						"widgetType": "wd_title"
+					},
+					{
+						"id": "3a7387b",
+						"elType": "widget",
+						"settings": {
+							"layout": "carousel",
+							"columns": {
+								"unit": "px",
+								"size": 3,
+								"sizes": []
+							},
+							"items_per_page": 5,
+							"hide_pagination_control": "yes",
+							"scroll_y": -80,
+							"post_type": "cross-sells",
+							"img_size": "medium_large",
+							"slides_per_view": {
+								"unit": "px",
+								"size": 4,
+								"sizes": []
+							}
+						},
+						"elements": [],
+						"widgetType": "wd_products"
+					}
+				],
+				"isInner": false
+			}
+		],
+		"isInner": false
+	}
+]

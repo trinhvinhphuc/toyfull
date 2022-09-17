@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------------------------------------
+// WIDGET CONTENT
+// ------------------------------------------------------------------------------------------------
+
+.widget-content {
+
+	> .wd-widget-field {
+		margin-top: 8px;
+		margin-bottom: 8px;
+
+		label {
+			display: block;
+			margin-bottom: 4px;
+
+			+ br {
+				display: none;
+			}
+		}
+
+		.description {
+			padding: 2px 0 0 0 !important;
+			font-size: 12px;
+		}
+	}
+}

@@ -1,0 +1,92 @@
+{
+    "default_header": "header_142177",
+    "prefooter_content_type": "text",
+    "prefooter_area": "",
+    "disable_footer": "0",
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "color": "rgb(30,30,30)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "footer_content_type": "widgets",
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Poppins",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "secondary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Playfair Display",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "catalog_mode": "1",
+    "single_product_header": "header_642516",
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "1",
+            "font-family": "Playfair Display",
+            "font-weight": "700",
+            "font-style": "italic",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "portfolio_spacing": "30"
+}

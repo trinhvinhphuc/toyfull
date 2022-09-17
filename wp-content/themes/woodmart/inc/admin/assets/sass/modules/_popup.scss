@@ -1,0 +1,144 @@
+// ------------------------------------------------------------------------------------
+// XTS POPUP
+// ------------------------------------------------------------------------------------
+
+.xts-popup-holder {
+
+	&.xts-opened {
+
+		.xts-popup,
+		.xts-popup-overlay {
+			visibility: visible;
+			opacity: 1;
+		}
+
+		.xts-popup {
+			transform: scale(1);
+		}
+	}
+}
+
+.xts-popup {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .2s ease-in-out;
+	transform: scale(.8);
+	pointer-events: none;
+	
+	.xts-notice {
+		margin-bottom: 20px;
+	}
+}
+
+.xts-popup-inner {
+	// margin: auto;
+	position: relative;
+	max-width: 650px;
+	max-height: 90vh;
+	width: 100%;
+	background-color: #FFF;
+	box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, .2), 0px 24px 38px 3px rgba(0, 0, 0, .14), 0px 9px 46px 8px rgba(0, 0, 0, .12);
+	pointer-events: auto;
+	// opacity: 0;
+}
+
+.xts-popup-header {
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 20px;
+	height: 58px;
+	// border-bottom: 1px solid #573C3C;
+	background: #222;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.xts-popup-content {
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 20px;
+	max-height: 60vh;
+}
+
+.xts-popup-actions {
+	margin: 0;
+	padding: 20px;
+	border-top: 1px solid #E3E3E3;
+	background: #F3F3F3;
+
+	.wd-import-remove & {
+		min-height: 95px;
+	}
+}
+
+.xts-popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	// z-index: -1;
+	z-index: 1400;
+	visibility: hidden;
+	width: 100%;
+	height: 100%;
+	// will-change: opacity;
+	// display: none;
+	background-color: rgba(0, 0, 0, .54);
+	opacity: 0;
+	transition: all 300ms cubic-bezier(.4, 0, .2, 1) 0ms;
+	// -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+	// .xts-loading & {
+	// 	pointer-events: none;
+	// }
+}
+
+.xts-popup-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 21;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 58px;
+	height: 58px;
+	outline: none !important;
+	background: #141414;
+	box-shadow: none !important;
+	text-decoration: none;
+	font-size: 0;
+	cursor: pointer;
+	transition: .3s all ease-in-out;
+
+	&:hover {
+		background: #000;
+	}
+
+	&:before {
+		content: "\f158";
+		color: rgba(255, 255, 255, .8);
+		font-size: 24px;
+		font-family: "dashicons";
+		line-height: 58px;
+	}
+
+	.xts-loading & {
+		opacity: .6;
+		pointer-events: none;
+	}
+
+	.rtl & {
+		right: auto;
+		left: 0;
+	}
+}

@@ -1,0 +1,128 @@
+{
+    "primary-color": {
+        "idle": "rgb(232,58,58)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(232,58,58)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(210,51,57)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(232,58,58)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(210,51,57)"
+    },
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "color": "rgb(32,32,32)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/bikes-footer-bg.jpg",
+        "id": "3474",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": "center center"
+    },
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Cabin",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Cabin",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Cabin",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Cabin",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "products_hover": "icons",
+    "header_banner": "1",
+    "header_banner_bg": {
+        "color": "rgb(232,58,58)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "header_close_btn": "1",
+    "header_banner_link": "#",
+    "btns_shop_style": "flat",
+    "popup_html_block": "3092",
+    "popup-background": {
+        "color": "rgb(255,255,255)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/bikes-popup-bg.jpg",
+        "id": "3475",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/bikes-page-title.jpg",
+        "id": "3476",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "header_banner_shortcode": "<p style=\"text-align: center; color: white;\">Summer 25% discount on all last year's bike models<\/p>",
+    "default_header": "header_547583",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "242"
+}

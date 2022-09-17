@@ -1,0 +1,1 @@
+!function(d){woodmartThemeModule.videoPoster=function(){d(".wd-video-poster-wrapper").on("click",function(){var o=d(this),e=o.parent().find("iframe"),t=e.attr("src"),r=t+"&autoplay=1";t.indexOf("vimeo.com")+1&&(r=t+"?autoplay=1"),e.attr("src",r),o.addClass("hidden-poster")})},d(document).ready(function(){woodmartThemeModule.videoPoster()})}(jQuery);

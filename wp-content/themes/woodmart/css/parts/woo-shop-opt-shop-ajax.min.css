@@ -1,0 +1,1 @@
+.products[data-source="main_loop"]{transition:all .25s ease}.ajax-loading .products[data-source="main_loop"]{opacity:0;transform:translateY(30px);pointer-events:none}.ajax-loaded .products[data-source="main_loop"]{animation:wd-fadeIn .3s ease}.content-without-products.ajax-loading .wd-sticky-loader .wd-loader{top:140px}

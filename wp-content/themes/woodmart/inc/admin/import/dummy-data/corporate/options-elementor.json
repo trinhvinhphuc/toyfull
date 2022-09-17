@@ -1,0 +1,159 @@
+{
+    "default_header": "header_412557",
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Quicksand",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "text-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Open Sans",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(15,145,227)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(15,145,227)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(14,132,207)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(15,145,227)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(14,132,207)"
+    },
+    "footer-style": "light",
+    "footer-bar-bg": {
+        "color": "rgb(23, 150, 229)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_accent_style": "semi-rounded",
+    "form_fields_style": "semi-rounded",
+    "title-background": {
+        "color": "rgb(23, 150, 229)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/corporate-page-title.jpg",
+        "id": "3841",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "popup_html_block": "3543",
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "1",
+            "font-family": "Quicksand",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "1": {
+            "custom": "true",
+            "selector": [
+                "custom"
+            ],
+            "custom-selector": ".wd-load-additional-fonts-700",
+            "google": "1",
+            "font-family": "Quicksand",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "popup-background": {
+        "color": "rgb(255, 255, 255)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/corporate-popup.jpg",
+        "id": "3840",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "promo_popup_content_type": "html_block"
+}

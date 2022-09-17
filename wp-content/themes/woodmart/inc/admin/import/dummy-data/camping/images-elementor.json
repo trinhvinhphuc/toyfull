@@ -1,0 +1,46 @@
+{
+    "products": {
+        "henectus-tincidunt": "6262",
+        "ornare-auctor": "6261",
+        "eames-plastic-side-chair": "6260",
+        "augue-adipiscing-euismod": "6259",
+        "iphone-dock": "6263",
+        "wine-bottle-lantern": "6258",
+        "decoration-wooden-present": "6252",
+        "panton-tunior-chair": "6257",
+        "smart-watches-wood-edition": "6256",
+        "wooden-single-drawer": "6255",
+        "classic-wooden-chair": "6254",
+        "eames-lounge-chair": "6253"
+    },
+    "blog": {
+        "exploring-atlantas-modern-homes": "6264",
+        "green-interior-design-inspiration": "6265",
+        "collar-brings-back-coffee-brewing-ritual": "6266",
+        "reinterprets-the-classic-bookshelf": "6267",
+        "creative-water-features-and-exterior": "6268",
+        "minimalist-japanese-inspired-furniture": "6272",
+        "new-home-decor-from-john-doerson": "6269",
+        "the-big-design-wall-likes-pictures": "6270",
+        "sweet-seat-functional-seat-for-it-folks": "6271"
+    },
+    "portfolio": {
+        "suspendisse-quam-at-vestibulum": "6273",
+        "netus-eu-mollis-hac-dignis": "6274",
+        "et-vestibulum-quis-a-suspendisse": "6275",
+        "imperdiet-mauris-a-nontin": "6276",
+        "venenatis-nam-phasellus": "6277",
+        "leo-uteu-ullamcorper": "6278",
+        "a-lacus-bibendum-pulvinar": "6279",
+        "rhoncus-quisque-sollicitudin": "6280",
+        "potenti-parturient-parturie": "6281"
+    },
+    "categories": {
+        "accessories": "6246",
+        "clocks": "6249",
+        "cooking": "6247",
+        "furniture": "6248",
+        "lighting": "6251",
+        "toys": "6250"
+    }
+}

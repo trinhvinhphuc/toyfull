@@ -1,0 +1,195 @@
+// ------------------------------------------------------------------------------------------------
+// BUTTONS
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// GENERAL
+// ------------------------------------------
+
+.xts-btn,
+.xts-bordered-btn,
+.xts-inline-btn {
+
+	&:before {
+		// position: relative;
+		// bottom: -1px;
+		vertical-align: middle;
+		font-weight: 400;
+		font-family: "dashicons";
+
+		margin-inline-end: 3px;
+	}
+}
+
+// ------------------------------------------
+// DEFAULT BTN
+// ------------------------------------------
+
+.xts-btn {
+	outline: none;
+	border: none;
+	border-radius: $xts-option-border-radius;
+
+	@extend %xts-button;
+
+	&.xts-color-primary {
+		@extend %xts-button-primary;
+		@extend %xts-button-primary-hover;
+	}
+
+	&.xts-color-alt {
+		@extend %xts-button-alternative;
+		@extend %xts-button-alternative-hover;
+	}
+
+	&.xts-color-warning {
+		@extend %xts-button-disable;
+		@extend %xts-button-disable-hover;
+	}
+}
+
+
+// .xts-remove-upload-btn,
+// .xts-color-warning {
+// 	@extend %xts-button-disable;
+// 	@extend %xts-button-disable-hover;
+// }
+
+// ------------------------------------------
+// BORDERED BTN
+// ------------------------------------------
+
+.xts-bordered-btn {
+	border-radius: $xts-option-border-radius;
+
+	@extend %xts-bordered-button;
+
+	&.xts-color-primary {
+		@extend %xts-bordered-button-primary;
+	}
+
+	&.xts-color-white {
+		@extend %xts-bordered-button-white;
+	}
+}
+
+// .xts-border-btn-primary {
+// 	@extend %xts-bordered-button-primary;
+// }
+
+// .xts-bordered-btn-white {
+// 	@extend %xts-bordered-button-white;
+// }
+
+// ------------------------------------------
+// INLINE BTN
+// ------------------------------------------
+
+.xts-inline-btn {
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+	width: auto !important;
+	border: 0;
+	background-color: transparent;
+	box-shadow: none !important;
+	color: #101010;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all .2s ease-in-out !important;
+
+	&:hover,
+	&:focus {
+		outline: none;
+		box-shadow: none !important;
+		color: inherit;
+		opacity: .8;
+	}
+
+	&.xts-color-primary {
+		color: $xts-color-primary;
+
+		// &:before {
+		// 	content: "\f502";
+		// }
+	}
+
+	&.xts-color-alt {
+		color: $xts-button-color-alternative;
+
+		&:hover {
+			color: $xts-button-color-alternative-hover;
+		}
+	}
+
+	&.xts-color-warning {
+		color: $xts-button-color-remove;
+
+		// &:before {
+		// 	content: "\f182";
+		// }
+	}
+
+	&.xts-style-underline {
+		border-bottom: 2px solid $xts-color-alternative;
+	}
+
+	&:before {
+		position: relative;
+		bottom: -1px;
+		// vertical-align: middle;
+		// font-weight: 400;
+		// font-family: "dashicons";
+
+		// margin-inline-end: 3px;
+	}
+}
+
+// .xts-icon-trash {
+
+// 	&:before {
+// 		content: "\f182";
+// 	}
+// }
+
+// ------------------------------------------
+// DISABLED BTN
+// ------------------------------------------
+
+.xts-btn {
+
+	&.xts-disabled {
+		opacity: .7;
+		pointer-events: none;
+	}
+}
+
+// ------------------------------------------
+// CROSS BTN
+// ------------------------------------------
+
+.xts-cross-btn {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 0;
+	line-height: 1;
+
+	&:before {
+		content: "\f335";
+		color: #AE3535;
+		font-weight: 400;
+		font-size: 22px;
+		font-family: dashicons;
+	}
+
+	&:hover {
+		opacity: .7;
+	}
+
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}

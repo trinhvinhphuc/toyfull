@@ -1,0 +1,1 @@
+p.stock{font-weight:600;line-height:1.2}p.stock:before{display:inline-block;margin-inline-end:5px;vertical-align:text-top}p.stock.in-stock{color:var(--color-gray-800)}p.stock.in-stock:before{content:"\f107";font-family:"woodmart-font";color:var(--wd-primary-color)}p.stock.out-of-stock{color:#B50808}

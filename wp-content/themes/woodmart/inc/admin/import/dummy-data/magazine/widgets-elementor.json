@@ -1,0 +1,56 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "woodmart-author-information-2": {
+                "image": "4389",
+                "img_size": "120x120",
+                "title": "",
+                "author_name": "Hello! My name Sofia",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page...",
+                "alignment": "center",
+                "woodmart_color_scheme": "",
+                "link": "",
+                "link_text": "",
+                "el_class": ""
+            },
+            "categories-3": {
+                "title": "CATEGORIES",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-5": {
+                "title": "Recent Posts",
+                "limit": 4,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 60,
+                "thumb_width": 70
+            },
+            "woodmart-instagram-3": {
+                "data_source": "images",
+                "images": "3820,3821,3822,3823,3824,3825,3826,3827,3828",
+                "images_size": "medium",
+                "images_link": "https:\/\/www.instagram.com\/p\/CSsJlL_Mem5\/",
+                "images_likes": "1000-10000",
+                "images_comments": "0-1000",
+                "title": "",
+                "username": "",
+                "number": "9",
+                "size": "medium",
+                "target": "_self",
+                "link": ""
+            },
+            "tag_cloud-2": {
+                "title": "Tags",
+                "count": 0,
+                "taxonomy": "post_tag"
+            }
+        }
+    }
+}

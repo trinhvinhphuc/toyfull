@@ -1,0 +1,141 @@
+// ------------------------------------------------------------------------------------
+// FORMS
+// ------------------------------------------------------------------------------------
+
+.xts-dashboard,
+.xts-metaboxes,
+.xts-setup-wizard,
+div.vc_ui-panel-content,
+.whb-popup {
+
+	select,
+	textarea,
+	input[type="text"],
+	input[type="number"] {
+		// padding: 5px 8px;
+		// width: 100%;
+		outline: none;
+		border-color: $xts-option-border-color;
+		border-radius: $xts-option-border-radius;
+		box-shadow: none;
+		transition: .2s border-color ease-in-out;
+
+		&:hover {
+			border-color: darken($xts-option-border-color,8%);
+		}
+
+		&:focus {
+			border-color: $xts-color-primary;
+			box-shadow: none;
+		}
+
+		&:disabled {
+			pointer-events: none;
+		}
+	}
+
+	select,
+	input[type="text"],
+	input[type="number"] {
+		margin: 0;
+		// max-width: $xts-input-width;
+		height: $xts-option-input-height;
+		line-height: 1;
+	}
+
+	textarea {
+		min-height: 150px;
+	}
+
+	select {
+
+		&:hover {
+			color: #2C3338;
+		}
+	}
+
+	select[data-value=""] {
+		color:rgba(0,0,0,0.4);
+	}
+}
+
+.xts-dashboard,
+.xts-metaboxes,
+.xts-setup-wizard,
+div.vc_ui-panel-content {
+
+	select,
+	textarea,
+	input[type="text"],
+	input[type="number"] {
+		width: 100%;
+		padding: 5px 8px;
+	}
+
+	select,
+	input[type="text"],
+	input[type="number"] {
+		max-width: $xts-input-width;
+	}
+}
+
+// ------------------------------------------
+// XTS NUMBER PIXEL INPUT
+// ------------------------------------------
+
+.xts-input-append {
+	display: flex;
+
+	input[type="number"] {
+		max-width: 65px;
+		height: $xts-option-input-height;
+		// border-top-right-radius: 0;
+		// border-bottom-right-radius: 0;
+		border-start-end-radius: 0 !important;
+		border-end-end-radius: 0 !important;
+	}
+
+	.add-on {
+		padding-right: 2px;
+		padding-left: 2px;
+		width: 30px;
+		height: $xts-option-input-height;
+		border: 1px solid $xts-option-border-color;
+		border-inline-start: 0;
+		// border-top-right-radius: $xts-option-border-radius;
+		// border-bottom-right-radius: $xts-option-border-radius;
+		border-start-end-radius: $xts-option-border-radius;
+		border-end-end-radius: $xts-option-border-radius;
+		background-color: $xts-color-default;
+		text-align: center;
+		font-weight: 600;
+		line-height: $xts-option-input-height - 3px;
+	}
+
+	// .rtl & {
+	// 	flex-direction: row-reverse;
+	// }
+}
+
+.xts-dashboard {
+
+	.xts-insta-form-wrap {
+
+		&:not(:first-child) {
+			margin-top: 10px;
+		}
+	}
+
+	.xts-insta-option {
+		margin-bottom: 15px;
+	}
+
+	.xts-insta-message-section {
+		margin-top: 15px;
+		max-width: $xts-input-width;
+
+		&:empty {
+			display: none;
+		}
+	}
+}

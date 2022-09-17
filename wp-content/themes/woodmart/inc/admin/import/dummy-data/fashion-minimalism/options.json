@@ -1,0 +1,224 @@
+{
+    "default_header": "header_433613",
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "300",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/HKGroteskPro-Light.woff",
+                "id": "4468"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/HKGroteskPro-Light.woff2",
+                "id": "4469"
+            }
+        },
+        "1": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-regular.woff",
+                "id": "3416"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-regular.woff2",
+                "id": "3417"
+            }
+        },
+        "2": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "500",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-medium.woff",
+                "id": "3422"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-medium.woff2",
+                "id": "3423"
+            }
+        },
+        "3": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-semibold.woff",
+                "id": "3418"
+            },
+            "font-woff2": {
+                "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/hkgroteskpro-semibold.woff2",
+                "id": "3419"
+            }
+        },
+        "{{index}}": {
+            "font-name": "",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": ""
+            },
+            "font-woff2": {
+                "url": "",
+                "id": ""
+            }
+        }
+    },
+    "text-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#777777"
+        }
+    ],
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "custom": "",
+            "google": "0",
+            "font-family": "hkgroteskpro",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "capitalize",
+            "font-size": "15",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(51,51,51)"
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(51,51,51)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(0,0,0)"
+    },
+    "btns_accent_bg": {
+        "idle": "rgb(51,51,51)"
+    },
+    "btns_accent_bg_hover": {
+        "idle": "rgb(0,0,0)"
+    },
+    "site_width": "custom",
+    "site_custom_width": "1400",
+    "secondary-color": {
+        "idle": "rgb(27,100,168)"
+    },
+    "form_border_width": "1",
+    "blog_excerpt_length": "95",
+    "categories_with_shadow": "disable",
+    "blog_style": "flat",
+    "footer-bar-bg": {
+        "color": "rgb(251,251,251)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "header_banner": "1",
+    "header_banner_bg": {
+        "color": "rgb(241,246,242)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "header_close_btn": "1",
+    "header_banner_shortcode": "<p style=\"text-align: center; color: #769468; font-weight: 500;\">Summer 25% discount on all last year's products home fashion minimalism<\/p>",
+    "header_banner_color": "dark",
+    "header_banner_link": "#",
+    "header_banner_mobile_height": "60",
+    "products_columns": "5",
+    "shop_layout": "full-width",
+    "products_hover": "alt",
+    "page-title-size": "small",
+    "shop_filters": "1",
+    "popup-background": {
+        "color": "rgb(255,255,255)",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/08\/sweets-bakery-popup.jpg",
+        "id": "4434",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "blog_excerpt": "excerpt",
+    "popup_html_block": "4470",
+    "shop_per_page": "15",
+    "per_page_options": "15,20,35",
+    "products_columns_variations": [
+        "3",
+        "4",
+        "5"
+    ],
+    "rev_slider_inherit_theme_font": "1",
+    "promo_popup_content_type": "html_block",
+    "prefooter_content_type": "html_block",
+    "prefooter_html_block": "258",
+    "additional_tab_content_type": "html_block",
+    "additional_tab_html_block": "242"
+}

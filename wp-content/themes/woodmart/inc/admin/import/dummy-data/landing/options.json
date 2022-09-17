@@ -1,0 +1,39 @@
+{
+    "default_header": "header_147509",
+    "site_width": "wide",
+    "primary-font": [
+        {
+            "custom": "",
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "300",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "promo_popup_content_type": "html_block",
+    "popup_html_block": "212",
+    "popup-background": {
+        "color": "#111111",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/07\/promo-popup.jpg",
+        "id": "936",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "prefooter_content_type": "html_block",
+    "prefooter_html_block": "258",
+    "footer_content_type": "widgets",
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "http:\/\/dummy.xtemos.com\/woodmart2\/wp-content\/uploads\/2021\/07\/page-title-shop.jpg",
+        "id": "1177",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    }
+}
