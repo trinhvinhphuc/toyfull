@@ -1,7 +1,6 @@
 ## Cách sử cấu hình project ##
 - Clone project vào thư mục htdocs (nếu sử dụng xampp) hoặc thư mục www (nếu sử dụng laragon).
 - Sau khi clone về máy tính cá nhân, xem các cấu hình trong file wp-config.php để sử dụng cấu hình database như hình bên dưới:
-[<img scr="./wp-content/uploads/wp-config.png" align="left" />]
 ![alt text](./wp-content/uploads/wp-config.png)
 	- Trong phpmyadmin, tạo người dùng theo trong file wp-config.php:
 		- Username: `httt_dn`
