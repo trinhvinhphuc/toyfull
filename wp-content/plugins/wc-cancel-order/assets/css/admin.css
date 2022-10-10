@@ -1,0 +1,285 @@
+@charset "UTF-8";
+@font-face{
+    font-family: "wcc-font";
+    src:url("../fonts/wcc.eot");
+    src:url("../fonts/wcc.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/wcc.woff") format("woff"),
+    url("../fonts/wcc.ttf") format("truetype"),
+    url("../fonts/wcc.svg#wcc-font") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+.wc-cancel-pro-main{
+    display:block;
+    width:100%;
+}
+.wc-cancel-pro-in{
+    padding:20px 15px;
+    margin:20px 0;
+    background:#ffffff;
+    display:block;
+}
+.wc-cancel-pro-in .wcc-pro-row{
+    margin-bottom:40px;
+}
+.wc-cancel-pro-main label{
+    font-weight: bold;
+    font-size: 13px;
+    color: #23282d;
+    width: 25%;
+    display: inline-block;
+    vertical-align:middle;
+}
+.wc-cancel-pro-main div.wc-cancel-input{
+    width:50%;
+    display:inline-block;
+    vertical-align: middle;
+}
+.wc-cancel-pro-main div.wc-cancel-input span.select2-container{
+    display: block;
+    width: 100%!important;
+}
+.wc-cancel-pro-main div.wc-cancel-input select,
+.wc-cancel-pro-main div.wc-cancel-input textarea,
+.wc-cancel-pro-main div.wc-cancel-input input[type="text"]{
+    width:100%;
+    max-width:100%;
+    display:block;
+    vertical-align:bottom;
+}
+.wc-cancel-pro-main div.wc-cancel-input input[type="number"].wc-cancel-select-t{
+    width:30%;
+    display:inline-block;
+    vertical-align: bottom;
+}
+.wc-cancel-pro-main div.wc-cancel-input select.wc-cancel-select-p{
+    width:68%;
+    display:inline-block;
+    vertical-align: bottom;
+}
+.wc-cancel-pro-main p.description{
+    display: block;
+    padding-left:25.5%;
+}
+.wc-cancel-pro-main p.description-in{
+    display: inline-block;
+    padding-left: 6px;
+    vertical-align: baseline;
+}
+.wc-cancel-pro-main textarea{
+    resize:none;
+    min-height:142px;
+    vertical-align: middle;
+}
+/** Wc Cancel List Page **/
+.wc-cancel-order-list table.wp-list-table tr td.order_status mark.order-status{
+    display: inline-flex;
+    line-height: 2.5em;
+    color: #777;
+    background: #e5e5e5;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    margin: -.25em 0;
+    cursor: inherit!important;
+    white-space: nowrap;
+    max-width: 100%;
+}
+.wc-cancel-order-list table.wp-list-table tr td.order_status mark.order-status span{
+    margin: 0 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-view-req,
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-approve-req,
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-decline-req,
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-loading,
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-declined,
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-approved{
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height:16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0!important;
+    height:32px!important;
+    width:32px;
+    font-size:16px;
+    color: #797979;
+    border-color: #797979;
+    background: none;
+}
+
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-view-req:before,
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-approve-req:before,
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-decline-req:before,
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-loading:before,
+.wc-cancel-admin-main span.wc-cancel-approved-icon:before,
+.wc-cancel-admin-main span.wc-cancel-declined-icon:before,
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-declined:before,
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-approved:before{
+    font-family: "wcc-font" !important;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:32px;
+    height:32px;
+    text-align: center;
+    line-height:32px;
+}
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-view-req:before{
+    content: "\61";
+}
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-approve-req:before,
+.wc-cancel-admin-main span.wc-cancel-approved-icon:before,
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-approved:before{
+    content: "\62";
+}
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-decline-req:before,
+.wc-cancel-admin-main span.wc-cancel-declined-icon:before,
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-declined:before{
+    content: "\63";
+}
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-loading:before{
+    content: "\64"!important;
+    -webkit-animation: wc_cancel_load 1.4s infinite linear;
+    animation: wc_cancel_load 1.4s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.wc-cancel-order-list table.wp-list-table tr td.order_actions a.wc-cancel-approve-req{
+    margin:0 10px;
+}
+div.fancybox-container.fancybox-is-open{
+    z-index: 999999999999!important;
+}
+.wc-cancel-admin-main{
+    max-width:600px;
+    top: 30px;
+    vertical-align: top;
+}
+.wc-cancel-admin-main .wc-cancel-head{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36px;
+}
+.wc-cancel-admin-main .wc-cancel-order-num{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.wc-cancel-admin-main .wc-cancel-buttons{
+    text-align:right;
+}
+.wc-cancel-admin-main .wc-cancel-buttons .wc-cancel-confirm{
+    margin-left:10px;
+}
+.wc-cancel-admin-main button.wcc-confirm{
+    margin-left: 15px;
+}
+.wc-cancel-admin-main .wcc-spinner{
+    text-align: center;
+    padding: 10px;
+}
+.wc-cancel-admin-main .wcc-spinner > .fancybox-loading{
+    height: 32px;
+    width: 32px;
+}
+.wc-cancel-admin-main .wc-cancel-note .wc-cancel-meta{
+    vertical-align: top;
+}
+.wc-cancel-admin-main .wc-cancel-note .wc-cancel-meta label{
+    vertical-align: top;
+    padding-right: 10px;
+    font-weight: bold;
+    cursor: default;
+}
+.wc-cancel-admin-main .wc-cancel-meta.wc-cancel-approved{
+    display:block;
+    margin: 10px 0;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 10px 15px;
+}
+.wc-cancel-admin-main .wc-cancel-meta.wc-cancel-declined{
+    display:block;
+    margin: 10px 0;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 10px 15px;
+}
+.wc-cancel-admin-main .wc-cancel-approved span,
+.wc-cancel-admin-main .wc-cancel-declined span{
+    display:block;
+}
+.wc-cancel-admin-main span.wc-cancel-approved-icon,
+.wc-cancel-admin-main span.wc-cancel-declined-icon{
+    font-weight: bold;
+    font-size: 16px;
+}
+.wc-cancel-admin-main span.wc-cancel-approved-icon:before,
+.wc-cancel-admin-main span.wc-cancel-declined-icon:before{
+    position: relative;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-declined,
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-approved{
+    margin: 0 10px;
+    vertical-align: middle;
+}
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-declined:before{
+    color: #FF0000;
+}
+.wc-cancel-order-list table.wp-list-table tr td.req_status a.wc-cancel-req-approved:before{
+    color:#008000;
+}
+.wc-cancel-pro-main a.rate-link{
+    background: #FBBC05;
+    color: #1d2327;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+.wc-cancel-pro-main a.pro-link{
+    background: #4285F4;
+    color: #fff;
+    padding: 4px 10px;
+    text-decoration: none;
+    margin-left:10px;
+}
+@-webkit-keyframes wc_cancel_load {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes wc_cancel_load {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

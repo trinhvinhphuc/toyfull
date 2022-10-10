@@ -1,0 +1,114 @@
+.wc-cancel-main{
+    max-width:600px;
+}
+.wc-cancel-main .wc-cancel-head{
+    font-size: 30px;
+    font-weight: 300;
+}
+.wc-cancel-main .wc-cancel-order-num{
+    font-weight: 600;
+    font-size: 16px;
+}
+.wc-cancel-main .wc-cancel-note{
+    padding: 6px 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+.wc-cancel-main .wc-cancel-note > span{
+    font-size: 20px;
+    vertical-align: text-top;
+    padding-right: 5px;
+}
+.wc-cancel-main .wc-cancel-reason-in{
+    margin:10px 0;
+}
+.wc-cancel-main .wc-cancel-reasons-head{
+    font-size: 18px;
+}
+.wc-cancel-main ul.wc-cancel-reasons{
+    list-style:none;
+    padding:5px 15px;
+    margin: 0;
+}
+.wc-cancel-main .wc-cancel-reason-txt{
+    margin:15px 0;
+}
+.wc-cancel-main .wc-cancel-reason-txt textarea{
+    resize:none;
+}
+.wc-cancel-main ul.wc-cancel-reasons li input[type="radio"]{
+    margin-right: 10px;
+    outline: none;
+    vertical-align: middle;
+}
+.wc-cancel-main ul.wc-cancel-reasons li label{
+    font-size:16px;
+    font-weight:200;
+    font-style:normal;
+    cursor:pointer;
+}
+.wc-cancel-main .wc-cancel-buttons{
+    text-align:right;
+}
+.wc-cancel-main .wc-cancel-buttons .wc-cancel-confirm{
+    margin-left:10px;
+}
+.wc-cancel-main .wcc-load{
+    margin: 0;
+    text-align: center;
+}
+.wc-cancel-main .wcc-load .fancybox-loading{
+    top: unset;
+    margin-top:0;
+    height: 26px;
+    width: 26px;
+}
+.wc-cancel-main .wcc_error{
+    font-size: 16px;
+    color: #FF0000;
+    display: block;
+}
+.wc-cancel-main .wcc_sucess{
+    font-size: 16px;
+    color:#008000;
+    display: block;
+}
+form#wc-cancel-form{
+    margin:0;
+    padding:0;
+}
+div.um-account-main table tr td a.wc-cancel-order{
+    padding: 0 6px;
+    font-size: 16px;
+    margin: 0 0 0 6px;
+    font-weight: 400;
+}
+.wc-cancel-temp input[type="text"]{
+    width: 100%;
+}
+.wxp-row{
+    width:100%;
+    display:block;
+}
+.woocommerce-order-details__title{
+    display:none;
+}
+[class*="wxp-col-"]{
+    width:100%;
+    float:left;
+    padding:8px 10px;
+}
+@media only screen and (min-width: 768px){
+    .wxp-col-1 {width: 8.33%;}
+    .wxp-col-2 {width: 16.66%;}
+    .wxp-col-3 {width: 25%;}
+    .wxp-col-4 {width: 33.33%;}
+    .wxp-col-5 {width: 41.66%;}
+    .wxp-col-6 {width: 50%;}
+    .wxp-col-7 {width: 58.33%;}
+    .wxp-col-8 {width: 66.66%;}
+    .wxp-col-9 {width: 75%;}
+    .wxp-col-10 {width: 83.33%;}
+    .wxp-col-11 {width: 91.66%;}
+    .wxp-col-12 {width: 100%;}
+}

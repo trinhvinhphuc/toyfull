@@ -1,0 +1,682 @@
+# return sprintf(
+# __( 'Translating media urls in custom field translations: %s', 'wpml-media' ),
+# $number_of_custom_fields_left > 0 ?
+msgid "Translating media urls in custom field translations: %s"
+msgstr "Dịch url phương tiện trong bản dịch trường tùy chỉnh: %s"
+
+# $number_of_custom_fields_left > 0 ?
+# sprintf( __( '%d left', 'wpml-media' ), $number_of_custom_fields_left ) :
+# __( 'done!', 'wpml-media' )
+msgid "%d left"
+msgstr "%d trái"
+
+# sprintf( __( '%d left', 'wpml-media' ), $number_of_custom_fields_left ) :
+# __( 'done!', 'wpml-media' )
+# );
+msgid "done!"
+msgstr "xong!"
+
+# 'key'   => 'wpml_media_batch_urls_update_error_custom_fields',
+# 'value' => esc_js( __( 'Translating media urls in custom fields translations failed: Please try again (%s)', 'wpml-media' ) )
+# );
+msgid "Translating media urls in custom fields translations failed: Please try again (%s)"
+msgstr "Dịch url đa phương tiện trong các trường tùy chỉnh, bản dịch không thành công: Vui lòng thử lại (%s)"
+
+# return sprintf(
+# __( 'Translating media urls in post translations: %s', 'wpml-media' ),
+# $number_of_posts_left > 0 ?
+msgid "Translating media urls in post translations: %s"
+msgstr "Dịch url đa phương tiện trong bản dịch bài đăng: %s"
+
+# 'key'   => 'wpml_media_batch_urls_update_errors_posts',
+# 'value' => esc_js( __( 'Translating media urls in posts translations failed: Please try again (%s)', 'wpml-media' ) )
+# );
+msgid "Translating media urls in posts translations failed: Please try again (%s)"
+msgstr "Dịch url đa phương tiện trong bài đăng không thành công bản dịch: Vui lòng thử lại (%s)"
+
+# return sprintf(
+# __( 'Translating media urls in string translations: %s', 'wpml-media' ),
+# $number_of_strings_left > 0 ?
+msgid "Translating media urls in string translations: %s"
+msgstr "Dịch url đa phương tiện trong bản dịch chuỗi: %s"
+
+# 'key'   => 'wpml_media_batch_urls_update_error_strings',
+# 'value' => esc_js( __( 'Translating media urls in string translations failed: Please try again (%s)', 'wpml-media' ) )
+# );
+msgid "Translating media urls in string translations failed: Please try again (%s)"
+msgstr "Dịch url đa phương tiện trong bản dịch chuỗi không thành công: Vui lòng thử lại (%s)"
+
+# 'has_posts' => sprintf(
+# __(
+# 'Choose which media to translate with this %s',
+msgid "Choose which media to translate with this %s"
+msgstr "Chọn đa phương tiện để dịch với nội dung %s"
+
+# ),
+# 'loading'   => __( 'Loading...', 'wpml-media' )
+# ),
+msgid "Loading..."
+msgstr "Đang Tải..."
+
+# /* translators: WPML plugin name */
+# $wpml_plugin_name = __( 'WPML', 'wpml-media' );
+# /* translators: WPML Media Translation saddon/section name */
+msgid "WPML"
+msgstr "Đa Ngôn Ngữ"
+
+# /* translators: WPML Media Translation saddon/section name */
+# $media_translation_name = __( 'Media Translation', 'wpml-media' );
+#
+msgid "Media Translation"
+msgstr "Dịch Đa Phương Tiện"
+
+# /* translators: media file string used in "if you want to use a different media file for each language..." */
+# $media_file_string = __( 'media file', 'wpml-media' );
+# $redirect_url = '#';
+msgid "media file"
+msgstr "tập tin đa phương tiện"
+
+# 'strings' => array(
+# 'dialog_title'            => __( 'Media sent to translation', 'wpml-media' ),
+# 'content_with_media_sent' => __( 'You have sent content which contains media attachments for translation.', 'wpml-media' ),
+msgid "Media sent to translation"
+msgstr "Đa phương tiện được gửi đến bản dịch"
+
+# 'dialog_title'            => __( 'Media sent to translation', 'wpml-media' ),
+# 'content_with_media_sent' => __( 'You have sent content which contains media attachments for translation.', 'wpml-media' ),
+# 'media_texts_translated'  => sprintf( __( 'Translators will translate all your %smedia texts%s.', 'wpml-media' ), '<strong>', '</strong>' ),
+msgid "You have sent content which contains media attachments for translation."
+msgstr "Bạn đã gửi nội dung có chứa tệp đính kèm đa phương tiện để dịch."
+
+# 'content_with_media_sent' => __( 'You have sent content which contains media attachments for translation.', 'wpml-media' ),
+# 'media_texts_translated'  => sprintf( __( 'Translators will translate all your %smedia texts%s.', 'wpml-media' ), '<strong>', '</strong>' ),
+# 'use_different_media'     => sprintf( __( 'If you want to use a different %s for each language, you can set them in: %s.', 'wpml-media' ),
+msgid "Translators will translate all your %smedia texts%s."
+msgstr "Người dịch sẽ dịch tất cả %s văn bản đa phương tiện %s của bạn."
+
+# 'media_texts_translated'  => sprintf( __( 'Translators will translate all your %smedia texts%s.', 'wpml-media' ), '<strong>', '</strong>' ),
+# 'use_different_media'     => sprintf( __( 'If you want to use a different %s for each language, you can set them in: %s.', 'wpml-media' ),
+# '<strong>' . $media_file_string . '</strong>', $media_translation_link ),
+msgid "If you want to use a different %s for each language, you can set them in: %s."
+msgstr "Nếu bạn muốn sử dụng một %s khác nhau cho mỗi ngôn ngữ, bạn có thể đặt chúng trong: %s."
+
+# '<strong>' . $media_file_string . '</strong>', $media_translation_link ),
+# 'learn_more'              => __( 'Learn more about Media Translation', 'wpml-media' ),
+# 'wpml'                    => _x( 'WPML', 'plugin name', 'wpml-media' ),
+msgid "Learn more about Media Translation"
+msgstr "Tìm hiểu thêm về Dịch đa phương tiện"
+
+# 'learn_more'              => __( 'Learn more about Media Translation', 'wpml-media' ),
+# 'wpml'                    => _x( 'WPML', 'plugin name', 'wpml-media' ),
+# 'media_translation'       => _x( 'Media Translation', 'wpml addon name', 'wpml-media' )
+msgctxt "plugin name"
+msgid "WPML"
+msgstr "Đa Ngôn Ngữ"
+
+# 'wpml'                    => _x( 'WPML', 'plugin name', 'wpml-media' ),
+# 'media_translation'       => _x( 'Media Translation', 'wpml addon name', 'wpml-media' )
+# ),
+msgctxt "wpml addon name"
+msgid "Media Translation"
+msgstr "Dịch đa phương tiện"
+
+# } else {
+# wp_send_json_error( __( 'Failed to load the image editor', 'wpml-media' ) );
+# }
+msgid "Failed to load the image editor"
+msgstr "Không tải được trình chỉnh sửa hình ảnh"
+
+# } else {
+# wp_send_json_error( array( 'error' => __( 'Invalid nonce', 'wpml-media' ) ) );
+# }
+msgid "Invalid nonce"
+msgstr "Xác minh không hợp lệ"
+
+# }
+# wp_send_json_success( array( 'status' => __( 'Running setup...', 'wpml-media' ) ) );
+#
+msgid "Running setup..."
+msgstr "Đang chạy thiết lập ..."
+
+# $continue = false;
+# $status   = __( 'Setup complete!', 'wpml-media' );
+# $offset   = isset( $_POST['offset'] ) ? (int) $_POST['offset'] : 0;
+msgid "Setup complete!"
+msgstr "Thiết lập xong!"
+
+# $progress = round( 100*min( $offset, $total_posts_found )/$total_posts_found );
+# $status   = sprintf( __( 'Setup in progress: %d%% complete...', 'wpml-media' ), $progress );
+# }
+msgid "Setup in progress: %d%% complete..."
+msgstr "Đang thiết lập: %d% % c hoàn tất ..."
+
+# if ( $this->is_media_related_screen( $current_screen ) ) {
+# $media_translation_dashboard = esc_html__( 'WPML &raquo; Media Translation', 'wpml-media' );
+# $wpml_translation_dashboard  = esc_html__( 'WPML &raquo; Translation Management', 'wpml-media' );
+msgid "WPML &raquo; Media Translation"
+msgstr "Đa Ngôn Ngữ &raquo; Dịch Đa Phương Tiện"
+
+# $media_translation_dashboard = esc_html__( 'WPML &raquo; Media Translation', 'wpml-media' );
+# $wpml_translation_dashboard  = esc_html__( 'WPML &raquo; Translation Management', 'wpml-media' );
+# $current_screen->add_help_tab( array(
+msgid "WPML &raquo; Translation Management"
+msgstr "Đa Ngôn Ngữ  &raquo; Quản Lý Bản Dịch"
+
+# 'id'      => 'wpml-media-translation',
+# 'title'   => esc_html__( 'Translating Media', 'wpml-media' ),
+# 'content' =>
+msgid "Translating Media"
+msgstr "Dịch Đa Phương Tiện"
+
+# 'content' =>
+# '<p>' . esc_html__( 'There are two ways for you to translate Media:', 'wpml-media' ) . '</p>' .
+# '<ul>' .
+msgid "There are two ways for you to translate Media:"
+msgstr "Có hai cách để bạn dịch đa phương tiện:"
+
+# '<li>' . sprintf(
+# esc_html__( 'Use the dashboard on the %s page to translate your images and other media files.', 'wpml-media' ),
+# $media_translation_dashboard
+msgid "Use the dashboard on the %s page to translate your images and other media files."
+msgstr "Sử dụng bảng điều khiển trên trang %s để dịch hình ảnh của bạn và các tệp phương tiện khác."
+
+# '<li>' . sprintf(
+# esc_html__( 'Use the dashboard on the %s page to send pages that contain media, for translation.', 'wpml-media' ),
+# $wpml_translation_dashboard
+msgid "Use the dashboard on the %s page to send pages that contain media, for translation."
+msgstr "Sử dụng bảng điều khiển trên trang %s để gửi các trang có chứa đa phương tiện để dịch."
+
+# '</ul>' .
+# '<a href="https://wpml.org/?page_id=113610">' . esc_html__( 'Learn more about WPML Media Translation', 'wpml-media' ) . '</a>'
+# ) );
+msgid "Learn more about WPML Media Translation"
+msgstr "Tìm hiểu thêm về Bản dịch đa phương tiện"
+
+# 'title'         => esc_js( __( 'Media Translation', 'wpml-media' ) ),
+# 'cancel'        => esc_js( __( 'Cancel', 'wpml-media' ) ),
+# 'save'          => esc_js( __( 'Save media translation', 'wpml-media' ) ),
+msgid "Cancel"
+msgstr "Hủy"
+
+# 'cancel'        => esc_js( __( 'Cancel', 'wpml-media' ) ),
+# 'save'          => esc_js( __( 'Save media translation', 'wpml-media' ) ),
+# 'status_labels' => WPML_Media_Translations_UI::get_translation_status_labels()
+msgid "Save media translation"
+msgstr "Lưu bản dịch đa phương tiện"
+
+# $batch_translation_vars = array(
+# 'complete'      => esc_js( __( 'Scan complete!', 'wpml-media' ) ),
+# 'is_st_enabled' => (bool) $this->sitepress->get_wp_api()->constant( 'WPML_ST_VERSION' ),
+msgid "Scan complete!"
+msgstr "Quét hoàn tất!"
+
+# /* translators: name ot WPML-Media plugin */
+# $wpml_media = '<strong>' . __( 'WPML Media Translation', 'wpml-media' ) . '</strong>';
+#
+msgid "WPML Media Translation"
+msgstr "Bản dịch đa phương tiện"
+
+# $text = vsprintf(
+# esc_html__( 'The %1$s setup is almost complete. Click %2$s to finish the setup.', 'wpml-media' ),
+# array(
+msgid "The %1$s setup is almost complete. Click %2$s to finish the setup."
+msgstr "Quá trình thiết lập %1$s gần như hoàn tất. Nhấp vào %2$s để hoàn tất thiết lập."
+
+# <input type="button" class="button-primary alignright"
+# value="<?php esc_attr_e( 'Finish setup', 'wpml-media' ) ?>"/>
+#
+msgid "Finish setup"
+msgstr "Hoàn tất cài đặt"
+
+# <div class="wrap wpml-media-setup">
+# <h2><?php esc_html_e( 'Setup required', 'wpml-media' ) ?></h2>
+# <div
+msgid "Setup required"
+msgstr "Cần thiết lập"
+
+# <p>
+# <?php esc_html_e( 'In order to get WPML Media Translation fully working, you need to run this set up which takes only a few moments depending on the total number of posts in your WordPress install.', 'wpml-media' ); ?>
+# </p>
+msgid "In order to get WPML Media Translation fully working, you need to run this set up which takes only a few moments depending on the total number of posts in your WordPress install."
+msgstr "Để Dịch Đa Phương Tiện hoàn toàn hoạt động, bạn cần chạy thiết lập này chỉ mất vài phút tùy thuộc vào tổng số bài đăng trong cài đặt Web của bạn."
+
+# /* translators: used to build a link in the "Click here to finish the setup" */
+# $here_text = _x( 'here', 'Used to build a link in the "Click here to finish the setup"', 'wpml-media' );
+# $here_link = '<a href="' . admin_url( 'admin.php?page=wpml-media' ) . '">' . $here_text . '</a>';
+msgctxt "Used to build a link in the \"Click here to finish the setup\""
+msgid "here"
+msgstr "ở đây"
+
+# 'args' => array(
+# 'label'   => __( 'Number of items per page:', 'wpml-media' ),
+# 'default' => get_option( $option_name, 20 ),
+msgid "Number of items per page:"
+msgstr "Số đối tượng trên một trang:"
+
+# 'heading'                  => __( 'Media Translation', 'wpml-media' ),
+# 'filter_by_date'           => __( 'Filter by date', 'wpml-media' ),
+# 'all_dates'                => __( 'All dates', 'wpml-media' ),
+msgid "Filter by date"
+msgstr "Lọc theo ngày"
+
+# 'filter_by_date'           => __( 'Filter by date', 'wpml-media' ),
+# 'all_dates'                => __( 'All dates', 'wpml-media' ),
+# 'in'                       => __( 'in', 'wpml_media' ),
+msgid "All dates"
+msgstr "Tất cả các ngày"
+
+# 'to'                       => __( 'to', 'wpml_media' ),
+# 'filter_by_status'         => __( 'Filter by translation status', 'wpml-media' ),
+# 'status_all'               => __( 'All translation statuses', 'wpml-media' ),
+msgid "Filter by translation status"
+msgstr "Lọc theo trạng thái bản dịch"
+
+# 'filter_by_status'         => __( 'Filter by translation status', 'wpml-media' ),
+# 'status_all'               => __( 'All translation statuses', 'wpml-media' ),
+# 'status_not'               => __( 'Media file not translated', 'wpml-media' ),
+msgid "All translation statuses"
+msgstr "Trạng thái tất cả bản dịch"
+
+# 'status_all'               => __( 'All translation statuses', 'wpml-media' ),
+# 'status_not'               => __( 'Media file not translated', 'wpml-media' ),
+# 'status_translated'        => __( 'Translated media uploaded', 'wpml-media' ),
+msgid "Media file not translated"
+msgstr "Tệp phương tiện không được dịch"
+
+# 'status_not'               => __( 'Media file not translated', 'wpml-media' ),
+# 'status_translated'        => __( 'Translated media uploaded', 'wpml-media' ),
+# 'status_in_progress'       => __( 'Translation in progress', 'wpml-media' ),
+msgid "Translated media uploaded"
+msgstr "Đã dịch phương tiện được tải lên"
+
+# 'status_translated'        => __( 'Translated media uploaded', 'wpml-media' ),
+# 'status_in_progress'       => __( 'Translation in progress', 'wpml-media' ),
+# 'status_needs_translation' => __( 'Needs media file translation', 'wpml-media' ),
+msgid "Translation in progress"
+msgstr "Bản dịch đang tiến hành"
+
+# 'status_in_progress'       => __( 'Translation in progress', 'wpml-media' ),
+# 'status_needs_translation' => __( 'Needs media file translation', 'wpml-media' ),
+# 'filter_by_language'       => __( 'Filter by language', 'wpml-media' ),
+msgid "Needs media file translation"
+msgstr "Cần dịch tệp đa phương tiện"
+
+# 'status_needs_translation' => __( 'Needs media file translation', 'wpml-media' ),
+# 'filter_by_language'       => __( 'Filter by language', 'wpml-media' ),
+# 'any_language'             => __( 'Any language', 'wpml-media' ),
+msgid "Filter by language"
+msgstr "Lọc theo ngôn ngữ"
+
+# 'filter_by_language'       => __( 'Filter by language', 'wpml-media' ),
+# 'any_language'             => __( 'Any language', 'wpml-media' ),
+# 'search_media'             => __( 'Search Media:', 'wpml-media' ),
+msgid "Any language"
+msgstr "Mọi ngôn ngữ"
+
+# 'any_language'             => __( 'Any language', 'wpml-media' ),
+# 'search_media'             => __( 'Search Media:', 'wpml-media' ),
+# 'search_placeholder'       => __( 'Title, caption or description', 'wpml-media' ),
+msgid "Search Media:"
+msgstr "Tìm kiếm đa phương tiện:"
+
+# 'search_media'             => __( 'Search Media:', 'wpml-media' ),
+# 'search_placeholder'       => __( 'Title, caption or description', 'wpml-media' ),
+# 'search_button_label'      => __( 'Filter', 'wpml-media' ),
+msgid "Title, caption or description"
+msgstr "Tiêu đề, chú thích hoặc mô tả"
+
+# 'search_placeholder'       => __( 'Title, caption or description', 'wpml-media' ),
+# 'search_button_label'      => __( 'Filter', 'wpml-media' ),
+# 'original_language'        => __( 'Original language', 'wpml-media' ),
+msgid "Filter"
+msgstr "Lọc"
+
+# 'search_button_label'      => __( 'Filter', 'wpml-media' ),
+# 'original_language'        => __( 'Original language', 'wpml-media' ),
+# 'no_attachments'           => __( 'No attachments found', 'wpml-media' ),
+msgid "Original language"
+msgstr "Ngôn ngữ gốc"
+
+# 'original_language'        => __( 'Original language', 'wpml-media' ),
+# 'no_attachments'           => __( 'No attachments found', 'wpml-media' ),
+# 'add_translation'          => __( 'Add media file translation', 'wpml-media' ),
+msgid "No attachments found"
+msgstr "Không tìm thấy tệp đính kèm"
+
+# 'no_attachments'           => __( 'No attachments found', 'wpml-media' ),
+# 'add_translation'          => __( 'Add media file translation', 'wpml-media' ),
+# 'edit_translation'         => __( 'Edit %s translation', 'wpml-media' ),
+msgid "Add media file translation"
+msgstr "Thêm bản dịch tệp đa phương tiện"
+
+# 'add_translation'          => __( 'Add media file translation', 'wpml-media' ),
+# 'edit_translation'         => __( 'Edit %s translation', 'wpml-media' ),
+# 'original'                 => __( 'Original:', 'wpml-media' ),
+msgid "Edit %s translation"
+msgstr "Chỉnh sửa bản dịch %s"
+
+# 'edit_translation'         => __( 'Edit %s translation', 'wpml-media' ),
+# 'original'                 => __( 'Original:', 'wpml-media' ),
+# 'translation'              => __( 'Translation:', 'wpml-media' ),
+msgid "Original:"
+msgstr "Nguyên bản:"
+
+# 'original'                 => __( 'Original:', 'wpml-media' ),
+# 'translation'              => __( 'Translation:', 'wpml-media' ),
+# 'file'                     => __( 'File', 'wpml-media' ),
+msgid "Translation:"
+msgstr "Dịch:"
+
+# 'translation'              => __( 'Translation:', 'wpml-media' ),
+# 'file'                     => __( 'File', 'wpml-media' ),
+# 'name'                     => __( 'Name', 'wpml-media' ),
+msgid "File"
+msgstr "Tập tin"
+
+# 'file'                     => __( 'File', 'wpml-media' ),
+# 'name'                     => __( 'Name', 'wpml-media' ),
+# 'caption'                  => __( 'Caption', 'wpml-media' ),
+msgid "Name"
+msgstr "Tên"
+
+# 'name'                     => __( 'Name', 'wpml-media' ),
+# 'caption'                  => __( 'Caption', 'wpml-media' ),
+# 'alt_text'                 => __( 'Alt text', 'wpml-media' ),
+msgid "Caption"
+msgstr "Chú thích"
+
+# 'caption'                  => __( 'Caption', 'wpml-media' ),
+# 'alt_text'                 => __( 'Alt text', 'wpml-media' ),
+# 'description'              => __( 'Description', 'wpml-media' ),
+msgid "Alt text"
+msgstr "Thẻ mô tả"
+
+# 'alt_text'                 => __( 'Alt text', 'wpml-media' ),
+# 'description'              => __( 'Description', 'wpml-media' ),
+# 'copy_from_original'       => __( 'Copy from original', 'wpml-media' ),
+msgid "Description"
+msgstr "Mô tả"
+
+# 'description'              => __( 'Description', 'wpml-media' ),
+# 'copy_from_original'       => __( 'Copy from original', 'wpml-media' ),
+# 'upload_translated_media'  => __( 'Upload translated media file', 'wpml-media' ),
+msgid "Copy from original"
+msgstr "Sao chép từ bản gốc"
+
+# 'copy_from_original'       => __( 'Copy from original', 'wpml-media' ),
+# 'upload_translated_media'  => __( 'Upload translated media file', 'wpml-media' ),
+# 'use_different_file'       => __( 'Use a different file', 'wpml-media' ),
+msgid "Upload translated media file"
+msgstr "Tải lên tệp đa phương tiện đã dịch"
+
+# 'upload_translated_media'  => __( 'Upload translated media file', 'wpml-media' ),
+# 'use_different_file'       => __( 'Use a different file', 'wpml-media' ),
+# 'revert_to_original'       => __( 'Revert to original', 'wpml-media' ),
+msgid "Use a different file"
+msgstr "Sử dụng một tệp khác"
+
+# 'use_different_file'       => __( 'Use a different file', 'wpml-media' ),
+# 'revert_to_original'       => __( 'Revert to original', 'wpml-media' ),
+# 'restore_original_media'   => __( 'Restore original media file', 'wpml-media' ),
+msgid "Revert to original"
+msgstr "Hoàn nguyên về bản gốc"
+
+# 'revert_to_original'       => __( 'Revert to original', 'wpml-media' ),
+# 'restore_original_media'   => __( 'Restore original media file', 'wpml-media' ),
+# 'statuses'                 => self::get_translation_status_labels(),
+msgid "Restore original media file"
+msgstr "Khôi phục tệp đa phương tiện gốc"
+
+# 'statuses'                 => self::get_translation_status_labels(),
+# 'texts_change_notice'      => __( 'Any changes you make to the text here will not affect any previous publications of this media on your website. This edited version will only appear if you select it from the library to be embedded.', 'wpml-media' )
+# ),
+msgid "Any changes you make to the text here will not affect any previous publications of this media on your website. This edited version will only appear if you select it from the library to be embedded."
+msgstr "Bất kỳ thay đổi nào bạn thực hiện đối với văn bản ở đây sẽ không ảnh hưởng đến bất kỳ ấn phẩm nào trước đây của phương tiện này trên trang web của bạn. Phiên bản đã chỉnh sửa này sẽ chỉ xuất hiện nếu bạn chọn nó từ thư viện để nhúng."
+
+# return array(
+# WPML_Media_Translation_Status::NOT_TRANSLATED          => __( 'Not translated', 'wpml-media' ),
+# WPML_Media_Translation_Status::IN_PROGRESS             => __( 'In progress', 'wpml-media' ),
+msgid "Not translated"
+msgstr "Chưa được dịch"
+
+# WPML_Media_Translation_Status::NOT_TRANSLATED          => __( 'Not translated', 'wpml-media' ),
+# WPML_Media_Translation_Status::IN_PROGRESS             => __( 'In progress', 'wpml-media' ),
+# WPML_Media_Translation_Status::TRANSLATED              => __( 'Translated', 'wpml-media' ),
+msgid "In progress"
+msgstr "Đang xử lý"
+
+# WPML_Media_Translation_Status::IN_PROGRESS             => __( 'In progress', 'wpml-media' ),
+# WPML_Media_Translation_Status::TRANSLATED              => __( 'Translated', 'wpml-media' ),
+# WPML_Media_Translation_Status::NEEDS_MEDIA_TRANSLATION => __( 'Needs translation', 'wpml-media' )
+msgid "Translated"
+msgstr "Đã dịch"
+
+# WPML_Media_Translation_Status::TRANSLATED              => __( 'Translated', 'wpml-media' ),
+# WPML_Media_Translation_Status::NEEDS_MEDIA_TRANSLATION => __( 'Needs translation', 'wpml-media' )
+# );
+msgid "Needs translation"
+msgstr "Cần bản dịch"
+
+# 'strings'     => array(
+# 'list_navigation' => __( 'Navigation', 'wpml-media' ),
+# 'of'              => __( 'of', 'wpml-media' )
+msgid "Navigation"
+msgstr "Điều hướng"
+
+# 'list_navigation' => __( 'Navigation', 'wpml-media' ),
+# 'of'              => __( 'of', 'wpml-media' )
+# ),
+msgid "of"
+msgstr "của"
+
+# 'get_first_page_url' => $this->pagination->get_first_page_url(),
+# 'first_page'         => __( 'First page', 'wpml-media' ),
+#
+msgid "First page"
+msgstr "Trang Tĩnh Đầu Tiên"
+
+# 'get_previous_page_url' => $this->pagination->get_previous_page_url(),
+# 'previous_page'         => __( 'Previous page', 'wpml-media' ),
+#
+msgid "Previous page"
+msgstr "Trang trước"
+
+# 'get_next_page_url' => $this->pagination->get_next_page_url(),
+# 'next_page'         => __( 'Next page', 'wpml-media' ),
+#
+msgid "Next page"
+msgstr "Trang tiếp"
+
+# 'get_last_page_url' => $this->pagination->get_last_page_url(),
+# 'last_page'         => __( 'Last page', 'wpml-media' )
+# ),
+msgid "Last page"
+msgstr "Trang cuối"
+
+# 'strings' => array(
+# 'close'               => __( 'Close', 'wpml-media' ),
+# 'was_replaced'        => __( 'The media that you uploaded was replaced in these translated posts:', 'wpml-media' ),
+msgid "Close"
+msgstr "Đóng"
+
+# 'close'               => __( 'Close', 'wpml-media' ),
+# 'was_replaced'        => __( 'The media that you uploaded was replaced in these translated posts:', 'wpml-media' ),
+# 'other_posts'         => __( 'The same media might be used in other posts too. Do you want to scan and replace it?', 'wpml-media' ),
+msgid "The media that you uploaded was replaced in these translated posts:"
+msgstr "Đa phương tiện mà bạn tải lên đã được thay thế trong các bài đăng đã dịch này:"
+
+# 'was_replaced'        => __( 'The media that you uploaded was replaced in these translated posts:', 'wpml-media' ),
+# 'other_posts'         => __( 'The same media might be used in other posts too. Do you want to scan and replace it?', 'wpml-media' ),
+# 'without_usage'       => __( 'The media that you uploaded will be used in future post translations. The same media might be used in already existing posts. Do you want to scan and replace it now?', 'wpml-media' ),
+msgid "The same media might be used in other posts too. Do you want to scan and replace it?"
+msgstr "Đa phương tiện tương tự cũng có thể được sử dụng trong các bài viết khác. Bạn có muốn quét và thay thế nó không?"
+
+# 'other_posts'         => __( 'The same media might be used in other posts too. Do you want to scan and replace it?', 'wpml-media' ),
+# 'without_usage'       => __( 'The media that you uploaded will be used in future post translations. The same media might be used in already existing posts. Do you want to scan and replace it now?', 'wpml-media' ),
+# 'scan_for_this_media' => __( 'Scan for content that has specifically this media (faster)', 'wpml-media' ),
+msgid "The media that you uploaded will be used in future post translations. The same media might be used in already existing posts. Do you want to scan and replace it now?"
+msgstr "Đa phương tiện mà bạn đã tải lên sẽ được sử dụng trong các bản dịch bài đăng trong tương lai. Phương tiện tương tự có thể được sử dụng trong các bài đăng hiện có. Bạn có muốn quét và thay thế nó ngay bây giờ không?"
+
+# 'without_usage'       => __( 'The media that you uploaded will be used in future post translations. The same media might be used in already existing posts. Do you want to scan and replace it now?', 'wpml-media' ),
+# 'scan_for_this_media' => __( 'Scan for content that has specifically this media (faster)', 'wpml-media' ),
+# 'scan_for_all_media'  => __( 'Scan for content that has any of the media files that I translated (takes more time)', 'wpml-media' ),
+msgid "Scan for content that has specifically this media (faster)"
+msgstr "Quét nội dung có chứa đa phương tiện này (nhanh hơn)"
+
+# 'scan_for_this_media' => __( 'Scan for content that has specifically this media (faster)', 'wpml-media' ),
+# 'scan_for_all_media'  => __( 'Scan for content that has any of the media files that I translated (takes more time)', 'wpml-media' ),
+# 'button_label'        => _x( 'Scan & Replace', 'Button label (verb)', 'wpml-media' )
+msgid "Scan for content that has any of the media files that I translated (takes more time)"
+msgstr "Quét nội dung có bất kỳ tệp đa phương tiện nào mà tôi đã dịch (mất nhiều thời gian hơn)"
+
+# 'scan_for_all_media'  => __( 'Scan for content that has any of the media files that I translated (takes more time)', 'wpml-media' ),
+# 'button_label'        => _x( 'Scan & Replace', 'Button label (verb)', 'wpml-media' )
+# )
+msgctxt "Button label (verb)"
+msgid "Scan & Replace"
+msgstr "Quét & Thay thế"
+
+# $link   = '<a href="' . $url . '" target="_blank" class="wpml-external-link">' .
+# esc_html__( 'Media Translation documentation', 'wpml-media' ) . '</a>';
+# $button = '<a href="' . $url . '" target="_blank" class="button button-primary button-wpml button-lg">' .
+msgid "Media Translation documentation"
+msgstr "Tài liệu Dịch Thuật Đa Phương tiện"
+
+# $button = '<a href="' . $url . '" target="_blank" class="button button-primary button-wpml button-lg">' .
+# esc_html__( 'Learn more', 'wpml-media' ) . '</a>';
+#
+msgid "Learn more"
+msgstr "Tìm hiểu thêm"
+
+# if ( $this->is_new_install() ) {
+# $title = esc_html__( 'Learn how to translate media', 'wpml-media' );
+# $body1 = esc_html__( 'WPML allows you to use different media (images, etc.) for translated content. The Media Translation process is integrated with WPML’s content translation, but requires additional steps.', 'wpml-media' );
+msgid "Learn how to translate media"
+msgstr "Tìm hiểu cách dịch đa phương tiện"
+
+# $title = esc_html__( 'Learn how to translate media', 'wpml-media' );
+# $body1 = esc_html__( 'WPML allows you to use different media (images, etc.) for translated content. The Media Translation process is integrated with WPML’s content translation, but requires additional steps.', 'wpml-media' );
+# $body2 = sprintf( esc_html__( 'Before you start, we highly recommend that you review the %s. Then, you’ll be able to close this message.', 'wpml-media' ), $link );
+msgid "WPML allows you to use different media (images, etc.) for translated content. The Media Translation process is integrated with WPML’s content translation, but requires additional steps."
+msgstr "Đa Ngôn Ngữ cho phép bạn sử dụng các đa phương tiện khác nhau (hình ảnh, v.v.) cho nội dung đã dịch. Quy trình Dịch đa phương tiện được tích hợp với bản dịch nội dung của Đa Ngôn Ngữ, nhưng yêu cầu các bước bổ sung."
+
+# $body1 = esc_html__( 'WPML allows you to use different media (images, etc.) for translated content. The Media Translation process is integrated with WPML’s content translation, but requires additional steps.', 'wpml-media' );
+# $body2 = sprintf( esc_html__( 'Before you start, we highly recommend that you review the %s. Then, you’ll be able to close this message.', 'wpml-media' ), $link );
+# } else {
+msgid "Before you start, we highly recommend that you review the %s. Then, you’ll be able to close this message."
+msgstr "Trước khi bắt đầu, chúng tôi thực sự khuyên bạn nên xem lại %s. Sau đó, bạn có thể đóng thông báo này."
+
+# } else {
+# $title = esc_html__( 'Media Translation is completely different now', 'wpml-media' );
+# $body1 = esc_html__( 'This release of Media Translation includes a complete new workflow, with complete new features and possibilities.', 'wpml-media' );
+msgid "Media Translation is completely different now"
+msgstr "Dịch thuật Đa phương tiện bây giờ hoàn toàn khác"
+
+# $title = esc_html__( 'Media Translation is completely different now', 'wpml-media' );
+# $body1 = esc_html__( 'This release of Media Translation includes a complete new workflow, with complete new features and possibilities.', 'wpml-media' );
+# $body2 = sprintf( esc_html__( 'Even if you’re already familiar with WPML, you should read the new %s. Then, you’ll be able to close this message.', 'wpml-media' ), $link );
+msgid "This release of Media Translation includes a complete new workflow, with complete new features and possibilities."
+msgstr "Bản phát hành này của Bản dịch đa phương tiện bao gồm một quy trình làm việc mới hoàn chỉnh, với các tính năng và khả năng hoàn chỉnh mới."
+
+# $body1 = esc_html__( 'This release of Media Translation includes a complete new workflow, with complete new features and possibilities.', 'wpml-media' );
+# $body2 = sprintf( esc_html__( 'Even if you’re already familiar with WPML, you should read the new %s. Then, you’ll be able to close this message.', 'wpml-media' ), $link );
+# }
+msgid "Even if you’re already familiar with WPML, you should read the new %s. Then, you’ll be able to close this message."
+msgstr "Ngay cả khi bạn đã quen thuộc với Đa Ngôn Ngữ, bạn nên đọc %s mới. Sau đó, bạn có thể đóng thông báo này."
+
+# }
+# $minimize_label = esc_html__( 'Minimize', 'wpml-media' );
+# $maximize_label = esc_html__( 'Maximize', 'wpml-media' );
+msgid "Minimize"
+msgstr "Tối thiểu  "
+
+# $minimize_label = esc_html__( 'Minimize', 'wpml-media' );
+# $maximize_label = esc_html__( 'Maximize', 'wpml-media' );
+# $is_minimized   = $this->is_minimized();
+msgid "Maximize"
+msgstr "Tối đa"
+
+# <a class="js-dismiss notice-dismiss<?php if ( ! $this->can_dismiss() ): ?> hidden<?php endif ?>">
+# <span class="screen-reader-text"><?php esc_html_e( 'Dismiss', 'wpml-media' ) ?></span></a>
+# <div class="wpml-media-welcome-notice-bg"><i class="otgs-ico-wpml"></i></div>
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+# protected function get_privacy_policy() {
+# return __( 'WPML Media Translation will send the email address and name of each manager and assigned translator as well as the content itself to Advanced Translation Editor and to the translation services which are used.', 'wpml-media' );
+# }
+msgid "WPML Media Translation will send the email address and name of each manager and assigned translator as well as the content itself to Advanced Translation Editor and to the translation services which are used."
+msgstr "Dịch Đa Phương Tiện sẽ gửi địa chỉ email và tên của từng người quản lý và người dịch được chỉ định cũng như bản thân nội dung đến Trình biên tập dịch thuật nâng cao và đến các dịch vụ dịch thuật được sử dụng."
+
+#
+# $message = __( 'Setting language to media: done!', 'wpml-media' );
+#
+msgid "Setting language to media: done!"
+msgstr "Cài đặt ngôn ngữ cho đa phương tiện: đã xong!"
+
+# 'field_type'    => 'tm-section',
+# 'title'         => __( 'Media', 'wpml-media' ),
+# 'fields'        => array(),
+msgid "Media"
+msgstr "Đa phương tiện"
+
+# case 'title':
+# $label = __( 'Title', 'wpml-media' );
+# break;
+msgid "Title"
+msgstr "Tiêu đề"
+
+# case 'alt_text':
+# $label = __( 'Alt Text', 'wpml-media' );
+# break;
+msgid "Alt Text"
+msgstr "Thẻ Alt"
+
+# <p>
+# <?php printf( esc_html__( 'The %sWPML Media%s database needs updating. Please run the updater and leave the tab open until it completes.', 'wpml-media' ),
+# '<strong>', '</strong>' ); ?>
+msgid "The %sWPML Media%s database needs updating. Please run the updater and leave the tab open until it completes."
+msgstr "Cơ sở dữ liệu %s Dịch Đa Phương Tiện %s cần được cập nhật. Vui lòng chạy trình cập nhật và để tab mở cho đến khi hoàn tất."
+
+# wp_send_json_success(
+# array( 'status' => esc_html__( 'Reset new content duplication settings', 'wpml-media' ), )
+# );
+msgid "Reset new content duplication settings"
+msgstr "Đặt lại cài đặt trùng lặp nội dung mới"
+
+# $status   = sprintf(
+# esc_html__( 'Updating attachments translation status: %d remaining.', 'wpml-media' ),
+# $left );
+msgid "Updating attachments translation status: %d remaining."
+msgstr "Đang cập nhật trạng thái bản dịch của tệp đính kèm: còn lại %d."
+
+# $this->mark_migration_complete();
+# $status   = esc_html__( 'Update complete!', 'wpml-media' );
+# $continue = 0;
+msgid "Update complete!"
+msgstr "Dữ liệu Thương Mại Điện Tử đã được cập nhật thành công. Cảm ơn bạn đã sử dụng phiên bản mới nhất!"
+
+# <div class="wrap wrap-wpml-media-upgrade">
+# <h2><?php esc_html_e( 'Upgrade required', 'wpml-media' ) ?></h2>
+# <?php endif; ?>
+msgid "Upgrade required"
+msgstr "Yêu cầu nâng cấp"
+
+# </p>
+# <input type="button" class="button-primary alignright" value="<?php echo esc_attr_x( 'Update', 'Update button label', 'wpml-media' ); ?>" />
+# <input type="hidden" name="nonce" value="<?php echo wp_create_nonce( 'wpml-media-2-3-0-update' ); ?>" />
+msgctxt "Update button label"
+msgid "Update"
+msgstr "Cập nhật"
+
+#
+# $response['message'] = __( 'Started...', 'wpml-media' );
+#
+msgid "Started..."
+msgstr "hành động bắt đầu"
+
+# ?>
+# <div class="message error wpml-media-inactive"><p><?php printf( __( 'WPML Media is enabled but not effective. It requires <a href="%s">WPML</a> in order to work.', 'wpml-media' ),
+# 'https://wpml.org/' ); ?></p></div>
+msgid "WPML Media is enabled but not effective. It requires <a href=\"%s\">WPML</a> in order to work."
+msgstr "Dịch Phương Tiện được kích hoạt nhưng không hiệu quả. Nó yêu cầu <a href=\"%s\">WPML</a> để hoạt động."

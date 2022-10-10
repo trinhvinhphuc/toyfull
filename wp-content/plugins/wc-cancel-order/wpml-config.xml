@@ -1,0 +1,13 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="translate">_wc_cancel_reason</custom-field>
+    <custom-field action="translate">_wc_cancel_additional_txt</custom-field>
+    <custom-field action="translate">_wc_cancel_request_data</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="wc_cancel_settings">
+      <key name="reason-options"/>
+      <key name="confirm-note"/>
+    </key>
+  </admin-texts>
+</wpml-config>
