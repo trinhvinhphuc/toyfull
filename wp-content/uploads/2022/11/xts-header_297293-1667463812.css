@@ -1,0 +1,84 @@
+.whb-top-bar .wd-dropdown {
+	margin-top: 2px;
+}
+
+.whb-top-bar .wd-dropdown:after {
+	height: 12px;
+}
+
+
+.whb-header-bottom .wd-dropdown {
+	margin-top: 10px;
+}
+
+.whb-header-bottom .wd-dropdown:after {
+	height: 20px;
+}
+
+
+.whb-header .whb-header-bottom .wd-header-cats {
+	margin-top: -2px;
+	margin-bottom: -0px;
+	height: calc(100% + 2px);
+}
+
+.whb-clone.whb-sticked .wd-dropdown {
+	margin-top: 10px;
+}
+
+.whb-clone.whb-sticked .wd-dropdown:after {
+	height: 20px;
+}
+
+@media (min-width: 1025px) {
+		.whb-top-bar-inner {
+		height: 44px;
+		max-height: 44px;
+	}
+
+		
+		.whb-general-header-inner {
+		height: 85px;
+		max-height: 85px;
+	}
+
+		
+		.whb-header-bottom-inner {
+		height: 60px;
+		max-height: 60px;
+	}
+
+		
+			.whb-clone .whb-general-header-inner {
+		height: 60px;
+		max-height: 60px;
+	}
+	
+	}
+
+@media (max-width: 1024px) {
+	
+		.whb-general-header-inner {
+		height: 60px;
+		max-height: 60px;
+	}
+	
+	
+			.whb-clone .whb-general-header-inner {
+		height: 60px;
+		max-height: 60px;
+	}
+	
+	}
+		.whb-top-bar-inner { border-color: rgba(123, 188, 216, 1);border-bottom-width: 2px;border-bottom-style: dashed; }
+.whb-top-bar {
+	background-color: rgba(192, 228, 253, 1);
+}
+.whb-general-header-inner { border-color: rgba(150, 205, 228, 1);border-bottom-width: 2px;border-bottom-style: dashed; }
+.whb-general-header {
+	background-color: rgba(255, 255, 255, 1);background-image: url(http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/toys-header.jpg);background-size: cover;background-position: center top;background-repeat: no-repeat;
+}
+.whb-header-bottom-inner { border-bottom-width: 0px;border-bottom-style: dashed; }
+.whb-header-bottom {
+	background-color: rgba(255, 255, 255, 1);
+}

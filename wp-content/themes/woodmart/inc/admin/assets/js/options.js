@@ -192,7 +192,7 @@ var woodmartOptions;
 						e.preventDefault();
 
 						var custom_uploader = wp.media({
-							title   : langvars.upload_files,
+							title   : "UPLOAD",
 							button  : {
 								text: 'Use this file' // button label text
 							},
