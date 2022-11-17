@@ -94,9 +94,9 @@ function custom_login_redirect() {
 	$user = wp_get_current_user();	 
 	$roles = ( array ) $user->roles;
 	if (in_array("administrator", $roles)) {
-		return 'http://toyfull.test/wp-admin/admin.php?page=wc-reports';
+		return get_site_url().'/wp-admin/admin.php?page=wc-reports';
 	}
 	if (in_array("shop_manager", $roles)) {
-		return 'http://toyfull.test/wp-admin/edit.php?post_type=shop_order';
+		return get_site_url().'/wp-admin/edit.php?post_type=shop_order';
 	}
 }
