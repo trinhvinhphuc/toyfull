@@ -9,7 +9,7 @@
 	- Tạo database: `toyfull` với charset là `utf8mb4`
 - Sau khi tạo trong database, import file database trong project.
 > Lưu ý: Mỗi khi clone project mới về, cập nhật lại database gần nhất để tránh xảy ra lỗi.
-- Account đăng nhập:
+- Account đăng nhập (http://toyfull.test/wp-login.php):
 	- Superadmin: Superadmin - 123
 	- Shop Manager: shop_manager - htttdn123
 	- Customer: customer - htttdn123
