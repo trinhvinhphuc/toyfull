@@ -93,10 +93,10 @@ add_filter('login_redirect', 'custom_login_redirect');
 function custom_login_redirect() {
 	$user = wp_get_current_user();	 
 	$roles = ( array ) $user->roles;
-	if (in_array("administrator", $roles)) {
-		return get_site_url().'/wp-admin/admin.php?page=wc-reports';
-	}
 	if (in_array("shop_manager", $roles)) {
 		return get_site_url().'/wp-admin/edit.php?post_type=shop_order';
+	}
+	if (in_array("administrator", $roles)) {
+		return get_site_url().'/wp-admin/admin.php?page=wc-reports';
 	}
 }
