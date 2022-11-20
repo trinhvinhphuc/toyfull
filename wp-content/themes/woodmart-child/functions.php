@@ -87,6 +87,18 @@ function hide_admin_logo() {
 		}
 	</style>
 	<?php
+	if ( strpos($_SERVER['REQUEST_URI'], 'post_type=shop_coupon') !== false || strpos($_SERVER['REQUEST_URI'], 'page=wc-reports') !== false || strpos($_SERVER['REQUEST_URI'], 'page=wc-admin') !== false ||  strpos($_SERVER['REQUEST_URI'], 'post_type=shop_order') !== false || strpos($_SERVER['REQUEST_URI'], 'page=wc-settings') !== false ) {
+		?>
+		<style>
+			.components-surface.components-card.woocommerce-store-alerts.is-alert-update.css-1pd4mph.em57xhy0 {
+				display: none !important;
+			}
+			#coupon-root {
+				display: none !important;
+			}
+		</style>
+		<?php
+	}
 }
 
 add_filter('login_redirect', 'custom_login_redirect');
@@ -99,4 +111,14 @@ function custom_login_redirect() {
 	if (in_array("administrator", $roles)) {
 		return get_site_url().'/wp-admin/admin.php?page=wc-reports';
 	}
+}
+
+add_filter( 'woocommerce_is_purchasable', 'disabel_purchase_function', 10, 2 );
+function disabel_purchase_function( $purchasable, $product ) {
+	$user = wp_get_current_user();	 
+	$roles = ( array ) $user->roles;
+	if (in_array("shop_manager", $roles) || in_array("administrator", $roles)) {
+		$purchasable = false;
+	}
+	return $purchasable;
 }
