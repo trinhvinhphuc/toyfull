@@ -87,7 +87,7 @@ function hide_admin_logo() {
 		}
 	</style>
 	<?php
-	if ( strpos($_SERVER['REQUEST_URI'], 'post_type=shop_coupon') !== false || strpos($_SERVER['REQUEST_URI'], 'page=wc-reports') !== false || strpos($_SERVER['REQUEST_URI'], 'page=wc-admin') !== false ||  strpos($_SERVER['REQUEST_URI'], 'post_type=shop_order') !== false || strpos($_SERVER['REQUEST_URI'], 'page=wc-settings') !== false ) {
+	// if ( strpos($_SERVER['REQUEST_URI'], 'post_type=shop_coupon') !== false || strpos($_SERVER['REQUEST_URI'], 'page=wc-reports') !== false || strpos($_SERVER['REQUEST_URI'], 'page=wc-admin') !== false ||  strpos($_SERVER['REQUEST_URI'], 'post_type=shop_order') !== false || strpos($_SERVER['REQUEST_URI'], 'page=wc-settings') !== false ) {
 		?>
 		<style>
 			.components-surface.components-card.woocommerce-store-alerts.is-alert-update.css-1pd4mph.em57xhy0 {
@@ -98,7 +98,7 @@ function hide_admin_logo() {
 			}
 		</style>
 		<?php
-	}
+	// }
 }
 
 add_filter('login_redirect', 'custom_login_redirect');
